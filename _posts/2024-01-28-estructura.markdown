@@ -17,7 +17,6 @@ Segundo: *la música es uno de aquellos elementos sensitivos claves en la formac
 
 No son tan difíciles de aceptar supongo. Podemos teorizar la idea de la siguiente manera (ver la Fig 1). La formación del habitus académico se divide en aquellas situaciones sociales que requieren de horas de trabajo invertido para aumentar el capital intelectual; y en aquellos condicionantes sensibles para el estudio. Nadie olvida el tiempo de estudio con guías, leyendo, gráficos, resúmenes, esquemas, etcétera. Este tipo de situaciones sociales de intelectualidad, exigen e invocan una dimensión sensitiva de la agencia; y su vez, esta dimensión permite construir hábitos académicos. En el fondo, la sensibilidad permite enriquecer la práctica de estudio, mientras que el estudio presenta una serie de problemas sobre la animosidad y sensibilidad.
 
-![Fig 1. Formación del habitus académico](https://github.com/miropulgar/miropulgar.github.io/blob/main/_posts/Mood.jpg)
 ![Fig 1. Formación del habitus académico](Mood.jpg)
 
 
@@ -32,7 +31,6 @@ En una segunda fase, se aplicó otro cuestionario (N = 47) sobre los atributos d
 
 En general, como señalabamos, la música en el estudio enriquece la experiencia (o tortura) del estudio. En algunos casos, logra entregar tranquilidad y concentración, mientras que en otros, una motivación o energía (ver Fig. 2).
 
-![Fig 2. Estructura de la experiencia musical](https://github.com/miropulgar/miropulgar.github.io/blob/main/_posts/Mood_result.jpg)
 ![Fig 2. Estructura de la experiencia musical](./Mood_result.jpg)
 
 
