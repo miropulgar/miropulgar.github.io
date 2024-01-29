@@ -3,12 +3,6 @@ layout: post
 title:  "El error de la vida sin música"
 date:   2023-11-22 23:42:16 +0100
 categories: jekyll update
-image: "image.jpg"
-tag:
-    - culture
-    - habitus
-    - cognition
-    - music
 ---
 
 Desconozco por qué, pero la música es una parte importante en el estudio. Yo mismo me he visto con audífonos cuando intento aprender alguna cosa nueva. No es para generalizar, pero hay una parte importante de gente que escucha música durante sus estudios. ¿Por qué escuchamos música en estas situaciones? ¿Qué se experimenta con la música cuando se estudia? ¿Cuál es la estructura de esta experiencia? ¿Qué relevancia tiene para nuestra formación?
@@ -39,7 +33,7 @@ En una segunda fase, se aplicó otro cuestionario (N = 47) sobre los atributos d
 En general, como señalabamos, la música en el estudio enriquece la experiencia (o tortura) del estudio. En algunos casos, logra entregar tranquilidad y concentración, mientras que en otros, una motivación o energía (ver Fig. 2).
 
 ![Fig 2. Estructura de la experiencia musical](https://github.com/miropulgar/miropulgar.github.io/blob/main/_posts/Mood_result.jpg)
-[![Fig 2. Estructura de la experiencia musical](./_posts/Mood_result.jpg)]
+![Fig 2. Estructura de la experiencia musical](./Mood_result.jpg)
 
 
 De manera más específica, encontramos que la experiencia de la música en el estudio tiene tres dimensiones que identificamos de la siguiente manera:
