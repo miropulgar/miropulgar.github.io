@@ -35,9 +35,10 @@ En una segunda fase, se aplicó otro cuestionario (N = 47) sobre los atributos d
 
 En general, como señalabamos, la música en el estudio enriquece la experiencia (o tortura) del estudio. En algunos casos, logra entregar tranquilidad y concentración, mientras que en otros, una motivación o energía (ver Fig. 2).
 
-![Estructura de la experiencia musical](Mood_result.jpg "Fig. 2. Estructura de la experiencia musical")
+![Estructura de la experiencia musical](https://github.com/miropulgar/miropulgar.github.io/blob/main/_posts/Mood_result.jpg "Fig. 2. Estructura de la experiencia musical")
 
 De manera más específica, encontramos que la experiencia de la música en el estudio tiene tres dimensiones que identificamos de la siguiente manera:
+
 
 1. **Intensidad**: el nivel de profundidad de un elemento para la acción (se lee al revés, 0 más y 6 menos).
 2. **Practicidad**: la forma de incitar la realización del estudio.
