@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conceptos: los 'hechos sociales' de Durkheim"
+title:  "Internalización"
 date:   2024-04-28 14:10:16 +0100
 categories: jekyll update
 ---
