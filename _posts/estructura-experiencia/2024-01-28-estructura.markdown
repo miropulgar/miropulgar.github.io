@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "El error de la vida sin música"
-date:   2023-11-22 23:42:16 +0100
+date:   2024-01-27 23:42:16 +0100
 categories: jekyll update
 ---
 
