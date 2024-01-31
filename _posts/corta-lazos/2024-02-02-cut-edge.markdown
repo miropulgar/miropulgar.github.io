@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Cortando lazos para hacer comunidad"
+date:   2024-02-10 14:10:16 +0100
+categories: jekyll update
+---
+
+Basado en:
+**Ahn, Y., Bagrow, J. P., & Lehmann, S. (2010). Link communities reveal multiscale complexity in networks. Nature, 466(7307), 761-764. https://doi.org/10.1038/nature09182**
+
+Pasos a seguir para obtener una detección de comunidad basado en los vínculos:
+
+## 1. Grafos de Línea:
+- Un grafo de línea `L(G)` se forma a partir de un grafo `G` de la siguiente manera: para cada enlace en `G`, hay un nodo en `L(G)`. Dos nodos en `L(G)` están conectados si y solo si sus enlaces correspondientes en `G` comparten un nodo común.
+- Esto implica que en lugar de analizar las relaciones entre nodos, se analizan las relaciones entre enlaces.
+
+## 2. Similitud entre Enlaces:
+- La similitud entre enlaces se calcula para evaluar qué tan 'cercanos' o 'similares' son dos enlaces en términos de sus conexiones en la red. Una medida común utilizada es el índice de Jaccard, definido como `S(eik, ejk) = |n+(i) ∩ n+(j)| / |n+(i) ∪ n+(j)|`, donde `n+(i)` son los vecinos inclusivos del nodo `i`.
+- Esta medida excluye el nodo compartido por los enlaces para evitar sesgos, especialmente en el caso de nodos con alta conectividad (hubs).
+
+## 3. Agrupamiento Jerárquico y Dendrogramas:
+- Se aplica un agrupamiento jerárquico (como el agrupamiento de enlace simple) a la matriz de similitud entre enlaces para construir un dendrograma.
+- Un dendrograma es un diagrama de árbol que muestra la disposición de los elementos que han sido agrupados jerárquicamente. En este contexto, muestra cómo los enlaces en la red se agrupan en comunidades.
+
+## 4. Densidad de Partición y Corte del Dendrograma:
+- La densidad de partición `D` se introduce para evaluar la calidad de una partición de enlaces en comunidades. Se calcula como `D = 2/M ∑c (mc / mc + (nc - 2)(nc - 1))`, donde `M` es el número total de enlaces, `mc` es el número de enlaces en la comunidad `c`, y `nc` es el número de nodos en `c`.
+- Se elige el punto para cortar el dendrograma donde `D` es máximo, lo que indica una partición óptima de las comunidades.
+- La fórmula ajusta la cantidad de enlaces en cada comunidad (`mc`) por el número mínimo y máximo de enlaces posibles entre `nc` nodos, considerando la estructura de la comunidad tanto como un grafo completo (clique) como un árbol (estructura mínimamente conectada).
