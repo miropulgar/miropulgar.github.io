@@ -7,9 +7,9 @@ categories: jekyll update
 
 De acuerdo con la idea de la sociedad opulenta, Marshall Sahlins dice lo siguiente:
 
->"Para la opinión general, una sociedad opulenta es aquella en la que se satisfacen con facilidad todas las necesidades materiales de sus componentes. Asegurar que los cazadores eran opulentos significa negar entonces que la condición humana es una tragedia decretada donde el hombre está prisionero de la ardua labor que significa la perpetua disparidad entre sus carencias ilimitadas y la insuficiencia de sus medios." (Sahllins, 1983, p. 13)
+>"Para la opinión general, una sociedad opulenta es aquella en la que se satisfacen con facilidad todas las necesidades materiales de sus componentes. Asegurar que los cazadores eran opulentos significa negar entonces que la condición humana es una tragedia decretada donde el hombre está prisionero de la ardua labor que significa la perpetua disparidad entre sus carencias ilimitadas y la insuficiencia de sus medios." (Sahlins, 1983, p. 13)
 
-Ahora bien, Sahlins dice que existen dos modos de satisfacer la necesidades con facilidad: (a) produciendo mucho; o (b) deseando poco. En este último caso es donde caen las sociedades cazadoras-recolectoras. Es "un camino Zen hacia la opulencia por parte de premisas algo diferentes de las nuestras: que las necesidades materiales humanas son finitas y escasas y los medios técnicos, inalterables pero por regla general adecuados. Adoptando la estrategia Zen, un pueblo puede gozar de una abundancia material incomparable... con un bajo nivel de vida" (Sahllins, 1983, p. 14)
+Ahora bien, Sahlins dice que existen dos modos de satisfacer la necesidades con facilidad: (a) produciendo mucho; o (b) deseando poco. En este último caso es donde caen las sociedades cazadoras-recolectoras. Es "un camino Zen hacia la opulencia por parte de premisas algo diferentes de las nuestras: que las necesidades materiales humanas son finitas y escasas y los medios técnicos, inalterables pero por regla general adecuados. Adoptando la estrategia Zen, un pueblo puede gozar de una abundancia material incomparable... con un bajo nivel de vida" (Sahlins, 1983, p. 14)
 
 Antes de estas afirmaciones, las observaciones de Martin Gusinde sobre la vida de los selk'nam en Tierra del Fuego muestran una gran sorpresa, sobre todo en su estilo de vida en un entorno bastante precario: 
 
