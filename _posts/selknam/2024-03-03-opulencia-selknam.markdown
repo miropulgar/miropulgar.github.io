@@ -18,6 +18,7 @@ Antes de estas afirmaciones, las observaciones de Martin Gusinde sobre la vida d
 La pregunta que queda es la siguiente: ¿los selk'nam son parte del *camino Zen* como decía Sahlins o solo son los efectos de unas *preferencias adaptativas* que surgen de las condiciones materiales en las que se encuentran? ¿Ambas?
 
 
+**Referencias**:
 
 Gusinde, M. (1951) [1947]. *Hombres primitivos en la Tierra del Fuego: de explorador a compañero de tribu*. Escuela de Estudios Hispano-Americanos.
 
