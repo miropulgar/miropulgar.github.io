@@ -7,7 +7,7 @@ categories: jekyll update
 
 La historia de la estadística en las ciencias sociales es bastante curiosa. Stigler (1986) se preguntó por qué la psicología en vez de otras ciencias sociales fue la primera que integró métodos estadísticos a su repertorio analítico. 
 
-En la psicología la estadística se introduce por 
+En la psicología la estadística se introduce por Gustav Fechner
 
 Peirce dice que la realidad de un objeto se da en sus efectos. Esto quiere decir que la realidad es su efectividad. De aquí viene el pragmatismo: realidad = práctica. Nuevamente, que la realidad se entiende como praxis, y esto es, aquello que ocurre efectivamente en nuestro quehacer.
 
