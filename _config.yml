@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am a predoctoral researcher at the Universitat Autònoma de Barcelona (UAB). I am a member of GRAFO-UAB.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-X_username: miro_pulgar
+twitter_username: miro_pulgar
 github_username:  miropulgar
 
 # Build settings
