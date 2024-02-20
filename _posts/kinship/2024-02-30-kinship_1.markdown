@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Kinship and the classification of social ties"
+date: 2024-02-30 14:00:00 +0100
+categories: jekyll update
+---
+
+La investigación de Barry [Wellman (1989)](https://journals.sagepub.com/doi/10.2307/1389119) sobre la relevancia del parentesco en el apoyo en las sociedades contemporáneas es bastante conocida. La importancia era tanta "que aunque no tuvieramos la idea de parentesco en teoría, la tendríamos en la práctica". Esto no es menor. Las redes personales se componen de un conjunto de parientes (padres, hijos mayores, hermanos, etcétera) que son una fuente de diversos tipos de apoyos (emocionales, financieros, servicios, etcétera). El parentesco es un tipo de relación que favorece el apoyo, ¿pero qué tipo de relaciones son?
+
+De acuerdo con Martin (2009), las estructuras sociales emergen de relaciones cargadas o preñadas de significados culturales (lo que llama *heurísticas*). Según su planteamiento, formalmente hay tres tipos de relaciones diádicas: (a) simétrica (mutua), que si A se relaciona con B, entonces B lo hace con A, (b) antisimétrica, que no puede ser recíproca, y (c) asimétrica, que puede ser recíproca. Los significados culturales o heurísticas son la base de las tendencias de las estructuras en el sentido de que hacen que las relaciones tiendan a ser una en vez de otras. 
+ 
+¿Cómo es que ocurre con el caso de las **relaciones de parentesco**? En la más conocida tipología de relaciones sociales, la de Borgatti, tiene su propio lugar, aunque suele entenderse como un rol frente a otros con los que limita, como "amigo de", "jefe de", "estudiante de", o "competidor de". De todos modos, las relaciones de parentesco, en su propia naturaleza, se entienden como relaciones sociales que verticalmente son antisimétricas y horizontalmente son simétricas o asimétricas.
+
+Por su parte, Marshall Sahlins (2013) hace su propuesta de entender el parentesco como *mutuality of being*. Esta perspectiva es básicamente señalar que las personas forman parte de modo profundo en la vida del otro. De este modo, ya sea por la procreación, por la construcción social, o ambas, el parentesco tiene diversas formas de mostrar la manera de darse en conjunto con otros. El dolor o alegría, por ejemplo, que pueda padecer otro se siente como propia en la medida en que aquel es parte esencial de mí mismo. Así lo dice:
+
+>"mutuality of being comes in various forms and degrees. But generally considered, kinsmen are persons who belong to one another, who are members of one another, who are co-present in each other, whose lives are joined and interdependent" (Sahlins, 2013, p. 11)
