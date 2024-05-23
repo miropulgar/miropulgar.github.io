@@ -11,11 +11,13 @@ Stigler (1999) se preguntó por qué la psicología en vez de otras ciencias soc
 
 ¿Es casualidad de Peirce introdujera la idea de diseño experimental para corroborar la realidad de algo? Aunque esto nos lleva a propio concepto de experiencia en las [ciencia moderna](https://www.cambridge.org/core/books/abs/cambridge-history-of-science/meanings-of-experience/87C25E1ABF3FE8A5E8F3C87DA1595A7B), también la noción de realidad que propuso Peirce aportó en una línea que facilitó el desarrollo de su introducción.
 
-Peirce dice que la [realidad de un objeto se da en los efectos](https://www.unav.es/gep/HowMakeIdeas.html): 
+Peirce dice que la [realidad y lo clave de un objeto se da en los efectos](https://www.unav.es/gep/HowMakeIdeas.html): 
 
-> "[...] la **realidad**, como cualquier otra cualidad, consiste en los **efectos** sensibles específicos que producen las cosas que participan de la misma. El único efecto que tienen las cosas reales es el de causar creencia, pues todas las sensaciones que suscitan emergen a la consciencia en forma de creencias". 
+>"Consideremos qué **efectos**, que puedan tener concebiblemente **repercusiones prácticas**, concebimos que tenga el objeto de nuestra concepción. Nuestra concepción de estos efectos es la totalidad de nuestra concepción del objeto"
 
-Esto quiere decir que la *realidad es su efectividad*. De aquí viene el pragmatismo: realidad del objeto = practicidad del objeto. En general, que la realidad se entiende como *praxis*, y esto es, aquello que ocurre o pasa en nuestro quehacer (que puede ser muy variado y amplio). Los objetos se disponen o son efectivos en nuestras actividades cotidianas. De este modo, declaramos la realidad de algo cuando tiene esa disposición en una práctica.
+> "[...] la **realidad**, como cualquier otra cualidad, consiste en los **efectos** sensibles específicos que producen las cosas que participan de la misma". 
+
+Esto quiere decir que la *realidad es su efectividad* y que nuestro interés se debe central en los efectos sobre la práctica. De aquí viene el pragmatismo: realidad del objeto = practicidad del objeto. Es decir, la capacidad de un objeto de mostrarse como tal en una práctica. En general, que la realidad se entiende como *praxis*, esto es, aquello que ocurre o pasa en nuestro quehacer (que puede ser muy variado y amplio). Los objetos se disponen o son efectivos en nuestras actividades cotidianas. De este modo, declaramos la realidad de algo cuando tiene esa disposición en una práctica.
 
 La realidad, para ser tal, tiene que ser efectiva, mostrarse en los efectos. ¿Dónde vemos estos efectos en la ciencia? La actividad científica es un tipo particular de actividad humana que se especializa en constatar la efectividad de los objetos, ya sea para corroborarlos o para desestimarlos. Las teorías y sus conjeturas son candidatas a constatar la efectividad de sus objetos y procesos. 
 
