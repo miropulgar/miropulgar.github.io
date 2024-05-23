@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cortando lazos para hacer comunidad"
-date:   2024-02-29 14:10:16 +0100
+date:   2024-10-29 14:10:16 +0100
 categories: jekyll update
 ---
 
