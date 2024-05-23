@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "La densidad de la realidad"
-date: 2024-02-29 14:13:00 +0100
+date: 2024-10-29 14:13:00 +0100
 categories: jekyll update
 ---
 
