@@ -9,8 +9,8 @@ categories: jekyll update
 
 ## Axiomas
 
-- **Axioma 1**: El valor es subjetivo. Este es el supuesto que normalmente se acepta en la discusión entre teoría subjetiva del valor y su contraparte objetiva del valor. Se ha dicho que el valor es subjetivo en el sentido de que depende de las apreciaciones individuales (sus necesidades, ponderaciones, estimaciones, etcétera) y no de las propiedades de la cosa valorada, como el trabajo, renta y salario que contiene la elaboración de una mercancía. 
-- **Axioma 2**: Existen elementos comunes entre subjetividades. Esto se sostiene por el hecho de que en un intercambio económico, para definir el valor de algo, tienen que coincidir dos subjetividades, como mínimo, entre el oferente y el demandante.
+- **Axioma 1**: *El valor es subjetivo*. Este es el supuesto que normalmente se acepta en la discusión entre teoría subjetiva del valor y su contraparte objetiva del valor. Se ha dicho que el valor es subjetivo en el sentido de que depende de las apreciaciones individuales (sus necesidades, ponderaciones, estimaciones, etcétera) y no de las propiedades de la cosa valorada, como el trabajo, renta y salario que contiene la elaboración de una mercancía. 
+- **Axioma 2**: *Existen elementos comunes entre subjetividades*. Esto se sostiene por el hecho de que en un intercambio económico, para definir el valor de algo, tienen que coincidir dos subjetividades, como mínimo, entre el oferente y el demandante.
 
 ## Definiciones
 
