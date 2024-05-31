@@ -5,16 +5,18 @@ date:   2024-10-28 14:10:16 +0100
 categories: jekyll update
 ---
 
+A continuación presento un argumento para sostener que el valor subjetivo en economía no es más que valor objetivo.
+
 # Axiomas y Definiciones
 
 ## Axiomas
 
-- **Axioma 1**: *El valor es subjetivo*. Este es el supuesto que normalmente se acepta en la discusión entre teoría subjetiva del valor y su contraparte objetiva del valor. Se ha dicho que el valor es subjetivo en el sentido de que depende de las apreciaciones individuales (sus necesidades, ponderaciones, estimaciones, etcétera) y no de las propiedades de la cosa valorada, como el trabajo, renta y salario que contiene la elaboración de una mercancía. 
-- **Axioma 2**: *Existen elementos comunes entre subjetividades*. Esto se sostiene por el hecho de que en un intercambio económico, para definir el valor de algo, tienen que coincidir dos subjetividades, como mínimo, entre el oferente y el demandante.
+- **Axioma 1**: *El valor es subjetivo*. Este es el supuesto que normalmente se acepta en economía, sobre todo cuando se discute la teoría subjetiva del valor y su contraparte objetiva del valor. Se ha dicho que el valor es subjetivo en el sentido de que depende de las apreciaciones individuales (sus necesidades, ponderaciones, estimaciones, etcétera) y no de las propiedades de la cosa valorada, como el trabajo, renta y salario que incorpora en su elaboración. 
+- **Axioma 2**: *Existen elementos similares entre subjetividades*. Esto se sostiene por el hecho de que en un intercambio económico, para definir el valor de algo, tienen que coincidir dos subjetividades, como mínimo, entre el oferente y el demandante para definir el mismo valor en el mercado a través del sistema de precios. De otro modo, no es posible el intercambio económico. 
 
 ## Definiciones
 
-- **Definición 1**: Una configuración intersubjetiva es un conjunto de elementos comunes entre varias subjetividades que afectan la valoración de algo.
+- **Definición 1**: Una configuración intersubjetiva es un conjunto de elementos similares entre varias subjetividades que afectan la valoración de algo.
 - **Definición 2**: La objetividad se define como una forma de intersubjetividad, es decir, cuando una valoración es compartida por múltiples subjetividades de manera consistente.
 
 # Teoremas y Demostraciones
@@ -35,6 +37,10 @@ categories: jekyll update
 
 **Demostración**: Por definición, la objetividad es una forma de intersubjetividad donde las valoraciones son compartidas por múltiples subjetividades de manera consistente. Así, si una valoración es objetiva, es porque es intersubjetiva.
 
-## Teorema 5 (Conclusión): El valor subjetivo no es más que valor objetivo.
+## Teorema 5: Si el valor es objetivo, entonces pueden surgir modos estables de valoración.
 
-**Demostración**: Por el Axioma 1, el valor es subjetivo. Por el Teorema 1, existen configuraciones intersubjetivas que afectan las valoraciones. Por los Teoremas 2 y 3, estas configuraciones llevan a modos de valoración compartidos. Por el Teorema 4, la objetividad es intersubjetividad. Por lo tanto, el valor subjetivo, al ser influenciado por configuraciones intersubjetivas que generan modos de valoración compartidos, se convierte en valor objetivo.
+**Demostración**: Dado que la objetividad es una forma de intersubjetividad (Teorema 4), y esta se basa en configuraciones intersubjetivas compartidas consistentemente por múltiples subjetividades, estos modos compartidos de valoración tienden a estabilizarse. La consistencia y repetición de estas configuraciones generan patrones de valoración estables a lo largo del tiempo. Así, lo que inicialmente puede ser una valoración subjetiva se estabiliza en una configuración intersubjetiva objetiva y consistente, permitiendo modos de valoración estables y recurrentes.
+
+## Teorema 6 (Conclusión): El valor subjetivo no es más que valor objetivo y pueden surgir modos estables de valoración.
+
+**Demostración**: Por el Axioma 1, el valor es subjetivo. Por el Teorema 1, existen configuraciones intersubjetivas que afectan las valoraciones. Por los Teoremas 2 y 3, estas configuraciones llevan a modos de valoración compartidos. Por el Teorema 4, la objetividad es intersubjetividad. Por el Teorema 5, estas configuraciones intersubjetivas pueden estabilizarse en modos recurrentes de valoración. Por lo tanto, el valor subjetivo, al ser influenciado por configuraciones intersubjetivas que generan modos de valoración compartidos y estables, se convierte en valor objetivo.
