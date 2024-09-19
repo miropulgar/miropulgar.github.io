@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Clases
+title: Teaching
 permalink: /class_page/
 ---
 
