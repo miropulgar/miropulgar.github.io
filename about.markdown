@@ -9,4 +9,4 @@ I am a predoctoral researcher in Anthropology at the Universitat Autònoma de Ba
 
 I am interested in mixed methodologies, economy and markets, culture and cognition, anthropology and sociology.
 
-Currently, I conduct my research in artisanal fishing communities in Chile, focusing on local markets, ecological knowledge and management.
+Currently, I conduct my research in artisanal fishing communities in Chile, focusing on local markets, ecological knowledge and management. 
