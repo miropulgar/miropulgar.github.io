@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-permalink: /class_page/
+permalink: /teaching/
 ---
 
 
