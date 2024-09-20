@@ -21,10 +21,12 @@
 title: MirosLAB
 email: miroslav.pulgar@autonoma.cat
 description: >- # this means to ignore newlines until "baseurl:"
-  GRAFO-UAB.
+  GRAFO-UAB
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: miro_pulgar
+
+# twitter_username: miro_pulgar
+x_username: miro_pulgar
 github_username:  miropulgar
 
 # Build settings
