@@ -5,6 +5,6 @@ permalink: /teaching/
 ---
 
 
-2023-Actual - Profesor asistente-doctoral. Universitat Autònoma de Barcelona. Antropología. Cursos: Antropología Económica (grado); Análisis de Redes sociales (máster).
+2023-Present - Assistant-doctoral professor. Autonomous University of Barcelona. Anthropology. Courses: Economic Anthropology (undergraduate); Social Network Analysis (master's degree).
 
-2019-2022 - Profesor adjunto. Universidad Andrés Bello, Santiago y Viña del Mar. Sociología. Cursos: Sociología económica; Estudios de Consumo y de Mercado; Introducción a la Economía; Análisis de Redes; Etnografía.
+2019-2022 - Adjunct Professor. Andrés Bello University, Santiago and Viña del Mar. Sociology. Courses: Economic Sociology; Consumer and Market Studies; Introduction to Economics; Network Analysis; Ethnography.
