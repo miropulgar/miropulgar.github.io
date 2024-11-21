@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ontología relacional de los recursos naturales"
-date:   2024-11-28 14:10:16 +0100
+date:   2025-11-28 14:10:16 +0100
 categories: jekyll update
 ---
 
