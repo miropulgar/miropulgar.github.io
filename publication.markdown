@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-## JOURNALS
+### Journals
 
 - **Pulgar**, M., & Villarroel, C. (2025). The emergence of artisanal fishing as a strategic response in the Chilean fishing field. *Marine Policy, 172*, 106514. [https://doi.org/10.1016/j.marpol.2024.106514](https://doi.org/10.1016/j.marpol.2024.106514)
 
@@ -14,11 +14,11 @@ permalink: /publications/
 
 - Villarroel Ríos, C., **Pulgar** Corrotea, M., & López Valenzuela, A. (2023). Hacia una nueva economía de la pesca artesanal: de la “extracción” a la “excepcionalidad”. *Revista Prisma Social, (43)*, 148–179. [https://revistaprismasocial.es/article/view/5134](https://revistaprismasocial.es/article/view/5134) 
 
-## REPORTS
+### Reports
 
 - Fradejas García, I., **Pulgar**, M., Molina, J. L., Ianole-Calin, R., & Polese, A. (2024). Volatility, growth, decline and sustainability perspective of domestic economic sectors after the pandemic: A comparative Horizon Scanning of 15 countries in Africa, Asia and Latin America. Zenodo. [https://doi.org/10.5281/zenodo.14273561](https://doi.org/10.5281/zenodo.14273561)
 
-## DATABASES
+### Databases
 
 - Grau Rebollo, J., Patraca Dibildox, B., **Pulgar** Corrotea, M., & Molina González, J. L. (2024). Estudio del consumo audiovisual y de los hábitos culturales del público de Cinemes Girona (Barcelona). [https://doi.org/10.34810/data1763](https://doi.org/10.34810/data1763)
  
