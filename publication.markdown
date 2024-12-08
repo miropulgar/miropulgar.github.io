@@ -14,7 +14,7 @@ permalink: /publications/
 
 - Villarroel Ríos, C., **Pulgar** Corrotea, M., & López Valenzuela, A. (2023). Hacia una nueva economía de la pesca artesanal: de la “extracción” a la “excepcionalidad”. *Revista Prisma Social, (43)*, 148–179. [https://revistaprismasocial.es/article/view/5134](https://revistaprismasocial.es/article/view/5134) 
 
-- **Pulgar** Corrotea, M., y Villarroel, C. (2019). Aproximaciones teóricas diferenciadas al fenómeno del análisis de clases en la pesca artesanal. *Revista Central De Sociología*, 8(8), 53-81. [https://www.centraldesociologia.cl/index.php/rcs/article/view/7](https://www.centraldesociologia.cl/index.php/rcs/article/view/7)
+- **Pulgar** Corrotea, M., y Villarroel, C. (2019). Aproximaciones teóricas al fenómeno del análisis de clases en la pesca artesanal. *Revista Central De Sociología*, 8(8), 53-81. [https://www.centraldesociologia.cl/index.php/rcs/article/view/7](https://www.centraldesociologia.cl/index.php/rcs/article/view/7)
 
 ### Reports
 
