@@ -18,6 +18,8 @@ permalink: /publications/
 
 ### Reports
 
+- Navarrete Taito, C., Estrada Arias, J. M., Klarian Klarian, S., Báez Retamales, P., Villarroel Ríos, C., **Pulgar Corrotea**, M., Arce Miranda, F., Vargas Pérez, J., Queirolo Palma, D., Apablaza Bastías, P., Merino Díaz, J., & Ahumada Escobar, M. (2025). Propuesta de programa de monitoreo biológico pesquero de las pesquerías y del ecosistema asociado a Isla Rapa Nui (Informe final, Proyecto FIPA No. 2022-13). Universidad Andrés Bello, Centro de Investigación Marina Quintay; Fondo de Investigación Pesquera y de Acuicultura, Subsecretaría de Pesca y Acuicultura.
+
 - Fradejas García, I., **Pulgar**, M., Molina, J. L., Ianole-Calin, R., & Polese, A. (2024). Volatility, growth, decline and sustainability perspective of domestic economic sectors after the pandemic: A comparative Horizon Scanning of 15 countries in Africa, Asia and Latin America. Zenodo. [https://doi.org/10.5281/zenodo.14273561](https://doi.org/10.5281/zenodo.14273561)
 
 ### Databases
