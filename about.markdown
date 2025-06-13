@@ -5,8 +5,4 @@ permalink: /About/
 
 ---
 
-I am a predoctoral researcher in Anthropology at the Universitat Autònoma de Barcelona. I am a member of [GRAFO-UAB](https://webs.uab.cat/grafo/).
-
-I am interested in mixed methodologies, economy and markets, culture and cognition, anthropology and sociology.
-
-Currently, I conduct my research in artisanal fishing communities in Chile, focusing on local markets, ecological knowledge and management.
+I am a postdoctoral researcher in Anthropology at the Universitat Autònoma de Barcelona and a member of [GRAFO-UAB](https://webs.uab.cat/grafo/). I am currently working on the [MapCDPerNets](https://mapcdpernets.es) project. My work spans mixed methods, economy and markets, and culture and cognition. My doctoral research explored artisanal fishing communities in Chile, focusing on local markets, ecological knowledge, and resource management.
