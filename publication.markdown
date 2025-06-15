@@ -6,6 +6,8 @@ permalink: /publications/
 
 ### Journals
 
+- **Pulgar**, M., Resfou, D., & Villarroel, C. (2025, accepted). Strategic Dynamics in the Fishing Field: An Egocentric Network Analysis of Small-Scale Fishing Communities in Chile. *Ocean & Coastal Management*. 
+
 - **Pulgar**, M., & Villarroel, C. (2025). The emergence of artisanal fishing as a strategic response in the Chilean fishing field. *Marine Policy, 172*, 106514. [https://doi.org/10.1016/j.marpol.2024.106514](https://doi.org/10.1016/j.marpol.2024.106514)
 
 - **Pulgar**, M., Gómez, S., & Molina, J. L. (2024). Social network mechanisms of price formation in an artisanal fishing community in Chile. *Maritime Studies, 23(21)*. [https://doi.org/10.1007/s40152-024-00363-3](https://doi.org/10.1007/s40152-024-00363-3) 
