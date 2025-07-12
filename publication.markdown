@@ -6,7 +6,7 @@ permalink: /publications/
 
 ### Journals
 
-- Molina, J. L., McCarty, C., Sánchez, A., & **Pulgar**, M. (2025). Revisiting the culture–social structure duality debate through the lens of personal networks. *Connections, 46(1)*, 25–38. [https://doi.org/10.2478/connections-2025-0001] (https://doi.org/10.2478/connections-2025-0001)
+- Molina, J. L., McCarty, C., Sánchez, A., & **Pulgar**, M. (2025). Revisiting the culture–social structure duality debate through the lens of personal networks. *Connections, 46(1)*, 25–38. [https://doi.org/10.2478/connections-2025-0001](https://doi.org/10.2478/connections-2025-0001)
 
 - **Pulgar**, M., Resfou, D., & Villarroel, C. (2025). Strategic Dynamics in the Fishing Field: An Egocentric Network Analysis of Small-Scale Fishing Communities in Chile. *Ocean & Coastal Management, 269*, 107816 [https://doi.org/10.1016/j.ocecoaman.2025.107816](https://doi.org/10.1016/j.ocecoaman.2025.107816)
 
