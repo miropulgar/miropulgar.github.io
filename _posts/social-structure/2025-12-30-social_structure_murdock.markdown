@@ -22,7 +22,9 @@ En su lugar, Marcel Mauss parece desarrollar este programa (Allen, 1998, 1995): 
 
 La verdad, visto de esta manera, parece un proyecto tan interesante como incompleto... 
 
-Referencias
+
+### **Referencias**
+
 Allen, N. J. (1995). The division of labour and the notion of primitive society: A Maussian approach. Social Anthropology, 3(1), 49–59.  
 Allen, N. J. (1998). Mauss and the categories. Durkheimian Studies, 4, 39–50.  
 Bjerre, J. (2012). Does infant cognition research undermine sociological theory? A critique of Bergesen’s attack on Durkheim. Journal for the Theory of Social Behaviour, 42(4), 444-464. 
