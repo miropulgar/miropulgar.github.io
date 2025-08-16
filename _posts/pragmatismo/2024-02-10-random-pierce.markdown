@@ -7,7 +7,7 @@ categories: jekyll update
 
 # La Historia de la Estadística en las Ciencias Sociales
 
-La historia de la estadística en las ciencias sociales revela cómo la **aleatorización** se entrelaza con el concepto de **realidad** en el **pragmatismo**. Stigler (1999) se pregunta por qué la psicología fue la primera ciencia social en integrar métodos estadísticos, mientras que otras disciplinas, como la economía, tardaron más. Esta integración comenzó con Gustav Fechner, padre de la *psicofísica*, quien desarrolló un razonamiento estadístico en sus planteamientos. Sin embargo, fue Charles S. Peirce, junto a su estudiante Joseph Jastrow, quienes introdujeron el *diseño experimental* en la psicología para evaluar las afirmaciones de Fechner.
+La historia de la estadística en las ciencias sociales revela cómo la **aleatorización** se entrelaza con el concepto de **realidad** en el **pragmatismo**. Stigler (1999) se pregunta por qué la psicología fue la primera ciencia social en integrar métodos estadísticos, mientras que otras disciplinas, como la economía, tardaron más. Esta integración comenzó con Gustav Fechner, padre de la *psicofísica*, quien desarrolló un razonamiento estadístico en sus planteamientos. Sin embargo, fue Charles S. Peirce, junto a su estudiante Joseph Jastrow, quienes introdujeron el *diseño experimental* en la psicología para precisamente evaluar las afirmaciones de Fechner.
 
 Fechner proponía que la intensidad de una sensación aumentaba proporcionalmente con la intensidad del estímulo, algo que expresaba de la siguiente manera:
 
