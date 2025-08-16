@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 
-Entre los muchos temas que abordó en sus obras, Émile Durkheim, se ocupó sobre las categorías del conocimiento, un tema tan antiguo como la filosofía misma. Esto se observa sobre todo en *Las formas elementales de la vida religiosa* (1912). Allí revisa la sociogénesis de las categorías, algo tan interesante como a veces malentendido.
+Entre los muchos temas que abordó en sus obras, Émile Durkheim se ocupó del problemas de las categorías del conocimiento, un tema tan antiguo como la filosofía misma. Esto se observa sobre todo en *Las formas elementales de la vida religiosa* (1912). Allí revisa la sociogénesis de las categorías, algo tan interesante como a veces malentendido.
 
 Sin embargo, el interés por este tema no vino de la nada. Es un hecho social: algo que tiene un efecto sobre el individuo y lo fuerza a continuar una línea. En efecto, Durkheim —con formación en filosofía— se sitúa en un panorama filosófico francés específico que lo influye: Kant y Descartes son referencias claves, aunque mediado por Cousin, Maine de Biran, Paul Janet, Renouvier y, más lejos, Comte y Spencer (Schmaus, 2003). De ahí que Durkheim discuta en el contexto de las categorías a veces con el apriorismo, otras con el empirismo, y en ocasiones con el realismo y el materialismo, sin dejar de apropiarse de elementos de estas tradiciones. No se reconoce en el positivismo comtiano, aunque recoge varias de sus herramientas (comparación histórica, papel de las hipótesis, idea de “series”) y las reorienta hacia una explicación causal de lo social (Schmaus, 1985).    
 
