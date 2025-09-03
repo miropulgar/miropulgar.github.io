@@ -8,6 +8,8 @@ permalink: /publications/
 
 - Molina, J. L., McCarty, C., Sánchez, A., & **Pulgar**, M. (2025). Revisiting the culture–social structure duality debate through the lens of personal networks. *Connections, 46(1)*, 25–38. [https://doi.org/10.2478/connections-2025-0001](https://doi.org/10.2478/connections-2025-0001)
 
+- González-Casado, M. A., Cruzado Rey, A., **Pulgar** Corrotea, M., McCarty, C., Molina, J. L., & Sánchez, A. (2025). Collecting a large number of alters in egocentric network research: A comparative analysis of three approaches. *Social Networks, 84*, 78-86. https://doi.org/10.1016/j.socnet.2025.07.004
+
 - **Pulgar**, M., Resfou, D., & Villarroel, C. (2025). Strategic Dynamics in the Fishing Field: An Egocentric Network Analysis of Small-Scale Fishing Communities in Chile. *Ocean & Coastal Management, 269*, 107816 [https://doi.org/10.1016/j.ocecoaman.2025.107816](https://doi.org/10.1016/j.ocecoaman.2025.107816)
 
 - **Pulgar**, M., & Villarroel, C. (2025). The emergence of artisanal fishing as a strategic response in the Chilean fishing field. *Marine Policy, 172*, 106514. [https://doi.org/10.1016/j.marpol.2024.106514](https://doi.org/10.1016/j.marpol.2024.106514)
