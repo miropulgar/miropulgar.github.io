@@ -6,6 +6,8 @@ permalink: /publications/
 
 ### Journals
 
+- Gallois, S., **Pulgar**, M., Broccatelli, C., van Bemmel, S., Ambassa, A., Ngansop, E., van Andel, T., Molina, J. L., & Reyes-García, V. (2025). Resilience of Indigenous healthcare systems: Ethnobotanical approaches among the Baka, southeastern Cameroon. *People and Nature*, 1-13 [https://doi.org/10.1002/pan3.70163](https://doi.org/10.1002/pan3.70163)
+
 - Molina, J. L., McCarty, C., Sánchez, A., & **Pulgar**, M. (2025). Revisiting the culture–social structure duality debate through the lens of personal networks. *Connections, 46(1)*, 25–38. [https://doi.org/10.2478/connections-2025-0001](https://doi.org/10.2478/connections-2025-0001)
 
 - González-Casado, M. A., Cruzado Rey, A., **Pulgar** Corrotea, M., McCarty, C., Molina, J. L., & Sánchez, A. (2025). Collecting a large number of alters in egocentric network research: A comparative analysis of three approaches. *Social Networks, 84*, 78-86. [https://doi.org/10.1016/j.socnet.2025.07.004](https://doi.org/10.1016/j.socnet.2025.07.004)
