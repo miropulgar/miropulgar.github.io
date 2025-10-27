@@ -6,6 +6,7 @@ permalink: /publications/
 
 ### Journals
 
+
 - Gallois, S., **Pulgar**, M., Broccatelli, C., van Bemmel, S., Ambassa, A., Ngansop, E., van Andel, T., Molina, J. L., & Reyes-García, V. (2025). Resilience of Indigenous healthcare systems: Ethnobotanical approaches among the Baka, southeastern Cameroon. *People and Nature*, 1-13 [https://doi.org/10.1002/pan3.70163](https://doi.org/10.1002/pan3.70163)
 
 - Molina, J. L., McCarty, C., Sánchez, A., & **Pulgar**, M. (2025). Revisiting the culture–social structure duality debate through the lens of personal networks. *Connections, 46(1)*, 25–38. [https://doi.org/10.2478/connections-2025-0001](https://doi.org/10.2478/connections-2025-0001)
@@ -27,6 +28,8 @@ permalink: /publications/
 - **Pulgar** Corrotea, M., y Villarroel, C. (2019). Aproximaciones teóricas al fenómeno del análisis de clases en la pesca artesanal. *Revista Central De Sociología, 8*(8), 53-81. [https://www.centraldesociologia.cl/index.php/rcs/article/view/7](https://www.centraldesociologia.cl/index.php/rcs/article/view/7)
 
 ### Reports
+
+- Spiering, D. S. M., Lebel, J., Bjørkan, M., Bratt, C., Møllersen Bjørna, A., Steiro, V. M. D., Antonova, A., Marinova, G., Tsenova, R., Hadjimichael, M., Svels, K., Eriksson, V., Murtagh, B., Flannery, W., Miller, A., Gómez Mestres, S., Patraca Dibildox, B., & **Pulgar** Corrotea, M. (2025). Deliverable 3.2 Report on successes & failures of empowerment based on Q-method and perceptions of Ocean Literacy across the host countries 1.0. Zenodo. [https://doi.org/10.5281/zenodo.17182577](https://doi.org/10.5281/zenodo.17182577)
 
 - Navarrete Taito, C., Estrada Arias, J. M., Klarian Klarian, S., Báez Retamales, P., Villarroel Ríos, C., **Pulgar** Corrotea, M., Arce Miranda, F., Vargas Pérez, J., Queirolo Palma, D., Apablaza Bastías, P., Merino Díaz, J., & Ahumada Escobar, M. (2025). Propuesta de programa de monitoreo biológico pesquero de las pesquerías y del ecosistema asociado a Isla Rapa Nui (Informe final, Proyecto FIPA No. 2022-13). Universidad Andrés Bello, Centro de Investigación Marina Quintay; Fondo de Investigación Pesquera y de Acuicultura, Subsecretaría de Pesca y Acuicultura. [https://www.subpesca.cl/fipa/613/articles-117037_informe_final.pdf](https://www.subpesca.cl/fipa/613/articles-117037_informe_final.pdf)
 
