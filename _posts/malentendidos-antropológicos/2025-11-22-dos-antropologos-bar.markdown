@@ -5,7 +5,7 @@ date:   2025-10-28 14:10:16 +0100
 categories: jekyll update
 ---
 
-Entre cervezas y confidencias, dos antropólogos tienen una conversación que deriva hacia su actual trabajo de campo. Uno de ellos intenta ilustrar su caso comparándolo con un conocido ejemplo etnográfico…
+Entre cervezas y confidencias, dos antropólogos tienen una conversación que deriva hacia su actual trabajo de campo. Uno de ellos intenta ilustrar su caso comparándolo con un conocido ejemplo etnográfico, pero las cosas se complican un poco…
 
 
 —Te digo que las semillas son el eje de su vida, no digas lo contrario. Basta mirar su sistema agrícola. ¿No has visto cómo las mujeres gestionan parcelas, espacios, redes de información, el traspaso de saberes? Y encima están entre las más afectadas por el cambio climático. ¿No te parece un caso ejemplar?
