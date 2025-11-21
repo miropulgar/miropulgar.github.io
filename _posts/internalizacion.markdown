@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Internalización"
-date:   2025-10-28 14:10:16 +0100
+date:   2026-10-28 14:10:16 +0100
 categories: jekyll update
 ---
 
