@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "block universe on personal networks"
-date: 2025-10-29 14:30:00 +0100
+date: 2026-10-29 14:30:00 +0100
 categories: jekyll update
 ---
 
