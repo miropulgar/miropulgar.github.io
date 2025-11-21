@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pequeños malentendidos antropológicos"
+title:  "Pequeños malentendidos antropológicos I"
 date:   2025-10-28 14:10:16 +0100
 categories: jekyll update
 ---
