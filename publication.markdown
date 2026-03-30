@@ -39,7 +39,7 @@ permalink: /publications/
 
 ### Databases
 
-- Sánchez, A., Molina, J. L., McCarty, C., Dinkelberg, A., **Pulgar**, M., González Casado, M. Á., Cuevas Rumin, A., Merino Hernández, Á., & Cuevas, R. (2026). Dataset from "Theorizing "cultural signatures" in worldwide personal networks" [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.19048612] (https://doi.org/10.5281/zenodo.19048612)
+- Sánchez, A., Molina, J. L., McCarty, C., Dinkelberg, A., **Pulgar**, M., González Casado, M. Á., Cuevas Rumin, A., Merino Hernández, Á., & Cuevas, R. (2026). Dataset from "Theorizing "cultural signatures" in worldwide personal networks" [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.19048612](https://doi.org/10.5281/zenodo.19048612)
 
 - Grau Rebollo, J., Patraca Dibildox, B., **Pulgar** Corrotea, M., & Molina González, J. L. (2024). Estudio del consumo audiovisual y de los hábitos culturales del público de Cinemes Girona (Barcelona). [https://doi.org/10.34810/data1763](https://doi.org/10.34810/data1763)
  
