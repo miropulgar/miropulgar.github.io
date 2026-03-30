@@ -29,6 +29,8 @@ permalink: /publications/
 
 ### Reports
 
+- Ferrari, Akiyama, Khamzina, Kim, Molina, Nakajima, Nahuelpan, Noulekoun, Pulgar, Sakihama, & Ueda. (2026). Deliverable 3.1: Analysis and policy recommendations on the Do no Significant Harm (DNSH). Research Ethics and integrity for the GREEN transition (RE4GREEN, 101131706) [https://www.re4green.eu](https://www.re4green.eu)
+
 - Spiering, D. S. M., Lebel, J., Bjørkan, M., Bratt, C., Møllersen Bjørna, A., Steiro, V. M. D., Antonova, A., Marinova, G., Tsenova, R., Hadjimichael, M., Svels, K., Eriksson, V., Murtagh, B., Flannery, W., Miller, A., Gómez Mestres, S., Patraca Dibildox, B., & **Pulgar** Corrotea, M. (2025). Deliverable 3.2 Report on successes & failures of empowerment based on Q-method and perceptions of Ocean Literacy across the host countries 1.0. Zenodo. [https://doi.org/10.5281/zenodo.17182577](https://doi.org/10.5281/zenodo.17182577)
 
 - Navarrete Taito, C., Estrada Arias, J. M., Klarian Klarian, S., Báez Retamales, P., Villarroel Ríos, C., **Pulgar** Corrotea, M., Arce Miranda, F., Vargas Pérez, J., Queirolo Palma, D., Apablaza Bastías, P., Merino Díaz, J., & Ahumada Escobar, M. (2025). Propuesta de programa de monitoreo biológico pesquero de las pesquerías y del ecosistema asociado a Isla Rapa Nui (Informe final, Proyecto FIPA No. 2022-13). Universidad Andrés Bello, Centro de Investigación Marina Quintay; Fondo de Investigación Pesquera y de Acuicultura, Subsecretaría de Pesca y Acuicultura. [https://www.subpesca.cl/fipa/613/articles-117037_informe_final.pdf](https://www.subpesca.cl/fipa/613/articles-117037_informe_final.pdf)
@@ -36,6 +38,8 @@ permalink: /publications/
 - Fradejas García, I., **Pulgar**, M., Molina, J. L., Ianole-Calin, R., & Polese, A. (2024). Volatility, growth, decline and sustainability perspective of domestic economic sectors after the pandemic: A comparative Horizon Scanning of 15 countries in Africa, Asia and Latin America. Zenodo. [https://doi.org/10.5281/zenodo.14273561](https://doi.org/10.5281/zenodo.14273561)
 
 ### Databases
+
+- Sánchez, A., Molina, J. L., McCarty, C., Dinkelberg, A., **Pulgar**, M., González Casado, M. Á., Cuevas Rumin, A., Merino Hernández, Á., & Cuevas, R. (2026). Dataset from "Theorizing "cultural signatures" in worldwide personal networks" [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.19048612] (https://doi.org/10.5281/zenodo.19048612)
 
 - Grau Rebollo, J., Patraca Dibildox, B., **Pulgar** Corrotea, M., & Molina González, J. L. (2024). Estudio del consumo audiovisual y de los hábitos culturales del público de Cinemes Girona (Barcelona). [https://doi.org/10.34810/data1763](https://doi.org/10.34810/data1763)
  
