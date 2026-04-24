@@ -6,6 +6,7 @@ permalink: /publications/
 
 ### Journals
 
+- Molina, J. L., Dinkelberg, A., **Pulgar**, M., McCarty, C., González-Casado, M. Á., & Sánchez, Á. (2026). Theorizing "cultural signatures" in worldwide personal networks. *Open Research Europe*, *6*(115) [https://doi.org/10.12688/openreseurope.23361.1](https://doi.org/10.12688/openreseurope.23361.1)
 
 - Gallois, S., **Pulgar**, M., Broccatelli, C., van Bemmel, S., Ambassa, A., Ngansop, E., van Andel, T., Molina, J. L., & Reyes-García, V. (2025). Resilience of Indigenous healthcare systems: Ethnobotanical approaches among the Baka, southeastern Cameroon. *People and Nature*, 1-13 [https://doi.org/10.1002/pan3.70163](https://doi.org/10.1002/pan3.70163)
 
