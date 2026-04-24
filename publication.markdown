@@ -18,7 +18,7 @@ permalink: /publications/
 
 - **Pulgar**, M., & Villarroel, C. (2025). The emergence of artisanal fishing as a strategic response in the Chilean fishing field. *Marine Policy, 172*, 106514. [https://doi.org/10.1016/j.marpol.2024.106514](https://doi.org/10.1016/j.marpol.2024.106514)
 
-- Grau, J., Patraca, B., **Pulgar**, M., & Molina, JL. (2025, accepted) ¿Ars Gratia Artis? Dinámicas sociales y consumo cultural en un cine independiente de Barcelona. *Visual Ethnography*.
+- Grau Rebollo, J., Patraca Dibildox, B., **Pulgar**, M., & Molina González, J. L. (2025). ¿Ars Gratia Artis? Dinámicas sociales y consumo cultural en un cine independiente de Barcelona. *Visual Ethnography*, *14*(2). [http://dx.doi.org/10.12835/ve2024.2185](http://dx.doi.org/10.12835/ve2024.2185)
 
 - **Pulgar**, M., Gómez, S., & Molina, J. L. (2024). Social network mechanisms of price formation in an artisanal fishing community in Chile. *Maritime Studies, 23(21)*. [https://doi.org/10.1007/s40152-024-00363-3](https://doi.org/10.1007/s40152-024-00363-3) 
 
