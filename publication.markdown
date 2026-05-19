@@ -32,7 +32,8 @@ permalink: /publications/
 
 ### Reports
 
-- Ferrari, Akiyama, Khamzina, Kim, Molina, Nakajima, Nahuelpan, Noulekoun, **Pulgar**, Sakihama, & Ueda. (2026). Deliverable 3.1: Analysis and policy recommendations on the Do no Significant Harm (DNSH). Research Ethics and integrity for the GREEN transition (RE4GREEN, 101131706) [https://www.re4green.eu](https://www.re4green.eu)
+- Ferrari, A., Akiyama, T., Bernstein, M., Khamzina, A., Kim, J., Mehlich, J., Molina, J. L., Nakajima, T., Nahuelpan Sánchez, K., Noulèkoun, F., **Pulgar**, M., Sakihama, S., & Ueda, H. (2026). Guidance report on incorporating the objectives of the "do no significant harm" principle in R&I. Zenodo. [https://doi.org/10.5281/zenodo.19501948](https://doi.org/10.5281/zenodo.19501948)
+
 
 - Spiering, D. S. M., Lebel, J., Bjørkan, M., Bratt, C., Møllersen Bjørna, A., Steiro, V. M. D., Antonova, A., Marinova, G., Tsenova, R., Hadjimichael, M., Svels, K., Eriksson, V., Murtagh, B., Flannery, W., Miller, A., Gómez Mestres, S., Patraca Dibildox, B., & **Pulgar** Corrotea, M. (2025). Deliverable 3.2 Report on successes & failures of empowerment based on Q-method and perceptions of Ocean Literacy across the host countries 1.0. Zenodo. [https://doi.org/10.5281/zenodo.17182577](https://doi.org/10.5281/zenodo.17182577)
 
