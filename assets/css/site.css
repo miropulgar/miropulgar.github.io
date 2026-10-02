@@ -42,7 +42,12 @@ img, video { max-width: 100%; height: auto; }
   padding: 22px var(--margen);
   font-size: 15px;
 }
-.site-header .nm { font-weight: 600; text-decoration: none; }
+.site-header .marca { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+.sello { display: inline-flex; align-items: stretch; font-size: 15px; font-weight: 600; letter-spacing: .01em; line-height: 1; }
+.sello span { padding: 6px 2px 6px 0; }
+.sello b { background: var(--azul); color: #fff; font-weight: 600; padding: 6px 6px; letter-spacing: .06em; }
+.site-header .marca:hover .sello b { background: var(--naranja); }
+.site-header .quien { color: var(--suave); font-size: 14px; }
 .site-header nav { display: flex; gap: 22px; flex-wrap: wrap; }
 .site-header nav a { text-decoration: none; opacity: .7; }
 .site-header nav a:hover, .site-header nav a[aria-current] { opacity: 1; }
@@ -262,6 +267,7 @@ h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: u
   .fig, .cabecera { padding-left: 20px; padding-right: 20px; }
   .prose { padding-left: 0; padding-right: 0; }
   .cifras b { font-size: 24px; }
+  .site-header .quien { display: none; }
   .tetra text { font-size: 30px; }
   .tetra line[stroke-width="3"] { stroke-width: 4; }
 }
