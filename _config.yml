@@ -21,7 +21,10 @@
 title: MirosLAB
 email: miroslav.pulgar@uab.cat
 description: >- # this means to ignore newlines until "baseurl:"
-  GRAFO-UAB
+  Miroslav Pulgar, antropólogo en la Universitat Autònoma de Barcelona y GRAFO-UAB.
+  Cultura y formas relacionales, comparación transcultural, y economía, mercados y aprovisionamiento.
+lang: es
+tagline: Miroslav Pulgar
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -32,6 +35,7 @@ github_username:  miropulgar
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

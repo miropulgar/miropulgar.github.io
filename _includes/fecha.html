@@ -1,0 +1,9 @@
+{%- comment -%} Fecha en español. Uso: include fecha.html date=post.date [largo=true] {%- endcomment -%}
+{%- assign m = include.date | date: "%-m" | minus: 1 -%}
+{%- if include.largo -%}
+{%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+{{ include.date | date: "%-d" }} de {{ meses[m] }} de {{ include.date | date: "%Y" }}
+{%- else -%}
+{%- assign meses = "ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic" | split: "," -%}
+{{ meses[m] }} {{ include.date | date: "%Y" }}
+{%- endif -%}

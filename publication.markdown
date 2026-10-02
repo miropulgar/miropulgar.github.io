@@ -10,6 +10,10 @@ permalink: /publications/
 
 - Molina, J. L., Dinkelberg, A., **Pulgar**, M., McCarty, C., González-Casado, M. Á., & Sánchez, Á. (2026). Theorizing "cultural signatures" in worldwide personal networks. *Open Research Europe*, *6*(115) [https://doi.org/10.12688/openreseurope.23361.1](https://doi.org/10.12688/openreseurope.23361.1)
 
+- Dinkelberg, A., McCarty, C., González-Casado, M. A., **Pulgar**, M., Sánchez, A., & Molina, J. L. (2026). Unlinked: Why alters reported in name generators cannot be used to estimate personal network size. *Social Networks, 88*, 1–7. [https://doi.org/10.1016/j.socnet.2026.08.001](https://doi.org/10.1016/j.socnet.2026.08.001)
+
+- Alieva, D., Ávila Molero, J., Bernard, H. R., Bidart, C., … **Pulgar** Corrotea, M., … & Maya Jariego, I. (2026). Liber amicorum del profesor José Luis Molina. *Redes. Revista Hispana para el Análisis de Redes Sociales, 37*(2), 313–323. [https://doi.org/10.5565/rev/redes.1183](https://doi.org/10.5565/rev/redes.1183)
+
 - Gallois, S., **Pulgar**, M., Broccatelli, C., van Bemmel, S., Ambassa, A., Ngansop, E., van Andel, T., Molina, J. L., & Reyes-García, V. (2025). Resilience of Indigenous healthcare systems: Ethnobotanical approaches among the Baka, southeastern Cameroon. *People and Nature*, 1-13 [https://doi.org/10.1002/pan3.70163](https://doi.org/10.1002/pan3.70163)
 
 - Molina, J. L., McCarty, C., Sánchez, A., & **Pulgar**, M. (2025). Revisiting the culture–social structure duality debate through the lens of personal networks. *Connections, 46(1)*, 25–38. [https://doi.org/10.2478/connections-2025-0001](https://doi.org/10.2478/connections-2025-0001)

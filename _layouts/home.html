@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{%- assign h = site.data.home -%}
+<div class="grid">
+  <figure class="b fig">
+    <svg id="tetraedro" class="tetra" viewBox="-40 20 680 530" overflow="visible" role="img"
+         aria-label="Tetraedro con 186 sociedades según los cuatro modelos relacionales de Fiske"
+         data-src="{{ '/assets/data/tetraedro.json' | relative_url }}"></svg>
+    <figcaption>{{ h.figura }}</figcaption>
+  </figure>
+
+  <div class="b conceptos">
+    {%- for c in h.conceptos %}
+    <div class="w {{ c.color }}">{{ c.nombre }}</div>
+    {%- endfor %}
+  </div>
+
+  <div class="b rosa">
+    <span class="lab">Proyecto</span>
+    <p class="destaca">{{ h.proyecto.nombre }}</p>
+    <p class="sub">{{ h.proyecto.texto }}</p>
+    <a class="go" href="{{ h.proyecto.url }}">{{ h.proyecto.enlace }} →</a>
+  </div>
+
+  <div class="b naranja">
+    <span class="lab">Investigación</span>
+    <ul>
+      {%- for l in h.investigacion %}
+      <li>{{ l }}</li>
+      {%- endfor %}
+    </ul>
+    <a class="go" href="{{ '/publications/' | relative_url }}">Publicaciones →</a>
+  </div>
+</div>
+
+<section class="about">
+  <div class="bio">{{ h.bio | markdownify }}</div>
+  <div class="cifras">
+    {%- for c in h.cifras %}
+    <div><b>{{ c.numero }}</b><span>{{ c.texto }}</span></div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="dos">
+  <div>
+    <h2>Publicaciones seleccionadas</h2>
+    {%- for p in h.destacadas %}
+    <a class="pr" href="{{ p.url }}">
+      <span class="yr">{{ p.anio }}</span>
+      <div><div class="pt">{{ p.titulo }}</div><div class="pa">{{ p.autores }} – <i>{{ p.revista }}</i></div></div>
+    </a>
+    {%- endfor %}
+    <a class="more" href="{{ '/publications/' | relative_url }}">Todas las publicaciones →</a>
+  </div>
+  <div>
+    <h2>Notas</h2>
+    <div class="notas">
+      {%- for post in site.posts limit: 4 %}
+      <a href="{{ post.url | relative_url }}"><span>{{ post.title }}</span><small>{% include fecha.html date=post.date %}</small></a>
+      {%- endfor %}
+    </div>
+    <a class="more" href="{{ '/notas/' | relative_url }}">Todas las notas →</a>
+  </div>
+</section>
+
+<div class="docencia">
+  <span class="lab">Docencia</span>
+  <p>{{ h.docencia }}</p>
+</div>
+
+<script src="{{ '/assets/js/tetraedro.js' | relative_url }}" defer></script>

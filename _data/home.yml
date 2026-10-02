@@ -1,0 +1,74 @@
+# Contenido de la portada. Se edita aquí, sin tocar el HTML.
+
+bio: >-
+  Investigador postdoctoral en Antropología en la **Universitat Autònoma de Barcelona**
+  y miembro de **GRAFO-UAB**. Trabajo con métodos mixtos en cultura y formas relacionales,
+  comparación transcultural, y economía, mercados y aprovisionamiento.
+
+# Franjas de conceptos (color: negro, naranja, rosa, gris, lima)
+conceptos:
+  - nombre: Antropología
+    color: negro
+  - nombre: Relaciones
+    color: naranja
+  - nombre: Comparación
+    color: rosa
+  - nombre: Economía
+    color: gris
+  - nombre: Medioambiente
+    color: lima
+
+figura: >-
+  186 sociedades del Standard Cross-Cultural Sample en el espacio de los cuatro
+  modelos relacionales de Fiske. Cultura como composición relacional, GRAFO-UAB, 2026.
+
+proyecto:
+  nombre: MapCDPerNets
+  texto: Diversidad cultural en redes personales, a escala mundial. Fundación BBVA.
+  url: https://mapcdpernets.es
+  enlace: mapcdpernets.es
+
+investigacion:
+  - Comparación transcultural
+  - Redes personales
+  - Aprovisionamiento y mercados
+
+# Actualizar a mano cuando se añadan publicaciones
+cifras:
+  - numero: 13
+    texto: artículos
+  - numero: 4
+    texto: informes
+  - numero: 3
+    texto: bases de datos
+
+destacadas:
+  - anio: 2026
+    revista: L'Année sociologique
+    titulo: "Networks, ethnography, and artisanal fishing markets: Unveiling collective mechanisms"
+    autores: Pulgar & Molina
+    url: https://doi.org/10.3917/anso.261.0079
+  - anio: 2026
+    revista: Open Research Europe
+    titulo: Theorizing "cultural signatures" in worldwide personal networks
+    autores: Molina, Dinkelberg, Pulgar et al.
+    url: https://doi.org/10.12688/openreseurope.23361.1
+  - anio: 2026
+    revista: Social Networks
+    titulo: "Unlinked: Why alters reported in name generators cannot be used to estimate personal network size"
+    autores: Dinkelberg, McCarty, González-Casado, Pulgar et al.
+    url: https://doi.org/10.1016/j.socnet.2026.08.001
+  - anio: 2025
+    revista: Connections
+    titulo: Revisiting the culture–social structure duality debate through the lens of personal networks
+    autores: Molina, McCarty, Sánchez & Pulgar
+    url: https://doi.org/10.2478/connections-2025-0001
+  - anio: 2025
+    revista: People and Nature
+    titulo: "Resilience of Indigenous healthcare systems: Ethnobotanical approaches among the Baka"
+    autores: Gallois, Pulgar et al.
+    url: https://doi.org/10.1002/pan3.70163
+
+docencia: >-
+  Antropología Económica (grado) y Análisis de Redes Sociales (máster),
+  Universitat Autònoma de Barcelona.
