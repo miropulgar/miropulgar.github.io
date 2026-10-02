@@ -25,15 +25,9 @@ escenas:
       186 sociedades del Standard Cross-Cultural Sample en el espacio de los cuatro
       modelos relacionales de Fiske. Cultura como composición relacional, GRAFO-UAB, 2026.
   - titulo: Redes personales
-    pie: >-
-      Cada red reúne a las 30 personas que alguien nombró; las líneas son los vínculos
-      entre ellas y los colores, sus grupos. 30 de las 3.401 redes personales de 10 países
-      del proyecto MapCDPerNets, Fundación BBVA.
+    pie: Redes personales del proyecto MapCDPerNets.
   - titulo: Pesca artesanal
-    pie: >-
-      El campo de la pesca artesanal en Chile: 60 pescadores de caletas de Valparaíso y del
-      Biobío y los 28 actores con los que se relacionan, agrupados por sector.
-      Pulgar, Resfou y Villarroel, 2025.
+    pie: Redes egocéntricas de pescadores en dos regiones de Chile.
 
 proyecto:
   nombre: MapCDPerNets
