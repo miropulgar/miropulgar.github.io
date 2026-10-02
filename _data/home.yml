@@ -26,8 +26,8 @@ escenas:
       modelos relacionales de Fiske. Cultura como composición relacional, GRAFO-UAB, 2026.
   - titulo: Redes personales
     pie: Redes personales del proyecto MapCDPerNets.
-  - titulo: Pesca artesanal
-    pie: Redes egocéntricas de pescadores en dos regiones de Chile.
+  - titulo: Mercado
+    pie: Simulación de un mercado de primera venta de merluza en una caleta de Chile.
 
 proyecto:
   nombre: MapCDPerNets
