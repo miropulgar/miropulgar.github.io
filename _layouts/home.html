@@ -4,10 +4,19 @@ layout: default
 {%- assign h = site.data.home -%}
 <div class="grid">
   <figure class="b fig">
-    <svg id="tetraedro" class="tetra" viewBox="-40 20 680 530" overflow="visible" role="img"
-         aria-label="Tetraedro con 186 sociedades según los cuatro modelos relacionales de Fiske"
-         data-src="{{ '/assets/data/tetraedro.json' | relative_url }}"></svg>
-    <figcaption>{{ h.figura }}</figcaption>
+    <svg id="figura" class="tetra" viewBox="-40 20 680 530" overflow="visible" role="img"
+         aria-label="Tres figuras que se turnan: culturas, redes personales y pesca artesanal"
+         data-base="{{ '/assets/data/' | relative_url }}"></svg>
+    <div class="escenas" role="tablist">
+      {%- for e in h.escenas %}
+      <button type="button" role="tab"><span>{{ e.titulo }}</span><i></i></button>
+      {%- endfor %}
+    </div>
+    <figcaption>
+      {%- for e in h.escenas %}
+      <span data-i="{{ forloop.index0 }}"{% unless forloop.first %} hidden{% endunless %}>{{ e.pie }}</span>
+      {%- endfor %}
+    </figcaption>
   </figure>
 
   <div class="b conceptos">
@@ -35,7 +44,10 @@ layout: default
 </div>
 
 <section class="about">
-  <div class="bio">{{ h.bio | markdownify }}</div>
+  <div class="bio">
+    <span class="lab">Miroslav Pulgar</span>
+    {{ h.bio | markdownify }}
+  </div>
   <div class="cifras">
     {%- for c in h.cifras %}
     <div><b>{{ c.numero }}</b><span>{{ c.texto }}</span></div>
@@ -70,4 +82,4 @@ layout: default
   <p>{{ h.docencia }}</p>
 </div>
 
-<script src="{{ '/assets/js/tetraedro.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/escenas.js' | relative_url }}" defer></script>
