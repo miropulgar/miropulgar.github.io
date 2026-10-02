@@ -1,0 +1,10 @@
+---
+layout: page
+title: Notes
+permalink: /notes/
+---
+<div class="notas lista">
+  {%- for post in site.posts %}
+  <a href="{{ post.url | relative_url }}"><span>{{ post.title }}</span><small>{% include fecha.html date=post.date %}</small></a>
+  {%- endfor %}
+</div>
