@@ -1,7 +1,10 @@
 <header class="site-header">
-  <a class="nm" href="{{ '/' | relative_url }}">Miroslav Pulgar</a>
+  <a class="marca" href="{{ '/' | relative_url }}">
+    <span class="sello"><span>Miros</span><b>LAB</b></span>
+    <span class="quien">Miroslav Pulgar</span>
+  </a>
   <nav>
-    {%- assign nav = "About:/About/,Publications:/publications/,Teaching:/teaching/,Notas:/notas/" | split: "," -%}
+    {%- assign nav = "About:/About/,Publications:/publications/,Teaching:/teaching/,Notes:/notes/" | split: "," -%}
     {%- for item in nav -%}
       {%- assign par = item | split: ":" -%}
       <a href="{{ par[1] | relative_url }}"{% if page.url == par[1] %} aria-current="page"{% endif %}>{{ par[0] }}</a>
