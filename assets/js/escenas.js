@@ -32,7 +32,7 @@
 
   // ---------- 1. Tetraedro ----------
   function tetraedro(d) {
-    var g = el('g', { 'class': 'escena' });
+    var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
     var V = d.vertices, P = d.points;
     var ESCALA = 420, CYt = 316, INCL = 24 * Math.PI / 180, VUELTA = 90000;
     var R = Math.hypot(V[0][0], V[0][1], V[0][2]), cosI = Math.cos(INCL), sinI = Math.sin(INCL);
@@ -87,7 +87,7 @@
 
   // ---------- 2. Redes personales ----------
   function redes(d) {
-    var g = el('g', { 'class': 'escena' });
+    var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
     var RAD = 228, QUIETA = 2600, CAMBIO = 1500, GIRO = 150000;
     var gE = el('g', { stroke: '#fff', 'stroke-width': 1 }, g);
     var gN = el('g', { stroke: FONDO, 'stroke-width': 1.2 }, g);
@@ -121,7 +121,7 @@
 
   // ---------- 3. Campo pesquero ----------
   function pesca(d) {
-    var g = el('g', { 'class': 'escena' });
+    var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
     var RAD = 205, TURNO = 1700;
     var A = d.actores.map(function (a) { return [CX + RAD * Math.cos(a.a), CY + RAD * Math.sin(a.a)]; });
     var gE = el('g', { stroke: '#fff', 'stroke-width': 1, 'stroke-opacity': .1 }, g);
@@ -164,20 +164,34 @@
     var escenas = [tetraedro(d[0]), redes(d[1]), pesca(d[2])];
     escenas.forEach(function (e) { e.paso(0); });
     var activa = 0, tEsc = 0, t0 = null, enPantalla = true;
+    // Visibilidad de cada escena (0 a 1). Las inactivas quedan con display:none: nunca se ven dos a la vez.
+    var vis = escenas.map(function (_, j) { return j === 0 ? 1 : 0; });
+    var APAGA = 350, ENCIENDE = 500;
+    function aplica() {
+      escenas.forEach(function (e, j) { e.g.style.opacity = vis[j].toFixed(3); e.g.style.display = vis[j] > 0 ? '' : 'none'; });
+    }
+    function funde(dt) {
+      var otras = vis.some(function (v, j) { return j !== activa && v > 0; });
+      vis.forEach(function (v, j) { if (j !== activa) vis[j] = Math.max(0, v - dt / APAGA); });
+      if (!otras) vis[activa] = Math.min(1, vis[activa] + dt / ENCIENDE);   // la nueva entra cuando la anterior ya se ha ido
+      aplica();
+    }
     function barra(k, v) { var b = botones[k] && botones[k].querySelector('i'); if (b) b.style.transform = 'scaleX(' + v + ')'; }
     function muestra(k) {
       activa = k; tEsc = 0;
-      escenas.forEach(function (e, j) { e.g.classList.toggle('on', j === k); });
+      if (quieto) { vis = vis.map(function (_, j) { return j === k ? 1 : 0; }); aplica(); escenas[k].paso(0); }
       botones.forEach(function (b, j) { b.setAttribute('aria-selected', j === k ? 'true' : 'false'); barra(j, 0); });
       pies.forEach(function (p, j) { p.hidden = j !== k; });
     }
-    botones.forEach(function (b, j) { b.addEventListener('click', function () { muestra(j); if (quieto) escenas[j].paso(0); }); });
+    botones.forEach(function (b, j) { b.addEventListener('click', function () { if (j !== activa) muestra(j); }); });
+    aplica();
     muestra(0);
     if (quieto) return;
     if ('IntersectionObserver' in window) new IntersectionObserver(function (e) { enPantalla = e[0].isIntersecting; }).observe(svg);
     function paso(t) {
       var dt = t0 === null ? 0 : Math.min(t - t0, 100); t0 = t;
       if (enPantalla && !document.hidden) {
+        funde(dt);
         escenas[activa].paso(dt); tEsc += dt; barra(activa, Math.min(tEsc / DUR, 1));
         if (tEsc >= DUR) muestra((activa + 1) % escenas.length);
       }
