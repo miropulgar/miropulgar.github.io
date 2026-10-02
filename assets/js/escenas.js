@@ -1,7 +1,7 @@
 // Portada: tres escenas que se turnan en el bloque azul.
 // 1. Culturas: 186 sociedades del SCCS en el tetraedro de Fiske (assets/data/tetraedro.json).
 // 2. Redes personales: 30 redes de MapCDPerNets que se transforman una en otra (assets/data/redes.json).
-// 3. Pesca artesanal: el campo pesquero, pescadores y actores por sector (assets/data/pesca.json).
+// 3. Mercado: la caleta de la simulación de Pulgar y Molina (2026), en versión ilustrativa (sin datos).
 (function () {
   var svg = document.getElementById('figura');
   if (!svg || !window.fetch || !window.Promise) return;
@@ -119,49 +119,185 @@
     } };
   }
 
-  // ---------- 3. Campo pesquero ----------
-  function pesca(d) {
+  // ---------- 3. Mercado: la caleta de Pulgar y Molina (2026), en versión ilustrativa ----------
+  // Simplificación en el navegador: no reproduce las corridas del artículo, solo sus mecanismos.
+  // Mar (FOLLOW): cada barco sigue al vecino de su red que mejor pescó ayer; en las celdas se forman camarillas.
+  // Llegada (ANCHOR): los barcos llegan en fila; cada vendedor mira a los dos que llegaron antes y acerca su precio.
+  // Venta (PEEK): en cada ronda, quien está por encima de la mediana de sus vecinos de fila baja su precio.
+  function mercado() {
     var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
-    var RAD = 205, TURNO = 1700;
-    var A = d.actores.map(function (a) { return [CX + RAD * Math.cos(a.a), CY + RAD * Math.sin(a.a)]; });
-    var gE = el('g', { stroke: '#fff', 'stroke-width': 1, 'stroke-opacity': .1 }, g);
-    var pesc = d.pescadores.map(function (p) {
-      var xy = [CX + RAD * p.p[0], CY + RAD * p.p[1]];
-      return { xy: xy, r: p.r, v: p.v, lineas: p.v.map(function (k) {
-        return el('line', { x1: xy[0].toFixed(1), y1: xy[1].toFixed(1), x2: A[k][0].toFixed(1), y2: A[k][1].toFixed(1) }, gE);
-      }) };
-    });
-    var cuadros = A.map(function (q) { return el('rect', { x: q[0] - 6, y: q[1] - 6, width: 12, height: 12, fill: '#fff' }, g); });
-    d.sectores.forEach(function (s) {
-      var c = Math.cos(s.a), sn = Math.sin(s.a), r = RAD + 22;
-      texto(s.t, { 'class': 'sec', x: (CX + r * c).toFixed(1), y: (CY + r * sn).toFixed(1), 'font-size': 15,
-        fill: 'rgba(255,255,255,.85)', 'dominant-baseline': 'middle',
-        'text-anchor': c > .3 ? 'start' : c < -.3 ? 'end' : 'middle' }, g);
-    });
-    var gN = el('g', { stroke: FONDO, 'stroke-width': 1.2 }, g);
-    pesc.forEach(function (p) { p.nodo = el('circle', { cx: p.xy[0].toFixed(1), cy: p.xy[1].toFixed(1), r: 5.5, fill: p.r ? PAL[3] : PAL[0] }, gN); });
-    [['Valparaíso', PAL[0]], ['Biobío', PAL[3]]].forEach(function (l, n) {
-      el('circle', { cx: -22, cy: 40 + n * 24, r: 6, fill: l[1] }, g);
-      texto(l[0], { 'class': 'ley', x: -8, y: 40 + n * 24, 'font-size': 15, fill: '#fff', 'dominant-baseline': 'middle' }, g);
-    });
-    var orden = pesc.map(function (_, n) { return n; }).sort(function (a, b) { return ((a * 37) % 61) - ((b * 37) % 61); });
-    var reloj = 0, turno = -1;
-    function resalta(n, on) {
-      var p = pesc[n];
-      p.lineas.forEach(function (ln) { ln.setAttribute('stroke-opacity', on ? .95 : .1); ln.setAttribute('stroke-width', on ? 2 : 1); });
-      p.v.forEach(function (k) { cuadros[k].setAttribute('fill', on ? (p.r ? PAL[3] : PAL[0]) : '#fff'); });
-      p.nodo.setAttribute('r', on ? 10 : 5.5);
-      if (on) gN.appendChild(p.nodo);
+    var N = 50, G = 12, CEL = 26, X0 = -20, Y0 = 44, BX = 340, BW = 290, BH = 4.2, BP = 6.15;
+    var P_MIN = 800, P_CAP = 4200, P_MAX = 3500, W_ANCLA = 0.8, ETA = 0.3, RONDAS = 6;
+    var T_MAR = 3600, T_LLEGA = 4200, DIA = 10800, PASO = 3000 / N, VUELO = 500;   // ms
+    var semilla = 20260101;
+    function azar() { semilla |= 0; semilla = semilla + 0x6D2B79F5 | 0; var t = Math.imul(semilla ^ semilla >>> 15, 1 | semilla); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }
+    function mediana(v) { var s = v.slice().sort(function (a, b) { return a - b; }), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+    function suave(x) { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); }
+    function centro(c) { return [X0 + (c[0] + .5) * CEL, Y0 + (c[1] + .5) * CEL]; }
+    function ranura(q) { return [BX - 8, Y0 + q * BP + BH / 2]; }
+    function largo(p) { return Math.max(4, (p - P_MIN) / (P_CAP - P_MIN) * BW); }
+
+    // red de información entre barcos: anillo con dos vecinos a cada lado y algunos atajos (mundo pequeño)
+    var red = []; for (var i = 0; i < N; i++) red.push([(i + 1) % N, (i + N - 1) % N, (i + 2) % N, (i + N - 2) % N]);
+    for (i = 0; i < N; i++) if (azar() < .12) red[i][2 + (azar() < .5 ? 0 : 1)] = Math.floor(azar() * N);
+    // dos manchas de merluza que derivan despacio
+    var manchas = [{ x: 3, y: 8, a: 5000, s: 1.5 }, { x: 8.5, y: 3.5, a: 8000, s: 1.7 }];
+    function biomasa(cx, cy) { return manchas.reduce(function (t, m) { var dx = cx - m.x, dy = cy - m.y; return t + m.a * Math.exp(-(dx * dx + dy * dy) / (2 * m.s * m.s)); }, 0); }
+
+    var celdas = [];
+    for (var y = 0; y < G; y++) for (var x = 0; x < G; x++) celdas.push(el('rect', { x: X0 + x * CEL + 1, y: Y0 + y * CEL + 1, width: CEL - 2, height: CEL - 2, fill: '#fff' }, g));
+    texto('mar', { 'class': 'ley', x: X0, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
+    texto('la caleta, por orden de llegada', { 'class': 'ley', x: BX - 12, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
+    var gSig = el('g', { stroke: PAL[3], 'stroke-width': 1.4 }, g);           // FOLLOW: a quién sigue cada barco
+    var gCam = el('g', { fill: 'none', stroke: PAL[0], 'stroke-width': 2 }, g); // camarillas: celdas con dos o más barcos
+    var gB = el('g', {}, g), barras = [], cortes = [];
+    for (i = 0; i < N; i++) {
+      barras.push(el('rect', { x: BX, y: Y0 + i * BP, height: BH, width: 0, fill: '#fff' }, gB));
+      cortes.push(el('rect', { y: Y0 + i * BP, height: BH, width: 0, fill: PAL[1] }, gB));
     }
-    return { g: g, paso: function (dt) {
-      reloj += dt;
-      var t = quieto ? 0 : Math.floor(reloj / TURNO) % orden.length;
-      if (t !== turno) { if (turno >= 0) resalta(orden[turno], false); turno = t; resalta(orden[turno], true); }
-    } };
+    // ANCHOR: al llegar, una línea rosa une el final de su barra con el de los dos que llegaron antes
+    var gMira = el('g', { fill: 'none', stroke: PAL[3], 'stroke-width': 1.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }, g), miradas = [];
+    for (i = 0; i < N; i++) miradas.push(el('polyline', { 'stroke-opacity': 0 }, gMira));
+    var gN = el('g', { stroke: FONDO, 'stroke-width': 1 }, g), botes = [];
+    for (i = 0; i < N; i++) botes.push(el('circle', { r: 4.2, fill: '#fff' }, gN));
+    var fases = ['1. En el mar: seguir a quien pesca bien', '2. Llegada: mirar a los que llegaron antes', '3. Venta: bajar si estás sobre tus vecinos'].map(function (t, k) {
+      return texto(t, { 'class': 'ley', x: X0, y: 402 + k * 27, 'font-size': 16, fill: '#fff' }, g);
+    });
+    var rotDia = texto('', { 'class': 'ley', x: 630, y: 402, 'font-size': 16, fill: 'rgba(255,255,255,.8)', 'text-anchor': 'end' }, g);
+
+    var barco = []; for (i = 0; i < N; i++) barco.push({ celda: [Math.floor(azar() * G), Math.floor(azar() * G)], ayer: 0, cap: 200 + azar() * 400, ranura: ranura(i) });
+    var dia = 0, hoy = null, ayer = null, reloj = 0;
+
+    function nuevoDia() {
+      dia++;
+      manchas.forEach(function (m) { m.x = Math.max(1, Math.min(G - 2, m.x + (azar() - .5) * 1.2)); m.y = Math.max(1, Math.min(G - 2, m.y + (azar() - .5) * 1.2)); });
+      var sigue = [];
+      barco.forEach(function (b, k) {                    // FOLLOW / quedarse / explorar
+        var mejor = red[k].reduce(function (a, j) { return barco[j].ayer > barco[a].ayer ? j : a; }, red[k][0]);
+        var nueva;
+        if (azar() < .1) nueva = [Math.max(0, Math.min(G - 1, b.celda[0] + Math.round((azar() - .5) * 6))), Math.max(0, Math.min(G - 1, b.celda[1] + Math.round((azar() - .5) * 6)))];
+        else if (.4 * barco[mejor].ayer > .5 * b.ayer) { nueva = barco[mejor].celda.slice(); sigue.push([k, mejor]); }
+        else nueva = b.celda.slice();
+        b.nueva = nueva; b.desde = b.ranura;              // sale desde su puesto en la fila de ayer
+      });
+      var cuenta = {};
+      barco.forEach(function (b) { b.celda = b.nueva; var c = b.celda.join(); cuenta[c] = (cuenta[c] || 0) + 1; });
+      var bmax = 0, B = [];
+      for (var cy = 0; cy < G; cy++) for (var cx = 0; cx < G; cx++) { var v = biomasa(cx, cy); B.push(v); bmax = Math.max(bmax, v); }
+      celdas.forEach(function (c, n) { c.setAttribute('fill-opacity', (.05 + .4 * B[n] / bmax).toFixed(3)); });
+      var orden = [], vistos = {};
+      barco.forEach(function (b, k) {                    // captura con congestión, sitio dentro de la celda y hora de llegada
+        var c = b.celda.join(), n = cuenta[c];
+        b.ayer = Math.min(b.cap, b.cap * 1.6 * biomasa(b.celda[0], b.celda[1]) / bmax / Math.pow(n, .8));
+        b.enCamarilla = n > 1;
+        vistos[c] = (vistos[c] || 0) + 1;
+        var ang = vistos[c] * 2.4, rad = n > 1 ? 6 : 0, ctr = centro(b.celda);
+        b.pos = [ctr[0] + rad * Math.cos(ang), ctr[1] + rad * Math.sin(ang)];
+        b.llegada = Math.hypot(b.celda[0], b.celda[1]) / 10 + azar() * .4;
+        orden.push(k);
+      });
+      orden.sort(function (a, b) { return barco[a].llegada - barco[b].llegada; });
+      orden.forEach(function (k, q) { barco[k].fila = q; barco[k].ranura = ranura(q); });
+      var cmax = Math.max.apply(null, barco.map(function (b) { return b.ayer; })) || 1;
+      var propio = [], pide = [];                          // ANCHOR: precio propio mezclado con la mediana de los dos anteriores
+      orden.forEach(function (k, q) {
+        var pr = Math.min(P_CAP, P_MAX * (1 - .35 * barco[k].ayer / cmax) * (1 + (azar() - .5) * .3));
+        var p = q === 0 ? pr : W_ANCLA * mediana(pide.slice(Math.max(0, q - 2))) + (1 - W_ANCLA) * pr;
+        propio.push(pr); pide.push(Math.min(P_CAP, p * (1 + (azar() - .5) * .04)));
+      });
+      var rondas = [pide.slice()], stock = [orden.map(function (k) { return barco[k].ayer; })];
+      for (var r = 1; r <= RONDAS; r++) {                 // PEEK solo a la baja + ventas
+        var prev = rondas[r - 1], ahora = prev.slice(), st = stock[r - 1].slice();
+        for (var q = 0; q < N; q++) {
+          var vec = []; if (q > 0) vec.push(prev[q - 1]); if (q < N - 1) vec.push(prev[q + 1]);
+          var med = mediana(vec);
+          if (prev[q] > med) ahora[q] = prev[q] - ETA * (prev[q] - med);
+          st[q] = st[q] * (1 - Math.max(.05, Math.min(.55, .45 - (ahora[q] - 1800) / 6000 + r * .03)));
+        }
+        rondas.push(ahora); stock.push(st);
+      }
+      gCam.textContent = ''; gSig.textContent = '';
+      Object.keys(cuenta).filter(function (c) { return cuenta[c] > 1; }).forEach(function (c) {
+        var ctr = centro(c.split(',').map(Number));
+        el('rect', { x: ctr[0] - CEL / 2 + 1, y: ctr[1] - CEL / 2 + 1, width: CEL - 2, height: CEL - 2 }, gCam);
+      });
+      if (hoy) ayer = hoy.rondas[RONDAS];
+      hoy = { orden: orden, propio: propio, rondas: rondas, stock: stock,
+              sigue: sigue.slice(0, 40).map(function (par) { return { a: par[0], b: par[1], ln: el('line', {}, gSig) }; }) };
+      barco.forEach(function (b, k) { botes[k].setAttribute('fill', b.enCamarilla ? PAL[0] : '#fff'); });
+      rotDia.textContent = 'día ' + dia;
+    }
+    nuevoDia();
+
+    function dibuja() {
+      var t = reloj, tV = t - T_MAR - T_LLEGA;
+      fases.forEach(function (f, k) { f.setAttribute('fill-opacity', (k === 0 ? t < T_MAR : k === 1 ? t >= T_MAR && tV < 0 : tV >= 0) ? 1 : .4); });
+      // barcos: de su puesto en la fila al mar, y de vuelta a la fila uno detrás de otro
+      var ida = suave(t / 1600);
+      barco.forEach(function (b, k) {
+        var x, y, r = 4.2;
+        if (t < T_MAR) { x = b.desde[0] + (b.pos[0] - b.desde[0]) * ida; y = b.desde[1] + (b.pos[1] - b.desde[1]) * ida; r = 2.6 + 1.6 * ida; }
+        else { var v = suave((t - T_MAR - b.fila * PASO) / VUELO); x = b.pos[0] + (b.ranura[0] - b.pos[0]) * v; y = b.pos[1] + (b.ranura[1] - b.pos[1]) * v; r = 4.2 - 1.6 * v; }
+        botes[k].setAttribute('cx', x.toFixed(1)); botes[k].setAttribute('cy', y.toFixed(1)); botes[k].setAttribute('r', r.toFixed(2));
+      });
+      var vSig = t < 1600 ? .9 : Math.max(0, .9 - (t - 1600) / 1200);
+      hoy.sigue.forEach(function (s) {
+        var a = botes[s.a], b = botes[s.b];
+        s.ln.setAttribute('x1', a.getAttribute('cx')); s.ln.setAttribute('y1', a.getAttribute('cy'));
+        s.ln.setAttribute('x2', b.getAttribute('cx')); s.ln.setAttribute('y2', b.getAttribute('cy'));
+        s.ln.setAttribute('stroke-opacity', vSig.toFixed(2));
+      });
+      gCam.setAttribute('stroke-opacity', t < 1400 ? 0 : tV < 0 ? Math.min(1, (t - 1400) / 500) : Math.max(0, 1 - tV / 800));
+      if (t < T_MAR) {                                    // mientras se pesca: los precios de ayer, en tenue
+        for (var q0 = 0; q0 < N; q0++) {
+          barras[q0].setAttribute('fill', '#fff'); barras[q0].setAttribute('fill-opacity', .18);
+          barras[q0].setAttribute('width', ayer ? largo(ayer[q0]).toFixed(1) : 0);
+          cortes[q0].setAttribute('width', 0);
+          miradas[q0].setAttribute('stroke-opacity', 0);
+        }
+        return;
+      }
+      var durR = (DIA - T_MAR - T_LLEGA) / RONDAS, r = Math.max(0, Math.min(RONDAS, Math.floor(tV / durR)));
+      var fr = tV < 0 ? 0 : suave((tV - r * durR) / (durR * .6));
+      for (var q = 0; q < N; q++) {
+        var yq = Y0 + q * BP + BH / 2;
+        barras[q].setAttribute('fill', barco[hoy.orden[q]].enCamarilla ? PAL[0] : '#fff');
+        if (tV < 0) {                                    // llegada: aparece con su precio propio y se acerca al de los anteriores
+          var tau = t - T_MAR - q * PASO - VUELO;
+          var p = hoy.propio[q] + (hoy.rondas[0][q] - hoy.propio[q]) * suave((tau - 200) / 450);
+          barras[q].setAttribute('width', tau < 0 ? 0 : (largo(p) * suave(tau / 150)).toFixed(1));
+          barras[q].setAttribute('fill-opacity', 1);
+          cortes[q].setAttribute('width', 0);
+          var vis = q === 0 ? 0 : Math.max(0, Math.min(1, (tau - 100) / 80)) * Math.max(0, Math.min(1, 1 - (tau - 380) / 140));
+          var puntos = [[BX + largo(p) + 3, yq]];
+          for (var j = q - 1; j >= Math.max(0, q - 2); j--) puntos.push([BX + largo(hoy.rondas[0][j]) + 3, Y0 + j * BP + BH / 2]);
+          miradas[q].setAttribute('points', puntos.map(function (c) { return c[0].toFixed(1) + ',' + c[1].toFixed(1); }).join(' '));
+          miradas[q].setAttribute('stroke-opacity', vis.toFixed(2));
+          continue;
+        }
+        miradas[q].setAttribute('stroke-opacity', 0);
+        var p0 = hoy.rondas[r][q], p1 = hoy.rondas[Math.min(RONDAS, r + 1)][q], pv = p0 + (p1 - p0) * fr;
+        barras[q].setAttribute('width', largo(pv).toFixed(1));
+        barras[q].setAttribute('fill-opacity', (.3 + .7 * hoy.stock[r][q] / (hoy.stock[0][q] || 1)).toFixed(2));
+        var corta = r < RONDAS && p1 < p0 - 1;
+        cortes[q].setAttribute('x', (BX + largo(p1)).toFixed(1));
+        cortes[q].setAttribute('width', corta ? (largo(p0) - largo(p1)).toFixed(1) : 0);
+        cortes[q].setAttribute('fill-opacity', corta ? (1 - fr).toFixed(2) : 0);
+      }
+    }
+    return {
+      g: g, dur: 2 * DIA,
+      entra: function () { if (!quieto && reloj > 0) { reloj = 0; nuevoDia(); } },   // cada vez que aparece, empieza un día nuevo
+      paso: function (dt) {
+        reloj = quieto ? DIA - 1 : reloj + dt;
+        if (reloj >= DIA) { reloj -= DIA; nuevoDia(); }
+        dibuja();
+      }
+    };
   }
 
-  Promise.all([datos('tetraedro.json'), datos('redes.json'), datos('pesca.json')]).then(function (d) {
-    var escenas = [tetraedro(d[0]), redes(d[1]), pesca(d[2])];
+  Promise.all([datos('tetraedro.json'), datos('redes.json')]).then(function (d) {
+    var escenas = [tetraedro(d[0]), redes(d[1]), mercado()];
     escenas.forEach(function (e) { e.paso(0); });
     var activa = 0, tEsc = 0, t0 = null, enPantalla = true;
     // Visibilidad de cada escena (0 a 1). Las inactivas quedan con display:none: nunca se ven dos a la vez.
@@ -179,6 +315,7 @@
     function barra(k, v) { var b = botones[k] && botones[k].querySelector('i'); if (b) b.style.transform = 'scaleX(' + v + ')'; }
     function muestra(k) {
       activa = k; tEsc = 0;
+      if (escenas[k].entra) escenas[k].entra();
       if (quieto) { vis = vis.map(function (_, j) { return j === k ? 1 : 0; }); aplica(); escenas[k].paso(0); }
       botones.forEach(function (b, j) { b.setAttribute('aria-selected', j === k ? 'true' : 'false'); barra(j, 0); });
       pies.forEach(function (p, j) { p.hidden = j !== k; });
@@ -192,8 +329,9 @@
       var dt = t0 === null ? 0 : Math.min(t - t0, 100); t0 = t;
       if (enPantalla && !document.hidden) {
         funde(dt);
-        escenas[activa].paso(dt); tEsc += dt; barra(activa, Math.min(tEsc / DUR, 1));
-        if (tEsc >= DUR) muestra((activa + 1) % escenas.length);
+        var dur = escenas[activa].dur || DUR;
+        escenas[activa].paso(dt); tEsc += dt; barra(activa, Math.min(tEsc / dur, 1));
+        if (tEsc >= dur) muestra((activa + 1) % escenas.length);
       }
       requestAnimationFrame(paso);
     }
