@@ -98,27 +98,26 @@ img, video { max-width: 100%; height: auto; }
 }
 .fig .tetra { width: 100%; max-width: 600px; height: auto; align-self: center; aspect-ratio: 680 / 530; }
 .fig figcaption { font-size: 13px; line-height: 1.45; max-width: 52ch; min-height: 5.8em; color: rgba(255, 255, 255, .75); }
-.tetra .escena { opacity: 0; transition: opacity .9s ease; }
-.tetra .escena.on { opacity: 1; }
 .tetra text { font-family: 'Instrument Sans', sans-serif; }
-.escenas { display: flex; gap: 6px; flex-wrap: wrap; }
+/* Pestañas de las escenas: bloques pequeños, con la letra de las franjas */
+.escenas { display: flex; gap: 4px; flex-wrap: wrap; }
 .escenas button {
-  flex: 1 1 0;
-  min-width: 0;
-  background: none;
-  border: 0;
-  padding: 0 0 8px;
-  color: #fff;
-  font: 500 14px 'Instrument Sans', sans-serif;
-  text-align: left;
-  opacity: .6;
-  cursor: pointer;
   position: relative;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  padding: 8px 14px 10px;
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+  font: 500 15px 'Instrument Sans', sans-serif;
+  letter-spacing: -.01em;
+  cursor: pointer;
+  transition: background .2s, color .2s;
 }
-.escenas button[aria-selected="true"], .escenas button:hover { opacity: 1; }
-.escenas button::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255, 255, 255, .3); }
-.escenas button i { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: #fff; transform: scaleX(0); transform-origin: left; z-index: 1; }
-.escenas button:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.escenas button:hover { background: rgba(255, 255, 255, .26); }
+.escenas button[aria-selected="true"] { background: #fff; color: var(--azul); }
+.escenas button i { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--azul); transform: scaleX(0); transform-origin: left; }
+.escenas button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 
 .conceptos { grid-column: span 2; padding: 0; gap: 0; }
 .w {
@@ -291,7 +290,7 @@ h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: u
   .cifras b { font-size: 24px; }
   .tetra .et { font-size: 30px; }
   .tetra .sec, .tetra .ley { font-size: 24px; }
-  .escenas button { font-size: 13px; }
+  .escenas button { font-size: 13px; padding: 7px 10px 9px; }
   .tetra line[stroke-width="3"] { stroke-width: 4; }
 }
 
