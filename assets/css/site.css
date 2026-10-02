@@ -43,11 +43,11 @@ img, video { max-width: 100%; height: auto; }
   font-size: 15px;
 }
 .site-header .marca { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-.sello { display: inline-flex; align-items: stretch; font-size: 15px; font-weight: 600; letter-spacing: .01em; line-height: 1; }
+.sello { display: inline-flex; align-items: stretch; font-size: 17px; font-weight: 600; letter-spacing: .01em; line-height: 1; }
 .sello span { padding: 6px 2px 6px 0; }
 .sello b { background: var(--azul); color: #fff; font-weight: 600; padding: 6px 6px; letter-spacing: .06em; }
 .site-header .marca:hover .sello b { background: var(--naranja); }
-.site-header .quien { color: var(--suave); font-size: 14px; }
+
 .site-header nav { display: flex; gap: 22px; flex-wrap: wrap; }
 .site-header nav a { text-decoration: none; opacity: .7; }
 .site-header nav a:hover, .site-header nav a[aria-current] { opacity: 1; }
@@ -97,7 +97,28 @@ img, video { max-width: 100%; height: auto; }
   color: #fff;
 }
 .fig .tetra { width: 100%; max-width: 600px; height: auto; align-self: center; aspect-ratio: 680 / 530; }
-.fig figcaption { font-size: 13px; line-height: 1.45; max-width: 46ch; color: rgba(255, 255, 255, .75); }
+.fig figcaption { font-size: 13px; line-height: 1.45; max-width: 52ch; min-height: 5.8em; color: rgba(255, 255, 255, .75); }
+.tetra .escena { opacity: 0; transition: opacity .9s ease; }
+.tetra .escena.on { opacity: 1; }
+.tetra text { font-family: 'Instrument Sans', sans-serif; }
+.escenas { display: flex; gap: 6px; flex-wrap: wrap; }
+.escenas button {
+  flex: 1 1 0;
+  min-width: 0;
+  background: none;
+  border: 0;
+  padding: 0 0 8px;
+  color: #fff;
+  font: 500 14px 'Instrument Sans', sans-serif;
+  text-align: left;
+  opacity: .6;
+  cursor: pointer;
+  position: relative;
+}
+.escenas button[aria-selected="true"], .escenas button:hover { opacity: 1; }
+.escenas button::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255, 255, 255, .3); }
+.escenas button i { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: #fff; transform: scaleX(0); transform-origin: left; z-index: 1; }
+.escenas button:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
 
 .conceptos { grid-column: span 2; padding: 0; gap: 0; }
 .w {
@@ -128,6 +149,7 @@ img, video { max-width: 100%; height: auto; }
   align-items: end;
   padding: 64px var(--margen) 24px;
 }
+.bio .lab { display: block; margin-bottom: 12px; color: var(--suave); }
 .bio p { margin: 0; font-size: clamp(19px, 1.7vw, 23px); line-height: 1.5; max-width: 52ch; }
 .cifras { display: flex; gap: 10px; }
 .cifras div { flex: 1; background: var(--gris); padding: 16px; }
@@ -267,8 +289,9 @@ h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: u
   .fig, .cabecera { padding-left: 20px; padding-right: 20px; }
   .prose { padding-left: 0; padding-right: 0; }
   .cifras b { font-size: 24px; }
-  .site-header .quien { display: none; }
-  .tetra text { font-size: 30px; }
+  .tetra .et { font-size: 30px; }
+  .tetra .sec, .tetra .ley { font-size: 24px; }
+  .escenas button { font-size: 13px; }
   .tetra line[stroke-width="3"] { stroke-width: 4; }
 }
 
