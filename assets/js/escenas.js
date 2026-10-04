@@ -128,7 +128,8 @@
     var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
     var N = 50, G = 12, CEL = 26, X0 = -20, Y0 = 44, BX = 340, BW = 290, BH = 4.2, BP = 6.15;
     var P_MIN = 1800, P_CAP = 4200, P_MAX = 3500, W_ANCLA = 0.8, ETA = 0.3, RONDAS = 6;
-    var T_MAR = 3600, T_LLEGA = 4200, T_VENTA = 4800, PASO = 3000 / N, VUELO = 500;   // ms
+    var T_MAR = 4400, T_LLEGA = 4200, T_VENTA = 4800, PASO = 3000 / N, VUELO = 500;   // ms
+    var M_RED = 900, M_MUEVE = 1900, M_PESCA = 3200;   // en el mar: aparece la red, se mueven por ella, pescan
     var T_FIN = T_MAR + T_LLEGA + T_VENTA, DIA = DUR;   // el día dura lo mismo que las otras escenas: al final, unos segundos quieto
     var semilla = 20260101;
     function azar() { semilla |= 0; semilla = semilla + 0x6D2B79F5 | 0; var t = Math.imul(semilla ^ semilla >>> 15, 1 | semilla); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }
@@ -150,7 +151,12 @@
     texto('mar', { 'class': 'ley', x: X0, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
     texto('caleta: por orden de llegada', { 'class': 'ley', x: BX - 12, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
     function miles(n) { n = Math.round(n); return n >= 1000 ? Math.floor(n / 1000) + '.' + String(n % 1000).padStart(3, '0') : String(n); }
-    var gSig = el('g', { stroke: PAL[3], 'stroke-width': 1.4 }, g);           // FOLLOW: a quién sigue cada barco
+    // la red de información entre botes: todos los vínculos, finos; los que se usan para seguir, en rosa
+    var pares = [], vistoPar = {};
+    red.forEach(function (vs, k) { vs.forEach(function (j) { var c = Math.min(k, j) + '-' + Math.max(k, j); if (j !== k && !vistoPar[c]) { vistoPar[c] = 1; pares.push([k, j]); } }); });
+    var gRed = el('g', { stroke: '#fff', 'stroke-width': 1, 'stroke-opacity': .3 }, g);
+    var lineasRed = pares.map(function () { return el('line', {}, gRed); });
+    var gSig = el('g', { stroke: PAL[3], 'stroke-width': 2.2, 'stroke-linecap': 'round' }, g);   // FOLLOW: a quién sigue cada bote
     var gCam = el('g', { fill: 'none', stroke: PAL[0], 'stroke-width': 2 }, g); // camarillas: celdas con dos o más barcos
     var gB = el('g', {}, g), barras = [], cortes = [], marcas = [];
     for (i = 0; i < N; i++) {
@@ -172,20 +178,27 @@
       texto(miles(pp), { 'class': 'eje', x: xx, y: EJE + 17, 'font-size': 12, fill: 'rgba(255,255,255,.75)', 'text-anchor': 'middle' }, g);
     });
     texto('$/kg', { 'class': 'eje', x: BX - 14, y: EJE + 17, 'font-size': 12, fill: 'rgba(255,255,255,.75)', 'text-anchor': 'end' }, g);
+    // promedio de precios: en lima al llegar todos; en naranja, después de mirar al vecino en la venta
+    var promIni = el('line', { y1: Y0 - 4, y2: EJE, stroke: PAL[0], 'stroke-width': 2, 'stroke-dasharray': '4 3', 'stroke-opacity': 0 }, g);
+    var promFin = el('line', { y1: Y0 - 4, y2: EJE, stroke: PAL[1], 'stroke-width': 2, 'stroke-opacity': 0 }, g);
+    var promT = el('text', { 'class': 'prom', x: BX, y: EJE + 38, 'font-size': 15, 'font-weight': 600, fill: '#fff' }, g);
+    var promA = el('tspan', { fill: '#fff' }, promT), promB = el('tspan', { fill: PAL[0] }, promT), promC = el('tspan', { fill: '#fff' }, promT), promD = el('tspan', { fill: PAL[1] }, promT), promE = el('tspan', { fill: '#fff' }, promT);
     // leyenda (en pantallas estrechas se oculta)
-    var LY = EJE + 44, LP = 22, gLey = el('g', { 'class': 'leyenda' }, g);
+    var LY = EJE + 64, LP = 21, gLey = el('g', { 'class': 'leyenda' }, g);
     el('rect', { x: BX - 1, y: LY - 10, width: 5, height: 10, fill: '#fff', 'fill-opacity': .12 }, gLey);
     el('rect', { x: BX + 5, y: LY - 10, width: 5, height: 10, fill: '#fff', 'fill-opacity': .45 }, gLey);
     texto('banco de merluza: se mueve cada día', { 'class': 'nota', x: BX + 16, y: LY, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
     el('circle', { cx: BX + 4, cy: LY + LP - 4, r: 4.2, fill: '#fff' }, gLey);
-    texto('barco: su tamaño es la pesca', { 'class': 'nota', x: BX + 16, y: LY + LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
-    el('rect', { x: BX - 1, y: LY + 2 * LP - 10, width: 10, height: 10, fill: 'none', stroke: PAL[0], 'stroke-width': 2 }, gLey);
-    texto('camarilla: barcos en la misma celda', { 'class': 'nota', x: BX + 16, y: LY + 2 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
+    texto('bote: su tamaño es la pesca', { 'class': 'nota', x: BX + 16, y: LY + LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
+    el('line', { x1: BX - 1, x2: BX + 10, y1: LY + 2 * LP - 4, y2: LY + 2 * LP - 4, stroke: '#fff', 'stroke-width': 1, 'stroke-opacity': .6 }, gLey);
+    texto('red: de quién se informa cada bote', { 'class': 'nota', x: BX + 16, y: LY + 2 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
     el('line', { x1: BX - 1, x2: BX + 10, y1: LY + 3 * LP - 4, y2: LY + 3 * LP - 4, stroke: PAL[3], 'stroke-width': 2 }, gLey);
-    texto('mirar a otro', { 'class': 'nota', x: BX + 16, y: LY + 3 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
-    el('rect', { x: BX - 1, y: LY + 4 * LP - 7, width: 7, height: 4.2, fill: '#fff' }, gLey);
-    el('rect', { x: BX + 6, y: LY + 4 * LP - 7, width: 5, height: 4.2, fill: PAL[1] }, gLey);
-    texto('precio: en naranja, lo que bajó en la venta', { 'class': 'nota', x: BX + 16, y: LY + 4 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
+    texto('rosa: seguir o mirar a otro', { 'class': 'nota', x: BX + 16, y: LY + 3 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
+    el('rect', { x: BX - 1, y: LY + 4 * LP - 10, width: 10, height: 10, fill: 'none', stroke: PAL[0], 'stroke-width': 2 }, gLey);
+    texto('camarilla: botes en la misma celda', { 'class': 'nota', x: BX + 16, y: LY + 4 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
+    el('rect', { x: BX - 1, y: LY + 5 * LP - 7, width: 7, height: 4.2, fill: '#fff' }, gLey);
+    el('rect', { x: BX + 6, y: LY + 5 * LP - 7, width: 5, height: 4.2, fill: PAL[1] }, gLey);
+    texto('precio: en naranja, lo que bajó en la venta', { 'class': 'nota', x: BX + 16, y: LY + 5 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
     var fases = ['1. Mar: pescan y siguen a quien pescó bien', '2. Caleta: precio mirando a los anteriores', '3. Venta: quien está sobre sus vecinos baja'].map(function (t, k) {
       return texto(t, { 'class': 'ley', x: X0, y: 402 + k * 27, 'font-size': 15, fill: '#fff' }, g);
     });
@@ -197,6 +210,10 @@
     function nuevoDia() {
       dia++;
       manchas.forEach(function (m) { m.x = Math.max(1, Math.min(G - 2, m.x + (azar() - .5) * 1.2)); m.y = Math.max(1, Math.min(G - 2, m.y + (azar() - .5) * 1.2)); });
+      var cmaxAyer = Math.max.apply(null, barco.map(function (b) { return b.ayer; })) || 1;
+      barco.forEach(function (b) {                       // dónde pescó ayer y cuánto: desde ahí decide hoy
+        b.posAyer = b.pos || centro(b.celda); b.rAyer = 2.8 + 4 * b.ayer / cmaxAyer;
+      });
       var sigue = [];
       barco.forEach(function (b, k) {                    // FOLLOW / quedarse / explorar
         var mejor = red[k].reduce(function (a, j) { return barco[j].ayer > barco[a].ayer ? j : a; }, red[k][0]);
@@ -255,7 +272,7 @@
       });
       if (hoy) ayer = hoy.rondas[RONDAS];
       hoy = { orden: orden, propio: propio, rondas: rondas, stock: stock, miraVenta: miraVenta,
-              sigue: sigue.slice(0, 40).map(function (par) { return { a: par[0], b: par[1], ln: el('line', {}, gSig) }; }) };
+              sigue: sigue.map(function (par) { return { a: par[0], b: par[1], ln: el('line', {}, gSig) }; }) };
       barco.forEach(function (b, k) { botes[k].setAttribute('fill', b.enCamarilla ? PAL[0] : '#fff'); });
       rotDia.textContent = 'día ' + dia;
     }
@@ -264,25 +281,33 @@
     function dibuja() {
       var t = Math.min(reloj, T_FIN - 1), tV = t - T_MAR - T_LLEGA;
       fases.forEach(function (f, k) { f.setAttribute('fill-opacity', (k === 0 ? t < T_MAR : k === 1 ? t >= T_MAR && tV < 0 : tV >= 0) ? 1 : .4); });
-      // barcos: de su puesto en la fila al mar, y de vuelta a la fila uno detrás de otro
-      var ida = suave(t / 1600);
+      // botes: salen de la fila al sitio de ayer (tamaño = pesca de ayer); se mueven por la red; pescan (tamaño = pesca de hoy)
+      var ida = suave(t / M_RED), mueve = suave((t - M_MUEVE) / (M_PESCA - M_MUEVE - 200)), crece = suave((t - M_PESCA) / 700);
       barco.forEach(function (b, k) {
-        var x, y, r = 4.2;
-        if (t < T_MAR) {                                   // sale, llega a su celda y crece con lo que pesca
-          x = b.desde[0] + (b.pos[0] - b.desde[0]) * ida; y = b.desde[1] + (b.pos[1] - b.desde[1]) * ida;
-          r = 2.6 + 1.6 * ida + (b.rPesca - 4.2) * suave((t - 1700) / 900);
+        var x, y, r;
+        if (t < T_MAR) {
+          if (t < M_MUEVE) { x = b.desde[0] + (b.posAyer[0] - b.desde[0]) * ida; y = b.desde[1] + (b.posAyer[1] - b.desde[1]) * ida; }
+          else { x = b.posAyer[0] + (b.pos[0] - b.posAyer[0]) * mueve; y = b.posAyer[1] + (b.pos[1] - b.posAyer[1]) * mueve; }
+          r = 2.6 + (b.rAyer - 2.6) * ida + (b.rPesca - b.rAyer) * crece;
         }
         else { var v = suave((t - T_MAR - b.fila * PASO) / VUELO); x = b.pos[0] + (b.ranura[0] - b.pos[0]) * v; y = b.pos[1] + (b.ranura[1] - b.pos[1]) * v; r = b.rPesca + (2.6 - b.rPesca) * v; }
         botes[k].setAttribute('cx', x.toFixed(1)); botes[k].setAttribute('cy', y.toFixed(1)); botes[k].setAttribute('r', r.toFixed(2));
       });
-      var vSig = t < 1600 ? .9 : Math.max(0, .9 - (t - 1600) / 1200);
+      var vRed = t >= T_MAR ? 0 : Math.min(1, Math.max(0, (t - M_RED) / 500)) * (1 - suave((t - M_PESCA) / 900));
+      gRed.setAttribute('opacity', vRed.toFixed(2));
+      if (vRed > 0) pares.forEach(function (pr, n) {
+        var a = botes[pr[0]], b = botes[pr[1]], ln = lineasRed[n];
+        ln.setAttribute('x1', a.getAttribute('cx')); ln.setAttribute('y1', a.getAttribute('cy'));
+        ln.setAttribute('x2', b.getAttribute('cx')); ln.setAttribute('y2', b.getAttribute('cy'));
+      });
+      var vSig = t >= T_MAR ? 0 : Math.min(1, Math.max(0, (t - M_RED - 400) / 500)) * (1 - suave((t - M_PESCA) / 700)) * .95;
       hoy.sigue.forEach(function (s) {
         var a = botes[s.a], b = botes[s.b];
         s.ln.setAttribute('x1', a.getAttribute('cx')); s.ln.setAttribute('y1', a.getAttribute('cy'));
         s.ln.setAttribute('x2', b.getAttribute('cx')); s.ln.setAttribute('y2', b.getAttribute('cy'));
         s.ln.setAttribute('stroke-opacity', vSig.toFixed(2));
       });
-      gCam.setAttribute('stroke-opacity', t < 1400 ? 0 : tV < 0 ? Math.min(1, (t - 1400) / 500) : Math.max(0, 1 - tV / 800));
+      gCam.setAttribute('stroke-opacity', t < M_PESCA ? 0 : tV < 0 ? Math.min(1, (t - M_PESCA) / 500) : Math.max(0, 1 - tV / 800));
       if (t < T_MAR) {                                    // mientras se pesca: los precios de ayer, en tenue
         for (var q0 = 0; q0 < N; q0++) {
           barras[q0].setAttribute('fill', '#fff'); barras[q0].setAttribute('fill-opacity', .18);
@@ -290,12 +315,14 @@
           cortes[q0].setAttribute('width', 0); marcas[q0].setAttribute('stroke-opacity', 0);
           miradas[q0].setAttribute('stroke-opacity', 0);
         }
+        promIni.setAttribute('stroke-opacity', 0); promFin.setAttribute('stroke-opacity', 0); promT.setAttribute('opacity', 0);
         return;
       }
       // cada ronda de venta: primero miran (rosa), luego bajan (la barra se acorta y lo recortado queda en naranja)
       var durR = T_VENTA / RONDAS, r = Math.max(0, Math.min(RONDAS - 1, Math.floor(tV / durR)));
       var loc = tV - r * durR, fr = tV < 0 ? 0 : suave((loc - .3 * durR) / (.45 * durR));
       var vMira = Math.max(0, Math.min(1, loc / 100)) * Math.max(0, Math.min(1, (.5 * durR - loc) / 120));
+      var suma = 0;
 
       for (var q = 0; q < N; q++) {
         var yq = Y0 + q * BP + BH / 2;
@@ -314,6 +341,7 @@
           continue;
         }
         var p0 = hoy.rondas[r][q], p1 = hoy.rondas[r + 1][q], pv = p0 + (p1 - p0) * fr;
+        suma += pv;
         barras[q].setAttribute('width', largo(pv).toFixed(1));
         barras[q].setAttribute('fill-opacity', 1);
         var ini = hoy.rondas[0][q];                       // lo bajado desde que empezó la venta queda en naranja
@@ -330,6 +358,15 @@
           miradas[q].setAttribute('stroke-opacity', vMira.toFixed(2));
         } else miradas[q].setAttribute('stroke-opacity', 0);
       }
+      // promedio: lima el de llegada; naranja el de ahora, en cuanto empiezan a mirar al vecino
+      if (tV < 0) { promIni.setAttribute('stroke-opacity', 0); promFin.setAttribute('stroke-opacity', 0); promT.setAttribute('opacity', 0); return; }
+      var m0 = hoy.rondas[0].reduce(function (a, b) { return a + b; }, 0) / N, m1 = suma / N, ya = tV > .3 * durR;
+      var x0 = (BX + largo(m0)).toFixed(1), x1 = (BX + largo(m1)).toFixed(1);
+      promIni.setAttribute('x1', x0); promIni.setAttribute('x2', x0); promIni.setAttribute('stroke-opacity', Math.min(1, tV / 300).toFixed(2));
+      promFin.setAttribute('x1', x1); promFin.setAttribute('x2', x1); promFin.setAttribute('stroke-opacity', ya ? 1 : 0);
+      promT.setAttribute('opacity', Math.min(1, tV / 300).toFixed(2));
+      promA.textContent = 'promedio '; promB.textContent = miles(m0);
+      promC.textContent = ya ? ' → ' : ' $/kg'; promD.textContent = ya ? miles(m1) : ''; promE.textContent = ya ? ' $/kg' : '';
     }
     return {
       g: g, dur: DIA,
