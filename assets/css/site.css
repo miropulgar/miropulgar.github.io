@@ -291,6 +291,7 @@ h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: u
   .tetra .et { font-size: 30px; }
   .tetra .sec, .tetra .ley { font-size: 24px; }
   .tetra .leyenda { display: none; }
+  .tetra .prom { font-size: 21px; }
   .tetra .eje { font-size: 17px; }
   .escenas { display: grid; grid-template-columns: repeat(3, 1fr); }
   .escenas button { font-size: 13px; line-height: 1.2; padding: 8px 9px 10px; text-align: left; }
