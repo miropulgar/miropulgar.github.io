@@ -1,0 +1,2701 @@
+ego,alter,relacion,genero,cercania
+MX001,MX001-A01,familia,mujer,5
+MX001,MX001-A02,familia,mujer,5
+MX001,MX001-A03,familia,hombre,5
+MX001,MX001-A04,familia,hombre,5
+MX001,MX001-A05,familia,mujer,5
+MX001,MX001-A06,familia,hombre,5
+MX001,MX001-A07,familia,mujer,5
+MX001,MX001-A08,familia,mujer,5
+MX001,MX001-A09,familia,hombre,5
+MX001,MX001-A10,familia,hombre,5
+MX001,MX001-A11,familia,mujer,5
+MX001,MX001-A12,familia,mujer,4
+MX001,MX001-A13,familia,hombre,4
+MX001,MX001-A14,familia,hombre,5
+MX001,MX001-A15,familia,hombre,4
+MX001,MX001-A16,familia,hombre,4
+MX001,MX001-A17,familia,hombre,5
+MX001,MX001-A18,familia,mujer,5
+MX001,MX001-A19,familia,mujer,4
+MX001,MX001-A20,familia,mujer,4
+MX001,MX001-A21,familia,hombre,4
+MX001,MX001-A22,familia,mujer,4
+MX001,MX001-A23,familia,hombre,4
+MX001,MX001-A24,otra,hombre,4
+MX001,MX001-A25,otra,hombre,4
+MX001,MX001-A26,otra,hombre,3
+MX001,MX001-A27,otra,hombre,3
+MX001,MX001-A28,otra,hombre,3
+MX001,MX001-A29,otra,hombre,3
+MX001,MX001-A30,otra,hombre,3
+MX002,MX002-A01,a través de otra persona,hombre,5
+MX002,MX002-A02,familia,mujer,5
+MX002,MX002-A03,estudios superiores,hombre,4
+MX002,MX002-A04,familia,hombre,5
+MX002,MX002-A05,estudios superiores,mujer,4
+MX002,MX002-A06,escuela,mujer,4
+MX002,MX002-A07,escuela,hombre,3
+MX002,MX002-A08,escuela,hombre,4
+MX002,MX002-A09,estudios superiores,hombre,3
+MX002,MX002-A10,escuela,hombre,3
+MX002,MX002-A11,escuela,mujer,4
+MX002,MX002-A12,escuela,mujer,4
+MX002,MX002-A13,escuela,mujer,3
+MX002,MX002-A14,estudios superiores,mujer,4
+MX002,MX002-A15,estudios superiores,mujer,2
+MX002,MX002-A16,estudios superiores,mujer,2
+MX002,MX002-A17,familia,mujer,5
+MX002,MX002-A18,familia,hombre,5
+MX002,MX002-A19,a través de otra persona,mujer,3
+MX002,MX002-A20,a través de otra persona,mujer,4
+MX002,MX002-A21,escuela,mujer,4
+MX002,MX002-A22,estudios superiores,mujer,4
+MX002,MX002-A23,estudios superiores,hombre,3
+MX002,MX002-A24,a través de otra persona,hombre,2
+MX002,MX002-A25,escuela,hombre,3
+MX002,MX002-A26,a través de otra persona,hombre,3
+MX002,MX002-A27,a través de otra persona,mujer,3
+MX002,MX002-A28,a través de otra persona,hombre,3
+MX002,MX002-A29,aficiones,hombre,3
+MX002,MX002-A30,a través de otra persona,hombre,3
+MX003,MX003-A01,estudios superiores,hombre,5
+MX003,MX003-A02,aficiones,mujer,5
+MX003,MX003-A03,estudios superiores,mujer,5
+MX003,MX003-A04,estudios superiores,hombre,5
+MX003,MX003-A05,estudios superiores,hombre,5
+MX003,MX003-A06,estudios superiores,hombre,4
+MX003,MX003-A07,estudios superiores,hombre,4
+MX003,MX003-A08,estudios superiores,hombre,3
+MX003,MX003-A09,estudios superiores,hombre,3
+MX003,MX003-A10,estudios superiores,hombre,4
+MX003,MX003-A11,estudios superiores,hombre,4
+MX003,MX003-A12,aficiones,mujer,4
+MX003,MX003-A13,aficiones,mujer,4
+MX003,MX003-A14,aficiones,mujer,5
+MX003,MX003-A15,estudios superiores,mujer,4
+MX003,MX003-A16,aficiones,mujer,4
+MX003,MX003-A17,aficiones,mujer,5
+MX003,MX003-A18,aficiones,hombre,5
+MX003,MX003-A19,familia,mujer,5
+MX003,MX003-A20,familia,hombre,5
+MX003,MX003-A21,familia,hombre,5
+MX003,MX003-A22,familia,mujer,5
+MX003,MX003-A23,familia,mujer,5
+MX003,MX003-A24,familia,hombre,5
+MX003,MX003-A25,familia,mujer,4
+MX003,MX003-A26,familia,hombre,5
+MX003,MX003-A27,familia,mujer,5
+MX003,MX003-A28,familia,hombre,5
+MX003,MX003-A29,familia,hombre,5
+MX003,MX003-A30,estudios superiores,hombre,5
+MX004,MX004-A01,escuela,mujer,5
+MX004,MX004-A02,estudios superiores,mujer,5
+MX004,MX004-A03,estudios superiores,mujer,5
+MX004,MX004-A04,estudios superiores,mujer,5
+MX004,MX004-A05,estudios superiores,mujer,5
+MX004,MX004-A06,estudios superiores,mujer,3
+MX004,MX004-A07,estudios superiores,mujer,5
+MX004,MX004-A08,estudios superiores,hombre,5
+MX004,MX004-A09,estudios superiores,mujer,5
+MX004,MX004-A10,estudios superiores,hombre,5
+MX004,MX004-A11,estudios superiores,mujer,5
+MX004,MX004-A12,familia,mujer,4
+MX004,MX004-A13,estudios superiores,mujer,3
+MX004,MX004-A14,estudios superiores,mujer,5
+MX004,MX004-A15,estudios superiores,mujer,4
+MX004,MX004-A16,estudios superiores,hombre,4
+MX004,MX004-A17,aficiones,mujer,3
+MX004,MX004-A18,estudios superiores,mujer,4
+MX004,MX004-A19,aficiones,mujer,3
+MX004,MX004-A20,trabajo,hombre,3
+MX004,MX004-A21,trabajo,mujer,3
+MX004,MX004-A22,estudios superiores,mujer,5
+MX004,MX004-A23,estudios superiores,mujer,3
+MX004,MX004-A24,trabajo,hombre,3
+MX004,MX004-A25,aficiones,mujer,4
+MX004,MX004-A26,aficiones,hombre,3
+MX004,MX004-A27,estudios superiores,hombre,4
+MX004,MX004-A28,estudios superiores,mujer,3
+MX004,MX004-A29,estudios superiores,mujer,4
+MX004,MX004-A30,estudios superiores,mujer,3
+MX005,MX005-A01,escuela,hombre,5
+MX005,MX005-A02,trabajo,mujer,1
+MX005,MX005-A03,estudios superiores,hombre,1
+MX005,MX005-A04,vecindad,mujer,5
+MX005,MX005-A05,trabajo,hombre,1
+MX005,MX005-A06,trabajo,mujer,3
+MX005,MX005-A07,a través de otra persona,hombre,2
+MX005,MX005-A08,trabajo,mujer,1
+MX005,MX005-A09,trabajo,hombre,1
+MX005,MX005-A10,trabajo,hombre,2
+MX005,MX005-A11,trabajo,hombre,1
+MX005,MX005-A12,vecindad,hombre,1
+MX005,MX005-A13,a través de otra persona,hombre,1
+MX005,MX005-A14,estudios superiores,hombre,1
+MX005,MX005-A15,estudios superiores,hombre,1
+MX005,MX005-A16,estudios superiores,mujer,4
+MX005,MX005-A17,trabajo,hombre,1
+MX005,MX005-A18,estudios superiores,mujer,1
+MX005,MX005-A19,aficiones,mujer,1
+MX005,MX005-A20,familia,hombre,3
+MX005,MX005-A21,escuela,hombre,1
+MX005,MX005-A22,aficiones,hombre,5
+MX005,MX005-A23,a través de otra persona,mujer,1
+MX005,MX005-A24,trabajo,hombre,1
+MX005,MX005-A25,trabajo,hombre,1
+MX005,MX005-A26,trabajo,hombre,1
+MX005,MX005-A27,trabajo,mujer,1
+MX005,MX005-A28,trabajo,hombre,1
+MX005,MX005-A29,trabajo,mujer,1
+MX005,MX005-A30,aficiones,hombre,1
+MX006,MX006-A01,estudios superiores,hombre,5
+MX006,MX006-A02,familia,mujer,5
+MX006,MX006-A03,familia,hombre,4
+MX006,MX006-A04,familia,hombre,2
+MX006,MX006-A05,familia,hombre,2
+MX006,MX006-A06,familia,mujer,4
+MX006,MX006-A07,estudios superiores,mujer,4
+MX006,MX006-A08,estudios superiores,mujer,4
+MX006,MX006-A09,estudios superiores,mujer,3
+MX006,MX006-A10,estudios superiores,hombre,3
+MX006,MX006-A11,familia,mujer,4
+MX006,MX006-A12,familia,mujer,4
+MX006,MX006-A13,familia,hombre,2
+MX006,MX006-A14,familia,mujer,3
+MX006,MX006-A15,familia,mujer,2
+MX006,MX006-A16,familia,hombre,2
+MX006,MX006-A17,familia,mujer,3
+MX006,MX006-A18,escuela,mujer,4
+MX006,MX006-A19,escuela,mujer,4
+MX006,MX006-A20,escuela,mujer,3
+MX006,MX006-A21,escuela,mujer,2
+MX006,MX006-A22,escuela,mujer,3
+MX006,MX006-A23,estudios superiores,mujer,2
+MX006,MX006-A24,estudios superiores,mujer,2
+MX006,MX006-A25,estudios superiores,mujer,3
+MX006,MX006-A26,trabajo,mujer,4
+MX006,MX006-A27,trabajo,hombre,3
+MX006,MX006-A28,trabajo,hombre,2
+MX006,MX006-A29,familia,hombre,2
+MX006,MX006-A30,familia,mujer,2
+MX007,MX007-A01,estudios superiores,mujer,3
+MX007,MX007-A02,trabajo,hombre,3
+MX007,MX007-A03,trabajo,mujer,3
+MX007,MX007-A04,trabajo,mujer,4
+MX007,MX007-A05,trabajo,mujer,2
+MX007,MX007-A06,estudios superiores,mujer,4
+MX007,MX007-A07,familia,mujer,3
+MX007,MX007-A08,trabajo,mujer,4
+MX007,MX007-A09,trabajo,hombre,4
+MX007,MX007-A10,otra,mujer,4
+MX007,MX007-A11,familia,hombre,5
+MX007,MX007-A12,familia,hombre,5
+MX007,MX007-A13,familia,mujer,5
+MX007,MX007-A14,familia,mujer,5
+MX007,MX007-A15,trabajo,mujer,4
+MX007,MX007-A16,trabajo,mujer,3
+MX007,MX007-A17,trabajo,mujer,4
+MX007,MX007-A18,trabajo,mujer,4
+MX007,MX007-A19,trabajo,mujer,2
+MX007,MX007-A20,otra,mujer,3
+MX007,MX007-A21,familia,mujer,5
+MX007,MX007-A22,trabajo,mujer,3
+MX007,MX007-A23,estudios superiores,mujer,4
+MX007,MX007-A24,familia,mujer,5
+MX007,MX007-A25,trabajo,hombre,2
+MX007,MX007-A26,familia,mujer,3
+MX007,MX007-A27,trabajo,hombre,3
+MX007,MX007-A28,trabajo,hombre,2
+MX007,MX007-A29,trabajo,mujer,2
+MX007,MX007-A30,trabajo,hombre,2
+MX008,MX008-A01,familia,hombre,5
+MX008,MX008-A02,familia,mujer,5
+MX008,MX008-A03,familia,mujer,4
+MX008,MX008-A04,familia,hombre,3
+MX008,MX008-A05,familia,hombre,3
+MX008,MX008-A06,familia,mujer,3
+MX008,MX008-A07,familia,hombre,3
+MX008,MX008-A08,familia,mujer,3
+MX008,MX008-A09,trabajo,mujer,3
+MX008,MX008-A10,familia,mujer,2
+MX008,MX008-A11,familia,hombre,3
+MX008,MX008-A12,aficiones,mujer,5
+MX008,MX008-A13,familia,mujer,3
+MX008,MX008-A14,familia,mujer,3
+MX008,MX008-A15,familia,mujer,3
+MX008,MX008-A16,familia,mujer,4
+MX008,MX008-A17,familia,hombre,3
+MX008,MX008-A18,familia,hombre,4
+MX008,MX008-A19,familia,hombre,5
+MX008,MX008-A20,familia,mujer,5
+MX008,MX008-A21,aficiones,mujer,4
+MX008,MX008-A22,aficiones,mujer,3
+MX008,MX008-A23,estudios superiores,hombre,4
+MX008,MX008-A24,familia,mujer,4
+MX008,MX008-A25,trabajo,hombre,3
+MX008,MX008-A26,aficiones,hombre,4
+MX008,MX008-A27,estudios superiores,mujer,3
+MX008,MX008-A28,otra,mujer,3
+MX008,MX008-A29,trabajo,hombre,2
+MX008,MX008-A30,trabajo,mujer,4
+MX009,MX009-A01,escuela,hombre,5
+MX009,MX009-A02,a través de otra persona,mujer,5
+MX009,MX009-A03,escuela,hombre,4
+MX009,MX009-A04,escuela,hombre,3
+MX009,MX009-A05,escuela,hombre,4
+MX009,MX009-A06,escuela,hombre,3
+MX009,MX009-A07,escuela,hombre,2
+MX009,MX009-A08,familia,hombre,5
+MX009,MX009-A09,familia,hombre,5
+MX009,MX009-A10,familia,mujer,5
+MX009,MX009-A11,familia,hombre,5
+MX009,MX009-A12,escuela,hombre,3
+MX009,MX009-A13,escuela,hombre,3
+MX009,MX009-A14,escuela,hombre,2
+MX009,MX009-A15,escuela,hombre,4
+MX009,MX009-A16,escuela,hombre,3
+MX009,MX009-A17,escuela,hombre,4
+MX009,MX009-A18,escuela,hombre,5
+MX009,MX009-A19,escuela,hombre,3
+MX009,MX009-A20,escuela,hombre,4
+MX009,MX009-A21,estudios superiores,hombre,4
+MX009,MX009-A22,estudios superiores,hombre,3
+MX009,MX009-A23,estudios superiores,hombre,3
+MX009,MX009-A24,estudios superiores,hombre,3
+MX009,MX009-A25,estudios superiores,hombre,4
+MX009,MX009-A26,estudios superiores,hombre,3
+MX009,MX009-A27,escuela,mujer,4
+MX009,MX009-A28,escuela,mujer,4
+MX009,MX009-A29,escuela,mujer,3
+MX009,MX009-A30,escuela,mujer,3
+MX010,MX010-A01,a través de otra persona,mujer,5
+MX010,MX010-A02,familia,mujer,5
+MX010,MX010-A03,familia,mujer,5
+MX010,MX010-A04,vecindad,hombre,4
+MX010,MX010-A05,vecindad,hombre,3
+MX010,MX010-A06,vecindad,hombre,3
+MX010,MX010-A07,aficiones,hombre,2
+MX010,MX010-A08,aficiones,hombre,2
+MX010,MX010-A09,aficiones,hombre,2
+MX010,MX010-A10,familia,hombre,5
+MX010,MX010-A11,familia,hombre,5
+MX010,MX010-A12,estudios superiores,mujer,3
+MX010,MX010-A13,vecindad,hombre,3
+MX010,MX010-A14,vecindad,hombre,3
+MX010,MX010-A15,vecindad,hombre,3
+MX010,MX010-A16,aficiones,hombre,2
+MX010,MX010-A17,aficiones,hombre,2
+MX010,MX010-A18,escuela,mujer,2
+MX010,MX010-A19,escuela,mujer,2
+MX010,MX010-A20,trabajo,hombre,3
+MX010,MX010-A21,familia,mujer,5
+MX010,MX010-A22,familia,hombre,5
+MX010,MX010-A23,vecindad,mujer,4
+MX010,MX010-A24,familia,hombre,5
+MX010,MX010-A25,familia,mujer,5
+MX010,MX010-A26,familia,mujer,5
+MX010,MX010-A27,familia,mujer,5
+MX010,MX010-A28,familia,mujer,5
+MX010,MX010-A29,a través de otra persona,hombre,3
+MX010,MX010-A30,a través de otra persona,hombre,3
+MX011,MX011-A01,estudios superiores,hombre,1
+MX011,MX011-A02,familia,mujer,1
+MX011,MX011-A03,familia,hombre,1
+MX011,MX011-A04,familia,mujer,1
+MX011,MX011-A05,familia,mujer,1
+MX011,MX011-A06,familia,hombre,1
+MX011,MX011-A07,familia,hombre,2
+MX011,MX011-A08,familia,mujer,2
+MX011,MX011-A09,familia,hombre,3
+MX011,MX011-A10,familia,hombre,2
+MX011,MX011-A11,familia,hombre,2
+MX011,MX011-A12,familia,hombre,3
+MX011,MX011-A13,familia,hombre,3
+MX011,MX011-A14,familia,mujer,3
+MX011,MX011-A15,familia,mujer,5
+MX011,MX011-A16,familia,mujer,3
+MX011,MX011-A17,familia,mujer,4
+MX011,MX011-A18,vecindad,hombre,2
+MX011,MX011-A19,vecindad,mujer,2
+MX011,MX011-A20,vecindad,hombre,3
+MX011,MX011-A21,vecindad,hombre,3
+MX011,MX011-A22,vecindad,hombre,3
+MX011,MX011-A23,vecindad,mujer,2
+MX011,MX011-A24,vecindad,mujer,3
+MX011,MX011-A25,vecindad,hombre,2
+MX011,MX011-A26,vecindad,hombre,3
+MX011,MX011-A27,vecindad,mujer,2
+MX011,MX011-A28,vecindad,hombre,3
+MX011,MX011-A29,vecindad,hombre,3
+MX011,MX011-A30,vecindad,mujer,3
+MX012,MX012-A01,escuela,hombre,5
+MX012,MX012-A02,escuela,hombre,5
+MX012,MX012-A03,escuela,mujer,4
+MX012,MX012-A04,estudios superiores,hombre,5
+MX012,MX012-A05,estudios superiores,hombre,5
+MX012,MX012-A06,vecindad,mujer,4
+MX012,MX012-A07,trabajo,hombre,3
+MX012,MX012-A08,trabajo,hombre,3
+MX012,MX012-A09,a través de otra persona,mujer,2
+MX012,MX012-A10,aficiones,mujer,3
+MX012,MX012-A11,estudios superiores,hombre,3
+MX012,MX012-A12,a través de otra persona,mujer,3
+MX012,MX012-A13,escuela,mujer,3
+MX012,MX012-A14,estudios superiores,hombre,3
+MX012,MX012-A15,familia,mujer,4
+MX012,MX012-A16,estudios superiores,hombre,3
+MX012,MX012-A17,estudios superiores,hombre,3
+MX012,MX012-A18,trabajo,hombre,3
+MX012,MX012-A19,a través de otra persona,hombre,2
+MX012,MX012-A20,escuela,hombre,4
+MX012,MX012-A21,escuela,mujer,4
+MX012,MX012-A22,estudios superiores,mujer,3
+MX012,MX012-A23,estudios superiores,hombre,4
+MX012,MX012-A24,estudios superiores,hombre,3
+MX012,MX012-A25,estudios superiores,hombre,4
+MX012,MX012-A26,familia,hombre,3
+MX012,MX012-A27,estudios superiores,mujer,4
+MX012,MX012-A28,vecindad,mujer,4
+MX012,MX012-A29,estudios superiores,hombre,3
+MX012,MX012-A30,familia,mujer,3
+MX013,MX013-A01,escuela,mujer,3
+MX013,MX013-A02,otra,hombre,4
+MX013,MX013-A03,familia,hombre,4
+MX013,MX013-A04,estudios superiores,hombre,5
+MX013,MX013-A05,estudios superiores,hombre,5
+MX013,MX013-A06,estudios superiores,hombre,4
+MX013,MX013-A07,estudios superiores,hombre,5
+MX013,MX013-A08,estudios superiores,hombre,3
+MX013,MX013-A09,familia,hombre,5
+MX013,MX013-A10,familia,hombre,5
+MX013,MX013-A11,familia,mujer,5
+MX013,MX013-A12,familia,mujer,4
+MX013,MX013-A13,familia,hombre,5
+MX013,MX013-A14,familia,mujer,4
+MX013,MX013-A15,familia,hombre,5
+MX013,MX013-A16,familia,hombre,5
+MX013,MX013-A17,familia,hombre,5
+MX013,MX013-A18,estudios superiores,hombre,4
+MX013,MX013-A19,aficiones,hombre,3
+MX013,MX013-A20,familia,mujer,3
+MX013,MX013-A21,estudios superiores,hombre,4
+MX013,MX013-A22,escuela,hombre,3
+MX013,MX013-A23,familia,hombre,5
+MX013,MX013-A24,aficiones,mujer,3
+MX013,MX013-A25,otra,mujer,2
+MX013,MX013-A26,estudios superiores,mujer,4
+MX013,MX013-A27,estudios superiores,mujer,3
+MX013,MX013-A28,familia,hombre,5
+MX013,MX013-A29,otra,hombre,3
+MX013,MX013-A30,vecindad,hombre,4
+MX014,MX014-A01,estudios superiores,mujer,5
+MX014,MX014-A02,familia,mujer,5
+MX014,MX014-A03,familia,mujer,5
+MX014,MX014-A04,familia,hombre,5
+MX014,MX014-A05,estudios superiores,hombre,4
+MX014,MX014-A06,estudios superiores,hombre,4
+MX014,MX014-A07,estudios superiores,mujer,1
+MX014,MX014-A08,estudios superiores,hombre,3
+MX014,MX014-A09,estudios superiores,hombre,1
+MX014,MX014-A10,estudios superiores,hombre,2
+MX014,MX014-A11,estudios superiores,hombre,4
+MX014,MX014-A12,estudios superiores,hombre,4
+MX014,MX014-A13,estudios superiores,hombre,4
+MX014,MX014-A14,estudios superiores,hombre,4
+MX014,MX014-A15,estudios superiores,hombre,4
+MX014,MX014-A16,estudios superiores,hombre,4
+MX014,MX014-A17,estudios superiores,hombre,3
+MX014,MX014-A18,estudios superiores,hombre,4
+MX014,MX014-A19,estudios superiores,hombre,4
+MX014,MX014-A20,estudios superiores,mujer,4
+MX014,MX014-A21,estudios superiores,hombre,3
+MX014,MX014-A22,familia,mujer,5
+MX014,MX014-A23,estudios superiores,hombre,3
+MX014,MX014-A24,estudios superiores,mujer,4
+MX014,MX014-A25,familia,mujer,4
+MX014,MX014-A26,estudios superiores,hombre,4
+MX014,MX014-A27,estudios superiores,mujer,4
+MX014,MX014-A28,estudios superiores,mujer,3
+MX014,MX014-A29,estudios superiores,mujer,3
+MX014,MX014-A30,estudios superiores,mujer,3
+MX015,MX015-A01,estudios superiores,hombre,5
+MX015,MX015-A02,familia,hombre,5
+MX015,MX015-A03,familia,mujer,5
+MX015,MX015-A04,familia,mujer,5
+MX015,MX015-A05,trabajo,hombre,4
+MX015,MX015-A06,estudios superiores,mujer,5
+MX015,MX015-A07,estudios superiores,mujer,5
+MX015,MX015-A08,estudios superiores,hombre,3
+MX015,MX015-A09,estudios superiores,mujer,3
+MX015,MX015-A10,estudios superiores,hombre,4
+MX015,MX015-A11,estudios superiores,hombre,3
+MX015,MX015-A12,trabajo,mujer,4
+MX015,MX015-A13,escuela,mujer,5
+MX015,MX015-A14,familia,mujer,4
+MX015,MX015-A15,trabajo,mujer,4
+MX015,MX015-A16,aficiones,mujer,3
+MX015,MX015-A17,vecindad,mujer,3
+MX015,MX015-A18,trabajo,hombre,3
+MX015,MX015-A19,estudios superiores,mujer,5
+MX015,MX015-A20,estudios superiores,mujer,4
+MX015,MX015-A21,estudios superiores,hombre,3
+MX015,MX015-A22,a través de otra persona,hombre,3
+MX015,MX015-A23,trabajo,hombre,3
+MX015,MX015-A24,estudios superiores,mujer,3
+MX015,MX015-A25,trabajo,mujer,5
+MX015,MX015-A26,trabajo,mujer,3
+MX015,MX015-A27,estudios superiores,mujer,4
+MX015,MX015-A28,vecindad,hombre,3
+MX015,MX015-A29,familia,hombre,4
+MX015,MX015-A30,familia,mujer,3
+SA016,SA016-A01,aficiones,,4
+SA016,SA016-A02,vecindad,,3
+SA016,SA016-A03,trabajo,,3
+SA016,SA016-A04,familia,,5
+SA016,SA016-A05,familia,,5
+SA016,SA016-A06,familia,,5
+SA016,SA016-A07,a través de otra persona,,2
+SA016,SA016-A08,a través de otra persona,,2
+SA016,SA016-A09,vecindad,,3
+SA016,SA016-A10,familia,,3
+SA016,SA016-A11,a través de otra persona,,1
+SA016,SA016-A12,familia,,3
+SA016,SA016-A13,a través de otra persona,,2
+SA016,SA016-A14,a través de otra persona,,1
+SA016,SA016-A15,trabajo,,3
+SA016,SA016-A16,aficiones,,1
+SA016,SA016-A17,a través de otra persona,,1
+SA016,SA016-A18,trabajo,,5
+SA016,SA016-A19,a través de otra persona,,2
+SA016,SA016-A20,a través de otra persona,,3
+SA016,SA016-A21,vecindad,,1
+SA016,SA016-A22,familia,,3
+SA016,SA016-A23,familia,,3
+SA016,SA016-A24,aficiones,,1
+SA016,SA016-A25,familia,,3
+SA016,SA016-A26,familia,,4
+SA016,SA016-A27,familia,,3
+SA016,SA016-A28,a través de otra persona,,2
+SA016,SA016-A29,trabajo,,2
+SA016,SA016-A30,trabajo,,3
+SA017,SA017-A01,a través de otra persona,,5
+SA017,SA017-A02,familia,,4
+SA017,SA017-A03,familia,,2
+SA017,SA017-A04,familia,,3
+SA017,SA017-A05,familia,,1
+SA017,SA017-A06,familia,,5
+SA017,SA017-A07,familia,,4
+SA017,SA017-A08,otra,,5
+SA017,SA017-A09,escuela,,2
+SA017,SA017-A10,estudios superiores,,3
+SA017,SA017-A11,estudios superiores,,3
+SA017,SA017-A12,estudios superiores,,1
+SA017,SA017-A13,estudios superiores,,3
+SA017,SA017-A14,escuela,,3
+SA017,SA017-A15,escuela,,2
+SA017,SA017-A16,escuela,,1
+SA017,SA017-A17,escuela,,3
+SA017,SA017-A18,escuela,,2
+SA017,SA017-A19,escuela,,4
+SA017,SA017-A20,a través de otra persona,,2
+SA017,SA017-A21,escuela,,1
+SA017,SA017-A22,familia,,5
+SA017,SA017-A23,familia,,3
+SA017,SA017-A24,familia,,3
+SA017,SA017-A25,familia,,3
+SA017,SA017-A26,aficiones,,1
+SA017,SA017-A27,familia,,3
+SA017,SA017-A28,familia,,2
+SA017,SA017-A29,estudios superiores,,2
+SA017,SA017-A30,familia,,3
+SA018,SA018-A01,familia,,5
+SA018,SA018-A02,familia,,5
+SA018,SA018-A03,a través de otra persona,,5
+SA018,SA018-A04,vecindad,,5
+SA018,SA018-A05,escuela,,3
+SA018,SA018-A06,vecindad,,4
+SA018,SA018-A07,otra,,5
+SA018,SA018-A08,aficiones,,2
+SA018,SA018-A09,familia,,5
+SA018,SA018-A10,vecindad,,3
+SA018,SA018-A11,a través de otra persona,,2
+SA018,SA018-A12,a través de otra persona,,4
+SA018,SA018-A13,escuela,,5
+SA018,SA018-A14,a través de otra persona,,5
+SA018,SA018-A15,a través de otra persona,,2
+SA018,SA018-A16,trabajo,,3
+SA018,SA018-A17,estudios superiores,,5
+SA018,SA018-A18,trabajo,,3
+SA018,SA018-A19,trabajo,,2
+SA018,SA018-A20,familia,,4
+SA018,SA018-A21,familia,,5
+SA018,SA018-A22,familia,,5
+SA018,SA018-A23,escuela,,4
+SA018,SA018-A24,trabajo,,3
+SA018,SA018-A25,familia,,3
+SA018,SA018-A26,a través de otra persona,,3
+SA018,SA018-A27,estudios superiores,,5
+SA018,SA018-A28,aficiones,,3
+SA018,SA018-A29,escuela,,5
+SA018,SA018-A30,a través de otra persona,,2
+SA019,SA019-A01,a través de otra persona,,5
+SA019,SA019-A02,familia,,5
+SA019,SA019-A03,familia,,5
+SA019,SA019-A04,familia,,5
+SA019,SA019-A05,a través de otra persona,,4
+SA019,SA019-A06,aficiones,,3
+SA019,SA019-A07,a través de otra persona,,5
+SA019,SA019-A08,familia,,5
+SA019,SA019-A09,a través de otra persona,,5
+SA019,SA019-A10,familia,,5
+SA019,SA019-A11,a través de otra persona,,4
+SA019,SA019-A12,vecindad,,5
+SA019,SA019-A13,vecindad,,5
+SA019,SA019-A14,vecindad,,5
+SA019,SA019-A15,vecindad,,5
+SA019,SA019-A16,vecindad,,4
+SA019,SA019-A17,vecindad,,3
+SA019,SA019-A18,vecindad,,3
+SA019,SA019-A19,vecindad,,3
+SA019,SA019-A20,vecindad,,3
+SA019,SA019-A21,vecindad,,3
+SA019,SA019-A22,vecindad,,3
+SA019,SA019-A23,vecindad,,3
+SA019,SA019-A24,vecindad,,3
+SA019,SA019-A25,a través de otra persona,,3
+SA019,SA019-A26,vecindad,,4
+SA019,SA019-A27,vecindad,,4
+SA019,SA019-A28,vecindad,,5
+SA019,SA019-A29,vecindad,,5
+SA019,SA019-A30,trabajo,,4
+SA020,SA020-A01,escuela,,5
+SA020,SA020-A02,escuela,,5
+SA020,SA020-A03,estudios superiores,,4
+SA020,SA020-A04,estudios superiores,,3
+SA020,SA020-A05,estudios superiores,,3
+SA020,SA020-A06,escuela,,4
+SA020,SA020-A07,estudios superiores,,3
+SA020,SA020-A08,estudios superiores,,3
+SA020,SA020-A09,familia,,4
+SA020,SA020-A10,familia,,4
+SA020,SA020-A11,familia,,4
+SA020,SA020-A12,familia,,4
+SA020,SA020-A13,familia,,4
+SA020,SA020-A14,vecindad,,3
+SA020,SA020-A15,otra,,3
+SA020,SA020-A16,aficiones,,4
+SA020,SA020-A17,escuela,,4
+SA020,SA020-A18,escuela,,4
+SA020,SA020-A19,vecindad,,5
+SA020,SA020-A20,familia,,5
+SA020,SA020-A21,aficiones,,3
+SA020,SA020-A22,familia,,5
+SA020,SA020-A23,otra,,3
+SA020,SA020-A24,estudios superiores,,4
+SA020,SA020-A25,escuela,,5
+SA020,SA020-A26,escuela,,3
+SA020,SA020-A27,escuela,,3
+SA020,SA020-A28,escuela,,3
+SA020,SA020-A29,escuela,,3
+SA020,SA020-A30,familia,,5
+SA021,SA021-A01,escuela,,4
+SA021,SA021-A02,a través de otra persona,,2
+SA021,SA021-A03,otra,,3
+SA021,SA021-A04,otra,,2
+SA021,SA021-A05,estudios superiores,,5
+SA021,SA021-A06,estudios superiores,,3
+SA021,SA021-A07,estudios superiores,,2
+SA021,SA021-A08,trabajo,,2
+SA021,SA021-A09,trabajo,,3
+SA021,SA021-A10,a través de otra persona,,2
+SA021,SA021-A11,a través de otra persona,,2
+SA021,SA021-A12,familia,,3
+SA021,SA021-A13,familia,,4
+SA021,SA021-A14,familia,,3
+SA021,SA021-A15,familia,,2
+SA021,SA021-A16,familia,,2
+SA021,SA021-A17,trabajo,,2
+SA021,SA021-A18,familia,,2
+SA021,SA021-A19,otra,,4
+SA021,SA021-A20,otra,,2
+SA021,SA021-A21,familia,,2
+SA021,SA021-A22,familia,,2
+SA021,SA021-A23,otra,,2
+SA021,SA021-A24,trabajo,,3
+SA021,SA021-A25,trabajo,,2
+SA021,SA021-A26,familia,,3
+SA021,SA021-A27,a través de otra persona,,2
+SA021,SA021-A28,familia,,2
+SA021,SA021-A29,familia,,5
+SA021,SA021-A30,otra,,3
+SA022,SA022-A01,vecindad,,4
+SA022,SA022-A02,vecindad,,4
+SA022,SA022-A03,familia,,5
+SA022,SA022-A04,familia,,5
+SA022,SA022-A05,familia,,5
+SA022,SA022-A06,vecindad,,4
+SA022,SA022-A07,trabajo,,4
+SA022,SA022-A08,vecindad,,4
+SA022,SA022-A09,familia,,4
+SA022,SA022-A10,aficiones,,4
+SA022,SA022-A11,a través de otra persona,,4
+SA022,SA022-A12,a través de otra persona,,1
+SA022,SA022-A13,aficiones,,2
+SA022,SA022-A14,trabajo,,4
+SA022,SA022-A15,familia,,5
+SA022,SA022-A16,a través de otra persona,,3
+SA022,SA022-A17,a través de otra persona,,4
+SA022,SA022-A18,familia,,5
+SA022,SA022-A19,familia,,5
+SA022,SA022-A20,a través de otra persona,,4
+SA022,SA022-A21,a través de otra persona,,4
+SA022,SA022-A22,vecindad,,4
+SA022,SA022-A23,aficiones,,4
+SA022,SA022-A24,a través de otra persona,,3
+SA022,SA022-A25,a través de otra persona,,4
+SA022,SA022-A26,familia,,4
+SA022,SA022-A27,aficiones,,4
+SA022,SA022-A28,familia,,4
+SA022,SA022-A29,familia,,5
+SA022,SA022-A30,familia,,5
+SA023,SA023-A01,familia,,5
+SA023,SA023-A02,familia,,5
+SA023,SA023-A03,familia,,4
+SA023,SA023-A04,familia,,5
+SA023,SA023-A05,otra,,2
+SA023,SA023-A06,vecindad,,4
+SA023,SA023-A07,trabajo,,3
+SA023,SA023-A08,vecindad,,4
+SA023,SA023-A09,vecindad,,4
+SA023,SA023-A10,trabajo,,3
+SA023,SA023-A11,familia,,4
+SA023,SA023-A12,a través de otra persona,,3
+SA023,SA023-A13,trabajo,,4
+SA023,SA023-A14,estudios superiores,,4
+SA023,SA023-A15,estudios superiores,,3
+SA023,SA023-A16,aficiones,,4
+SA023,SA023-A17,trabajo,,4
+SA023,SA023-A18,otra,,5
+SA023,SA023-A19,otra,,5
+SA023,SA023-A20,otra,,5
+SA023,SA023-A21,otra,,4
+SA023,SA023-A22,aficiones,,3
+SA023,SA023-A23,trabajo,,5
+SA023,SA023-A24,aficiones,,5
+SA023,SA023-A25,trabajo,,4
+SA023,SA023-A26,a través de otra persona,,3
+SA023,SA023-A27,familia,,5
+SA023,SA023-A28,otra,,4
+SA023,SA023-A29,otra,,4
+SA023,SA023-A30,familia,,5
+SA024,SA024-A01,escuela,,5
+SA024,SA024-A02,trabajo,,5
+SA024,SA024-A03,familia,,5
+SA024,SA024-A04,familia,,5
+SA024,SA024-A05,trabajo,,4
+SA024,SA024-A06,familia,,5
+SA024,SA024-A07,escuela,,3
+SA024,SA024-A08,trabajo,,3
+SA024,SA024-A09,trabajo,,4
+SA024,SA024-A10,trabajo,,2
+SA024,SA024-A11,trabajo,,4
+SA024,SA024-A12,vecindad,,4
+SA024,SA024-A13,escuela,,2
+SA024,SA024-A14,familia,,4
+SA024,SA024-A15,familia,,4
+SA024,SA024-A16,trabajo,,3
+SA024,SA024-A17,trabajo,,5
+SA024,SA024-A18,familia,,5
+SA024,SA024-A19,familia,,5
+SA024,SA024-A20,familia,,3
+SA024,SA024-A21,escuela,,3
+SA024,SA024-A22,estudios superiores,,5
+SA024,SA024-A23,estudios superiores,,4
+SA024,SA024-A24,trabajo,,3
+SA024,SA024-A25,escuela,,2
+SA024,SA024-A26,escuela,,3
+SA024,SA024-A27,a través de otra persona,,5
+SA024,SA024-A28,trabajo,,4
+SA024,SA024-A29,trabajo,,3
+SA024,SA024-A30,trabajo,,5
+SA025,SA025-A01,vecindad,,5
+SA025,SA025-A02,aficiones,,5
+SA025,SA025-A03,escuela,,5
+SA025,SA025-A04,vecindad,,5
+SA025,SA025-A05,familia,,5
+SA025,SA025-A06,familia,,1
+SA025,SA025-A07,familia,,5
+SA025,SA025-A08,a través de otra persona,,4
+SA025,SA025-A09,trabajo,,3
+SA025,SA025-A10,trabajo,,3
+SA025,SA025-A11,vecindad,,2
+SA025,SA025-A12,familia,,5
+SA025,SA025-A13,familia,,3
+SA025,SA025-A14,familia,,4
+SA025,SA025-A15,a través de otra persona,,2
+SA025,SA025-A16,aficiones,,2
+SA025,SA025-A17,familia,,3
+SA025,SA025-A18,familia,,3
+SA025,SA025-A19,vecindad,,2
+SA025,SA025-A20,familia,,4
+SA025,SA025-A21,familia,,3
+SA025,SA025-A22,familia,,3
+SA025,SA025-A23,aficiones,,3
+SA025,SA025-A24,a través de otra persona,,4
+SA025,SA025-A25,otra,,4
+SA025,SA025-A26,familia,,3
+SA025,SA025-A27,a través de otra persona,,2
+SA025,SA025-A28,aficiones,,3
+SA025,SA025-A29,a través de otra persona,,2
+SA025,SA025-A30,aficiones,,1
+SA026,SA026-A01,escuela,,2
+SA026,SA026-A02,familia,,5
+SA026,SA026-A03,a través de otra persona,,1
+SA026,SA026-A04,familia,,5
+SA026,SA026-A05,a través de otra persona,,2
+SA026,SA026-A06,familia,,5
+SA026,SA026-A07,a través de otra persona,,1
+SA026,SA026-A08,familia,,4
+SA026,SA026-A09,a través de otra persona,,1
+SA026,SA026-A10,a través de otra persona,,1
+SA026,SA026-A11,familia,,4
+SA026,SA026-A12,familia,,4
+SA026,SA026-A13,familia,,4
+SA026,SA026-A14,familia,,4
+SA026,SA026-A15,a través de otra persona,,2
+SA026,SA026-A16,a través de otra persona,,1
+SA026,SA026-A17,a través de otra persona,,1
+SA026,SA026-A18,a través de otra persona,,1
+SA026,SA026-A19,a través de otra persona,,1
+SA026,SA026-A20,familia,,4
+SA026,SA026-A21,a través de otra persona,,1
+SA026,SA026-A22,a través de otra persona,,1
+SA026,SA026-A23,a través de otra persona,,1
+SA026,SA026-A24,a través de otra persona,,2
+SA026,SA026-A25,a través de otra persona,,2
+SA026,SA026-A26,a través de otra persona,,2
+SA026,SA026-A27,familia,,5
+SA026,SA026-A28,a través de otra persona,,3
+SA026,SA026-A29,a través de otra persona,,1
+SA026,SA026-A30,a través de otra persona,,1
+SA027,SA027-A01,familia,,5
+SA027,SA027-A02,vecindad,,5
+SA027,SA027-A03,vecindad,,4
+SA027,SA027-A04,vecindad,,4
+SA027,SA027-A05,familia,,3
+SA027,SA027-A06,vecindad,,5
+SA027,SA027-A07,escuela,,5
+SA027,SA027-A08,vecindad,,5
+SA027,SA027-A09,trabajo,,3
+SA027,SA027-A10,trabajo,,4
+SA027,SA027-A11,trabajo,,3
+SA027,SA027-A12,escuela,,3
+SA027,SA027-A13,vecindad,,2
+SA027,SA027-A14,vecindad,,3
+SA027,SA027-A15,vecindad,,3
+SA027,SA027-A16,familia,,4
+SA027,SA027-A17,vecindad,,4
+SA027,SA027-A18,familia,,5
+SA027,SA027-A19,trabajo,,4
+SA027,SA027-A20,familia,,5
+SA027,SA027-A21,trabajo,,4
+SA027,SA027-A22,trabajo,,4
+SA027,SA027-A23,trabajo,,4
+SA027,SA027-A24,aficiones,,4
+SA027,SA027-A25,aficiones,,3
+SA027,SA027-A26,a través de otra persona,,2
+SA027,SA027-A27,vecindad,,3
+SA027,SA027-A28,vecindad,,3
+SA027,SA027-A29,vecindad,,3
+SA027,SA027-A30,otra,,3
+SA028,SA028-A01,escuela,,5
+SA028,SA028-A02,otra,,2
+SA028,SA028-A03,a través de otra persona,,1
+SA028,SA028-A04,otra,,4
+SA028,SA028-A05,otra,,2
+SA028,SA028-A06,familia,,5
+SA028,SA028-A07,escuela,,4
+SA028,SA028-A08,trabajo,,2
+SA028,SA028-A09,escuela,,3
+SA028,SA028-A10,escuela,,5
+SA028,SA028-A11,escuela,,2
+SA028,SA028-A12,escuela,,3
+SA028,SA028-A13,trabajo,,1
+SA028,SA028-A14,trabajo,,3
+SA028,SA028-A15,a través de otra persona,,4
+SA028,SA028-A16,escuela,,3
+SA028,SA028-A17,trabajo,,2
+SA028,SA028-A18,familia,,5
+SA028,SA028-A19,escuela,,1
+SA028,SA028-A20,trabajo,,3
+SA028,SA028-A21,a través de otra persona,,2
+SA028,SA028-A22,trabajo,,2
+SA028,SA028-A23,trabajo,,4
+SA028,SA028-A24,familia,,3
+SA028,SA028-A25,a través de otra persona,,2
+SA028,SA028-A26,escuela,,5
+SA028,SA028-A27,familia,,2
+SA028,SA028-A28,otra,,2
+SA028,SA028-A29,aficiones,,3
+SA028,SA028-A30,trabajo,,3
+SA029,SA029-A01,estudios superiores,,3
+SA029,SA029-A02,familia,,4
+SA029,SA029-A03,familia,,5
+SA029,SA029-A04,vecindad,,3
+SA029,SA029-A05,familia,,3
+SA029,SA029-A06,familia,,4
+SA029,SA029-A07,familia,,4
+SA029,SA029-A08,familia,,5
+SA029,SA029-A09,estudios superiores,,3
+SA029,SA029-A10,estudios superiores,,3
+SA029,SA029-A11,estudios superiores,,2
+SA029,SA029-A12,estudios superiores,,1
+SA029,SA029-A13,familia,,5
+SA029,SA029-A14,familia,,3
+SA029,SA029-A15,familia,,3
+SA029,SA029-A16,estudios superiores,,2
+SA029,SA029-A17,estudios superiores,,4
+SA029,SA029-A18,estudios superiores,,2
+SA029,SA029-A19,estudios superiores,,1
+SA029,SA029-A20,estudios superiores,,1
+SA029,SA029-A21,estudios superiores,,1
+SA029,SA029-A22,estudios superiores,,1
+SA029,SA029-A23,estudios superiores,,1
+SA029,SA029-A24,familia,,5
+SA029,SA029-A25,estudios superiores,,1
+SA029,SA029-A26,estudios superiores,,1
+SA029,SA029-A27,estudios superiores,,1
+SA029,SA029-A28,estudios superiores,,1
+SA029,SA029-A29,estudios superiores,,1
+SA029,SA029-A30,estudios superiores,,1
+SA030,SA030-A01,otra,,5
+SA030,SA030-A02,familia,,5
+SA030,SA030-A03,familia,,3
+SA030,SA030-A04,familia,,4
+SA030,SA030-A05,familia,,4
+SA030,SA030-A06,aficiones,,3
+SA030,SA030-A07,a través de otra persona,,2
+SA030,SA030-A08,a través de otra persona,,3
+SA030,SA030-A09,escuela,,2
+SA030,SA030-A10,a través de otra persona,,3
+SA030,SA030-A11,a través de otra persona,,3
+SA030,SA030-A12,familia,,5
+SA030,SA030-A13,a través de otra persona,,2
+SA030,SA030-A14,a través de otra persona,,2
+SA030,SA030-A15,escuela,,3
+SA030,SA030-A16,a través de otra persona,,1
+SA030,SA030-A17,familia,,2
+SA030,SA030-A18,familia,,4
+SA030,SA030-A19,a través de otra persona,,2
+SA030,SA030-A20,a través de otra persona,,1
+SA030,SA030-A21,a través de otra persona,,3
+SA030,SA030-A22,escuela,,1
+SA030,SA030-A23,aficiones,,1
+SA030,SA030-A24,vecindad,,3
+SA030,SA030-A25,a través de otra persona,,2
+SA030,SA030-A26,a través de otra persona,,1
+SA030,SA030-A27,escuela,,2
+SA030,SA030-A28,a través de otra persona,,2
+SA030,SA030-A29,a través de otra persona,,2
+SA030,SA030-A30,aficiones,,3
+MO031,MO031-A01,trabajo,hombre,3
+MO031,MO031-A02,vecindad,hombre,1
+MO031,MO031-A03,a través de otra persona,hombre,2
+MO031,MO031-A04,trabajo,hombre,4
+MO031,MO031-A05,familia,hombre,3
+MO031,MO031-A06,familia,hombre,4
+MO031,MO031-A07,vecindad,hombre,3
+MO031,MO031-A08,familia,hombre,3
+MO031,MO031-A09,a través de otra persona,hombre,3
+MO031,MO031-A10,a través de otra persona,hombre,2
+MO031,MO031-A11,familia,hombre,3
+MO031,MO031-A12,trabajo,hombre,4
+MO031,MO031-A13,trabajo,hombre,1
+MO031,MO031-A14,familia,hombre,5
+MO031,MO031-A15,familia,hombre,5
+MO031,MO031-A16,familia,hombre,3
+MO031,MO031-A17,familia,hombre,3
+MO031,MO031-A18,familia,hombre,3
+MO031,MO031-A19,familia,hombre,3
+MO031,MO031-A20,familia,hombre,4
+MO031,MO031-A21,a través de otra persona,hombre,1
+MO031,MO031-A22,escuela,hombre,2
+MO031,MO031-A23,familia,hombre,2
+MO031,MO031-A24,familia,hombre,3
+MO031,MO031-A25,escuela,hombre,2
+MO031,MO031-A26,estudios superiores,hombre,1
+MO031,MO031-A27,trabajo,hombre,3
+MO031,MO031-A28,familia,hombre,1
+MO031,MO031-A29,familia,hombre,2
+MO031,MO031-A30,familia,hombre,2
+MO032,MO032-A01,trabajo,mujer,4
+MO032,MO032-A02,trabajo,mujer,5
+MO032,MO032-A03,estudios superiores,mujer,3
+MO032,MO032-A04,trabajo,hombre,5
+MO032,MO032-A05,trabajo,mujer,5
+MO032,MO032-A06,trabajo,mujer,5
+MO032,MO032-A07,vecindad,mujer,4
+MO032,MO032-A08,aficiones,mujer,1
+MO032,MO032-A09,a través de otra persona,mujer,3
+MO032,MO032-A10,aficiones,mujer,4
+MO032,MO032-A11,familia,mujer,3
+MO032,MO032-A12,escuela,hombre,2
+MO032,MO032-A13,vecindad,mujer,3
+MO032,MO032-A14,aficiones,hombre,3
+MO032,MO032-A15,otra,hombre,4
+MO032,MO032-A16,otra,hombre,2
+MO032,MO032-A17,escuela,mujer,3
+MO032,MO032-A18,familia,mujer,1
+MO032,MO032-A19,familia,mujer,1
+MO032,MO032-A20,vecindad,mujer,2
+MO032,MO032-A21,otra,hombre,3
+MO032,MO032-A22,a través de otra persona,mujer,3
+MO032,MO032-A23,otra,mujer,5
+MO032,MO032-A24,escuela,mujer,2
+MO032,MO032-A25,familia,hombre,2
+MO032,MO032-A26,aficiones,mujer,3
+MO032,MO032-A27,familia,mujer,5
+MO032,MO032-A28,trabajo,hombre,3
+MO032,MO032-A29,familia,mujer,2
+MO032,MO032-A30,familia,hombre,1
+MO033,MO033-A01,familia,hombre,2
+MO033,MO033-A02,trabajo,hombre,3
+MO033,MO033-A03,trabajo,hombre,2
+MO033,MO033-A04,familia,hombre,4
+MO033,MO033-A05,familia,mujer,5
+MO033,MO033-A06,familia,mujer,2
+MO033,MO033-A07,familia,mujer,1
+MO033,MO033-A08,familia,hombre,2
+MO033,MO033-A09,familia,hombre,1
+MO033,MO033-A10,otra,mujer,1
+MO033,MO033-A11,familia,hombre,1
+MO033,MO033-A12,familia,hombre,1
+MO033,MO033-A13,familia,hombre,1
+MO033,MO033-A14,trabajo,hombre,3
+MO033,MO033-A15,familia,hombre,1
+MO033,MO033-A16,familia,hombre,2
+MO033,MO033-A17,familia,hombre,2
+MO033,MO033-A18,familia,mujer,1
+MO033,MO033-A19,familia,hombre,1
+MO033,MO033-A20,familia,hombre,3
+MO033,MO033-A21,trabajo,hombre,2
+MO033,MO033-A22,familia,hombre,3
+MO033,MO033-A23,familia,hombre,2
+MO033,MO033-A24,familia,hombre,2
+MO033,MO033-A25,familia,hombre,2
+MO033,MO033-A26,trabajo,mujer,1
+MO033,MO033-A27,vecindad,mujer,4
+MO033,MO033-A28,familia,mujer,1
+MO033,MO033-A29,familia,mujer,1
+MO033,MO033-A30,familia,mujer,2
+MO034,MO034-A01,familia,hombre,5
+MO034,MO034-A02,familia,hombre,5
+MO034,MO034-A03,familia,hombre,5
+MO034,MO034-A04,trabajo,hombre,3
+MO034,MO034-A05,familia,hombre,3
+MO034,MO034-A06,familia,hombre,5
+MO034,MO034-A07,vecindad,hombre,3
+MO034,MO034-A08,familia,hombre,5
+MO034,MO034-A09,familia,hombre,5
+MO034,MO034-A10,familia,hombre,5
+MO034,MO034-A11,escuela,hombre,3
+MO034,MO034-A12,familia,hombre,5
+MO034,MO034-A13,trabajo,hombre,5
+MO034,MO034-A14,familia,hombre,5
+MO034,MO034-A15,aficiones,hombre,5
+MO034,MO034-A16,trabajo,hombre,2
+MO034,MO034-A17,aficiones,hombre,3
+MO034,MO034-A18,familia,hombre,5
+MO034,MO034-A19,a través de otra persona,hombre,5
+MO034,MO034-A20,escuela,hombre,5
+MO034,MO034-A21,escuela,hombre,5
+MO034,MO034-A22,escuela,hombre,5
+MO034,MO034-A23,aficiones,hombre,5
+MO034,MO034-A24,aficiones,hombre,5
+MO034,MO034-A25,vecindad,hombre,2
+MO034,MO034-A26,a través de otra persona,hombre,3
+MO034,MO034-A27,trabajo,hombre,2
+MO034,MO034-A28,trabajo,hombre,3
+MO034,MO034-A29,trabajo,hombre,3
+MO034,MO034-A30,a través de otra persona,hombre,3
+MO035,MO035-A01,vecindad,hombre,5
+MO035,MO035-A02,familia,hombre,5
+MO035,MO035-A03,vecindad,hombre,4
+MO035,MO035-A04,vecindad,hombre,4
+MO035,MO035-A05,vecindad,hombre,1
+MO035,MO035-A06,aficiones,hombre,4
+MO035,MO035-A07,aficiones,hombre,2
+MO035,MO035-A08,vecindad,hombre,3
+MO035,MO035-A09,vecindad,hombre,1
+MO035,MO035-A10,vecindad,hombre,1
+MO035,MO035-A11,vecindad,hombre,1
+MO035,MO035-A12,aficiones,hombre,1
+MO035,MO035-A13,otra,hombre,1
+MO035,MO035-A14,aficiones,hombre,1
+MO035,MO035-A15,aficiones,hombre,3
+MO035,MO035-A16,otra,hombre,1
+MO035,MO035-A17,vecindad,hombre,2
+MO035,MO035-A18,trabajo,hombre,3
+MO035,MO035-A19,aficiones,hombre,5
+MO035,MO035-A20,escuela,hombre,5
+MO035,MO035-A21,aficiones,mujer,2
+MO035,MO035-A22,otra,hombre,1
+MO035,MO035-A23,familia,hombre,4
+MO035,MO035-A24,vecindad,hombre,3
+MO035,MO035-A25,aficiones,hombre,2
+MO035,MO035-A26,aficiones,hombre,5
+MO035,MO035-A27,vecindad,hombre,1
+MO035,MO035-A28,vecindad,hombre,5
+MO035,MO035-A29,aficiones,hombre,4
+MO035,MO035-A30,vecindad,hombre,1
+MO036,MO036-A01,vecindad,hombre,3
+MO036,MO036-A02,estudios superiores,hombre,4
+MO036,MO036-A03,escuela,hombre,4
+MO036,MO036-A04,trabajo,hombre,2
+MO036,MO036-A05,a través de otra persona,hombre,3
+MO036,MO036-A06,trabajo,hombre,1
+MO036,MO036-A07,vecindad,hombre,3
+MO036,MO036-A08,vecindad,hombre,3
+MO036,MO036-A09,vecindad,hombre,3
+MO036,MO036-A10,vecindad,hombre,2
+MO036,MO036-A11,vecindad,hombre,3
+MO036,MO036-A12,estudios superiores,hombre,2
+MO036,MO036-A13,a través de otra persona,hombre,3
+MO036,MO036-A14,vecindad,hombre,3
+MO036,MO036-A15,estudios superiores,hombre,2
+MO036,MO036-A16,a través de otra persona,hombre,1
+MO036,MO036-A17,vecindad,hombre,2
+MO036,MO036-A18,a través de otra persona,hombre,3
+MO036,MO036-A19,vecindad,hombre,3
+MO036,MO036-A20,familia,hombre,4
+MO036,MO036-A21,vecindad,hombre,2
+MO036,MO036-A22,aficiones,hombre,4
+MO036,MO036-A23,aficiones,hombre,3
+MO036,MO036-A24,a través de otra persona,hombre,3
+MO036,MO036-A25,aficiones,hombre,4
+MO036,MO036-A26,a través de otra persona,hombre,2
+MO036,MO036-A27,escuela,hombre,3
+MO036,MO036-A28,a través de otra persona,hombre,2
+MO036,MO036-A29,aficiones,hombre,3
+MO036,MO036-A30,escuela,hombre,1
+MO037,MO037-A01,trabajo,hombre,4
+MO037,MO037-A02,vecindad,hombre,4
+MO037,MO037-A03,trabajo,hombre,5
+MO037,MO037-A04,familia,mujer,4
+MO037,MO037-A05,trabajo,hombre,3
+MO037,MO037-A06,familia,mujer,5
+MO037,MO037-A07,escuela,hombre,4
+MO037,MO037-A08,vecindad,hombre,4
+MO037,MO037-A09,trabajo,hombre,4
+MO037,MO037-A10,trabajo,hombre,4
+MO037,MO037-A11,escuela,hombre,4
+MO037,MO037-A12,vecindad,mujer,4
+MO037,MO037-A13,trabajo,mujer,4
+MO037,MO037-A14,estudios superiores,mujer,4
+MO037,MO037-A15,escuela,mujer,4
+MO037,MO037-A16,familia,mujer,5
+MO037,MO037-A17,a través de otra persona,hombre,4
+MO037,MO037-A18,trabajo,mujer,4
+MO037,MO037-A19,trabajo,hombre,4
+MO037,MO037-A20,trabajo,mujer,4
+MO037,MO037-A21,estudios superiores,hombre,4
+MO037,MO037-A22,trabajo,mujer,4
+MO037,MO037-A23,familia,mujer,5
+MO037,MO037-A24,estudios superiores,hombre,5
+MO037,MO037-A25,trabajo,hombre,5
+MO037,MO037-A26,escuela,hombre,5
+MO037,MO037-A27,vecindad,hombre,5
+MO037,MO037-A28,estudios superiores,hombre,5
+MO037,MO037-A29,a través de otra persona,hombre,4
+MO037,MO037-A30,trabajo,hombre,4
+MO038,MO038-A01,escuela,hombre,5
+MO038,MO038-A02,vecindad,hombre,5
+MO038,MO038-A03,familia,hombre,5
+MO038,MO038-A04,trabajo,hombre,5
+MO038,MO038-A05,familia,hombre,5
+MO038,MO038-A06,familia,hombre,4
+MO038,MO038-A07,familia,hombre,5
+MO038,MO038-A08,familia,mujer,5
+MO038,MO038-A09,familia,mujer,5
+MO038,MO038-A10,familia,mujer,4
+MO038,MO038-A11,vecindad,hombre,5
+MO038,MO038-A12,vecindad,hombre,5
+MO038,MO038-A13,familia,hombre,5
+MO038,MO038-A14,vecindad,hombre,4
+MO038,MO038-A15,familia,hombre,5
+MO038,MO038-A16,familia,hombre,5
+MO038,MO038-A17,familia,hombre,5
+MO038,MO038-A18,familia,hombre,5
+MO038,MO038-A19,familia,hombre,5
+MO038,MO038-A20,vecindad,hombre,5
+MO038,MO038-A21,vecindad,hombre,5
+MO038,MO038-A22,familia,hombre,5
+MO038,MO038-A23,a través de otra persona,hombre,5
+MO038,MO038-A24,trabajo,hombre,5
+MO038,MO038-A25,escuela,hombre,5
+MO038,MO038-A26,trabajo,hombre,4
+MO038,MO038-A27,familia,hombre,4
+MO038,MO038-A28,trabajo,hombre,4
+MO038,MO038-A29,otra,hombre,4
+MO038,MO038-A30,familia,hombre,5
+MO039,MO039-A01,familia,mujer,5
+MO039,MO039-A02,estudios superiores,hombre,3
+MO039,MO039-A03,familia,hombre,3
+MO039,MO039-A04,a través de otra persona,hombre,3
+MO039,MO039-A05,aficiones,,2
+MO039,MO039-A06,otra,hombre,1
+MO039,MO039-A07,a través de otra persona,hombre,2
+MO039,MO039-A08,otra,hombre,2
+MO039,MO039-A09,a través de otra persona,hombre,2
+MO039,MO039-A10,a través de otra persona,hombre,3
+MO039,MO039-A11,escuela,hombre,3
+MO039,MO039-A12,familia,hombre,3
+MO039,MO039-A13,familia,mujer,4
+MO039,MO039-A14,familia,mujer,4
+MO039,MO039-A15,a través de otra persona,hombre,3
+MO039,MO039-A16,familia,mujer,4
+MO039,MO039-A17,familia,mujer,4
+MO039,MO039-A18,familia,mujer,4
+MO039,MO039-A19,familia,hombre,4
+MO039,MO039-A20,familia,mujer,4
+MO039,MO039-A21,familia,hombre,3
+MO039,MO039-A22,familia,hombre,3
+MO039,MO039-A23,familia,hombre,3
+MO039,MO039-A24,familia,hombre,3
+MO039,MO039-A25,escuela,hombre,2
+MO039,MO039-A26,familia,hombre,3
+MO039,MO039-A27,a través de otra persona,hombre,3
+MO039,MO039-A28,escuela,hombre,2
+MO039,MO039-A29,escuela,hombre,2
+MO039,MO039-A30,escuela,hombre,2
+MO040,MO040-A01,familia,hombre,4
+MO040,MO040-A02,vecindad,hombre,2
+MO040,MO040-A03,trabajo,hombre,1
+MO040,MO040-A04,a través de otra persona,,3
+MO040,MO040-A05,a través de otra persona,hombre,2
+MO040,MO040-A06,aficiones,hombre,3
+MO040,MO040-A07,estudios superiores,hombre,2
+MO040,MO040-A08,vecindad,mujer,3
+MO040,MO040-A09,estudios superiores,mujer,2
+MO040,MO040-A10,familia,mujer,5
+MO040,MO040-A11,a través de otra persona,mujer,3
+MO040,MO040-A12,trabajo,mujer,2
+MO040,MO040-A13,trabajo,hombre,3
+MO040,MO040-A14,trabajo,hombre,3
+MO040,MO040-A15,vecindad,hombre,4
+MO040,MO040-A16,escuela,hombre,3
+MO040,MO040-A17,estudios superiores,hombre,2
+MO040,MO040-A18,a través de otra persona,hombre,2
+MO040,MO040-A19,a través de otra persona,hombre,5
+MO040,MO040-A20,escuela,hombre,5
+MO040,MO040-A21,escuela,hombre,5
+MO040,MO040-A22,familia,mujer,5
+MO040,MO040-A23,aficiones,mujer,4
+MO040,MO040-A24,escuela,hombre,4
+MO040,MO040-A25,estudios superiores,mujer,3
+MO040,MO040-A26,escuela,mujer,5
+MO040,MO040-A27,a través de otra persona,mujer,4
+MO040,MO040-A28,aficiones,mujer,5
+MO040,MO040-A29,a través de otra persona,mujer,4
+MO040,MO040-A30,aficiones,mujer,2
+MO041,MO041-A01,vecindad,hombre,5
+MO041,MO041-A02,familia,hombre,4
+MO041,MO041-A03,trabajo,hombre,5
+MO041,MO041-A04,trabajo,hombre,5
+MO041,MO041-A05,trabajo,hombre,5
+MO041,MO041-A06,vecindad,hombre,4
+MO041,MO041-A07,vecindad,hombre,3
+MO041,MO041-A08,vecindad,hombre,2
+MO041,MO041-A09,trabajo,hombre,2
+MO041,MO041-A10,trabajo,mujer,1
+MO041,MO041-A11,vecindad,mujer,1
+MO041,MO041-A12,trabajo,mujer,2
+MO041,MO041-A13,vecindad,mujer,1
+MO041,MO041-A14,escuela,mujer,1
+MO041,MO041-A15,vecindad,hombre,1
+MO041,MO041-A16,trabajo,hombre,5
+MO041,MO041-A17,familia,mujer,1
+MO041,MO041-A18,trabajo,hombre,4
+MO041,MO041-A19,vecindad,hombre,3
+MO041,MO041-A20,vecindad,hombre,1
+MO041,MO041-A21,vecindad,mujer,1
+MO041,MO041-A22,vecindad,mujer,1
+MO041,MO041-A23,vecindad,mujer,3
+MO041,MO041-A24,escuela,mujer,1
+MO041,MO041-A25,trabajo,hombre,4
+MO041,MO041-A26,trabajo,hombre,4
+MO041,MO041-A27,familia,hombre,3
+MO041,MO041-A28,vecindad,mujer,1
+MO041,MO041-A29,vecindad,mujer,3
+MO041,MO041-A30,vecindad,mujer,1
+MO042,MO042-A01,familia,hombre,5
+MO042,MO042-A02,trabajo,mujer,4
+MO042,MO042-A03,trabajo,hombre,3
+MO042,MO042-A04,escuela,hombre,4
+MO042,MO042-A05,trabajo,hombre,3
+MO042,MO042-A06,vecindad,mujer,4
+MO042,MO042-A07,familia,mujer,5
+MO042,MO042-A08,trabajo,hombre,3
+MO042,MO042-A09,familia,mujer,5
+MO042,MO042-A10,trabajo,hombre,3
+MO042,MO042-A11,familia,hombre,5
+MO042,MO042-A12,a través de otra persona,hombre,2
+MO042,MO042-A13,trabajo,hombre,3
+MO042,MO042-A14,trabajo,hombre,2
+MO042,MO042-A15,trabajo,hombre,2
+MO042,MO042-A16,trabajo,mujer,3
+MO042,MO042-A17,aficiones,mujer,2
+MO042,MO042-A18,vecindad,mujer,5
+MO042,MO042-A19,familia,mujer,4
+MO042,MO042-A20,familia,mujer,5
+MO042,MO042-A21,estudios superiores,mujer,4
+MO042,MO042-A22,trabajo,mujer,2
+MO042,MO042-A23,familia,mujer,5
+MO042,MO042-A24,familia,hombre,3
+MO042,MO042-A25,vecindad,hombre,4
+MO042,MO042-A26,familia,hombre,5
+MO042,MO042-A27,trabajo,mujer,4
+MO042,MO042-A28,familia,mujer,5
+MO042,MO042-A29,trabajo,hombre,4
+MO042,MO042-A30,vecindad,mujer,4
+MO043,MO043-A01,estudios superiores,mujer,4
+MO043,MO043-A02,estudios superiores,mujer,3
+MO043,MO043-A03,a través de otra persona,mujer,2
+MO043,MO043-A04,estudios superiores,mujer,1
+MO043,MO043-A05,a través de otra persona,mujer,1
+MO043,MO043-A06,aficiones,mujer,3
+MO043,MO043-A07,a través de otra persona,mujer,1
+MO043,MO043-A08,aficiones,mujer,3
+MO043,MO043-A09,aficiones,mujer,4
+MO043,MO043-A10,a través de otra persona,mujer,2
+MO043,MO043-A11,a través de otra persona,mujer,3
+MO043,MO043-A12,a través de otra persona,mujer,2
+MO043,MO043-A13,aficiones,mujer,4
+MO043,MO043-A14,estudios superiores,mujer,3
+MO043,MO043-A15,aficiones,mujer,3
+MO043,MO043-A16,aficiones,mujer,3
+MO043,MO043-A17,aficiones,mujer,3
+MO043,MO043-A18,aficiones,mujer,3
+MO043,MO043-A19,estudios superiores,mujer,4
+MO043,MO043-A20,aficiones,hombre,2
+MO043,MO043-A21,aficiones,hombre,2
+MO043,MO043-A22,aficiones,mujer,1
+MO043,MO043-A23,aficiones,mujer,3
+MO043,MO043-A24,aficiones,mujer,2
+MO043,MO043-A25,aficiones,hombre,3
+MO043,MO043-A26,estudios superiores,hombre,2
+MO043,MO043-A27,escuela,mujer,4
+MO043,MO043-A28,escuela,mujer,2
+MO043,MO043-A29,escuela,mujer,4
+MO043,MO043-A30,aficiones,hombre,4
+MO044,MO044-A01,familia,mujer,5
+MO044,MO044-A02,familia,mujer,5
+MO044,MO044-A03,familia,hombre,5
+MO044,MO044-A04,familia,hombre,5
+MO044,MO044-A05,otra,hombre,4
+MO044,MO044-A06,trabajo,hombre,3
+MO044,MO044-A07,familia,hombre,5
+MO044,MO044-A08,vecindad,hombre,4
+MO044,MO044-A09,vecindad,hombre,3
+MO044,MO044-A10,trabajo,hombre,3
+MO044,MO044-A11,trabajo,hombre,4
+MO044,MO044-A12,a través de otra persona,hombre,3
+MO044,MO044-A13,trabajo,mujer,4
+MO044,MO044-A14,familia,hombre,5
+MO044,MO044-A15,familia,hombre,4
+MO044,MO044-A16,otra,hombre,4
+MO044,MO044-A17,trabajo,hombre,3
+MO044,MO044-A18,trabajo,hombre,4
+MO044,MO044-A19,vecindad,hombre,4
+MO044,MO044-A20,trabajo,hombre,3
+MO044,MO044-A21,familia,hombre,4
+MO044,MO044-A22,trabajo,hombre,5
+MO044,MO044-A23,trabajo,hombre,4
+MO044,MO044-A24,escuela,hombre,4
+MO044,MO044-A25,trabajo,hombre,3
+MO044,MO044-A26,trabajo,hombre,3
+MO044,MO044-A27,familia,mujer,1
+MO044,MO044-A28,familia,mujer,3
+MO044,MO044-A29,familia,mujer,4
+MO044,MO044-A30,familia,mujer,4
+MO045,MO045-A01,escuela,hombre,5
+MO045,MO045-A02,vecindad,hombre,5
+MO045,MO045-A03,familia,hombre,5
+MO045,MO045-A04,familia,hombre,5
+MO045,MO045-A05,trabajo,hombre,5
+MO045,MO045-A06,familia,hombre,5
+MO045,MO045-A07,aficiones,hombre,2
+MO045,MO045-A08,familia,hombre,5
+MO045,MO045-A09,familia,hombre,5
+MO045,MO045-A10,trabajo,hombre,3
+MO045,MO045-A11,familia,hombre,1
+MO045,MO045-A12,familia,hombre,5
+MO045,MO045-A13,familia,hombre,5
+MO045,MO045-A14,familia,hombre,5
+MO045,MO045-A15,vecindad,hombre,2
+MO045,MO045-A16,aficiones,hombre,2
+MO045,MO045-A17,aficiones,hombre,4
+MO045,MO045-A18,familia,hombre,5
+MO045,MO045-A19,aficiones,hombre,5
+MO045,MO045-A20,vecindad,hombre,5
+MO045,MO045-A21,aficiones,hombre,5
+MO045,MO045-A22,familia,hombre,5
+MO045,MO045-A23,aficiones,hombre,5
+MO045,MO045-A24,trabajo,hombre,3
+MO045,MO045-A25,familia,hombre,5
+MO045,MO045-A26,vecindad,hombre,4
+MO045,MO045-A27,vecindad,hombre,4
+MO045,MO045-A28,otra,hombre,2
+MO045,MO045-A29,trabajo,hombre,5
+MO045,MO045-A30,trabajo,hombre,2
+FR046,FR046-A01,otra,,4
+FR046,FR046-A02,a través de otra persona,,4
+FR046,FR046-A03,familia,,4
+FR046,FR046-A04,otra,,3
+FR046,FR046-A05,otra,,4
+FR046,FR046-A06,a través de otra persona,,5
+FR046,FR046-A07,trabajo,,4
+FR046,FR046-A08,trabajo,,5
+FR046,FR046-A09,familia,,5
+FR046,FR046-A10,familia,,5
+FR046,FR046-A11,familia,,4
+FR046,FR046-A12,familia,,4
+FR046,FR046-A13,aficiones,,3
+FR046,FR046-A14,aficiones,,3
+FR046,FR046-A15,familia,,5
+FR046,FR046-A16,trabajo,,3
+FR046,FR046-A17,trabajo,,3
+FR046,FR046-A18,aficiones,,2
+FR046,FR046-A19,familia,,2
+FR046,FR046-A20,familia,,5
+FR046,FR046-A21,aficiones,,3
+FR046,FR046-A22,trabajo,,3
+FR046,FR046-A23,trabajo,,3
+FR046,FR046-A24,trabajo,,4
+FR046,FR046-A25,a través de otra persona,,3
+FR046,FR046-A26,familia,,2
+FR046,FR046-A27,familia,,5
+FR046,FR046-A28,vecindad,,3
+FR046,FR046-A29,a través de otra persona,,2
+FR046,FR046-A30,aficiones,,3
+FR047,FR047-A01,familia,,5
+FR047,FR047-A02,otra,,4
+FR047,FR047-A03,familia,,5
+FR047,FR047-A04,familia,,3
+FR047,FR047-A05,familia,,5
+FR047,FR047-A06,otra,,3
+FR047,FR047-A07,escuela,,3
+FR047,FR047-A08,escuela,,3
+FR047,FR047-A09,familia,,4
+FR047,FR047-A10,familia,,4
+FR047,FR047-A11,a través de otra persona,,4
+FR047,FR047-A12,escuela,,5
+FR047,FR047-A13,familia,,4
+FR047,FR047-A14,familia,,2
+FR047,FR047-A15,familia,,2
+FR047,FR047-A16,familia,,2
+FR047,FR047-A17,familia,,1
+FR047,FR047-A18,familia,,1
+FR047,FR047-A19,familia,,3
+FR047,FR047-A20,familia,,4
+FR047,FR047-A21,familia,,5
+FR047,FR047-A22,trabajo,,1
+FR047,FR047-A23,trabajo,,1
+FR047,FR047-A24,familia,,1
+FR047,FR047-A25,familia,,1
+FR047,FR047-A26,familia,,1
+FR047,FR047-A27,familia,,1
+FR047,FR047-A28,familia,,1
+FR047,FR047-A29,aficiones,,3
+FR047,FR047-A30,aficiones,,1
+FR048,FR048-A01,familia,,5
+FR048,FR048-A02,familia,,5
+FR048,FR048-A03,trabajo,,4
+FR048,FR048-A04,trabajo,,2
+FR048,FR048-A05,trabajo,,4
+FR048,FR048-A06,familia,,3
+FR048,FR048-A07,a través de otra persona,,3
+FR048,FR048-A08,trabajo,,3
+FR048,FR048-A09,trabajo,,3
+FR048,FR048-A10,trabajo,,3
+FR048,FR048-A11,a través de otra persona,,4
+FR048,FR048-A12,a través de otra persona,,4
+FR048,FR048-A13,a través de otra persona,,4
+FR048,FR048-A14,a través de otra persona,,3
+FR048,FR048-A15,a través de otra persona,,3
+FR048,FR048-A16,trabajo,,4
+FR048,FR048-A17,trabajo,,3
+FR048,FR048-A18,trabajo,,3
+FR048,FR048-A19,familia,,4
+FR048,FR048-A20,familia,,3
+FR048,FR048-A21,familia,,3
+FR048,FR048-A22,familia,,3
+FR048,FR048-A23,familia,,3
+FR048,FR048-A24,familia,,3
+FR048,FR048-A25,familia,,3
+FR048,FR048-A26,familia,,4
+FR048,FR048-A27,familia,,4
+FR048,FR048-A28,familia,,4
+FR048,FR048-A29,familia,,3
+FR048,FR048-A30,familia,,3
+FR049,FR049-A01,familia,,5
+FR049,FR049-A02,familia,,5
+FR049,FR049-A03,trabajo,,5
+FR049,FR049-A04,familia,,5
+FR049,FR049-A05,trabajo,,5
+FR049,FR049-A06,familia,,5
+FR049,FR049-A07,trabajo,,5
+FR049,FR049-A08,vecindad,,5
+FR049,FR049-A09,aficiones,,5
+FR049,FR049-A10,aficiones,,5
+FR049,FR049-A11,aficiones,,5
+FR049,FR049-A12,familia,,5
+FR049,FR049-A13,familia,,5
+FR049,FR049-A14,familia,,5
+FR049,FR049-A15,a través de otra persona,,3
+FR049,FR049-A16,familia,,5
+FR049,FR049-A17,familia,,4
+FR049,FR049-A18,familia,,5
+FR049,FR049-A19,aficiones,,4
+FR049,FR049-A20,aficiones,,4
+FR049,FR049-A21,vecindad,,4
+FR049,FR049-A22,trabajo,,4
+FR049,FR049-A23,vecindad,,4
+FR049,FR049-A24,aficiones,,4
+FR049,FR049-A25,trabajo,,4
+FR049,FR049-A26,trabajo,,4
+FR049,FR049-A27,otra,,4
+FR049,FR049-A28,a través de otra persona,,4
+FR049,FR049-A29,aficiones,,5
+FR049,FR049-A30,familia,,5
+FR050,FR050-A01,trabajo,,4
+FR050,FR050-A02,trabajo,,3
+FR050,FR050-A03,a través de otra persona,,4
+FR050,FR050-A04,familia,,3
+FR050,FR050-A05,familia,,3
+FR050,FR050-A06,trabajo,,3
+FR050,FR050-A07,trabajo,,3
+FR050,FR050-A08,trabajo,,3
+FR050,FR050-A09,trabajo,,3
+FR050,FR050-A10,trabajo,,3
+FR050,FR050-A11,trabajo,,3
+FR050,FR050-A12,trabajo,,3
+FR050,FR050-A13,trabajo,,3
+FR050,FR050-A14,trabajo,,2
+FR050,FR050-A15,trabajo,,3
+FR050,FR050-A16,trabajo,,3
+FR050,FR050-A17,trabajo,,3
+FR050,FR050-A18,familia,,3
+FR050,FR050-A19,familia,,3
+FR050,FR050-A20,otra,,4
+FR050,FR050-A21,trabajo,,3
+FR050,FR050-A22,trabajo,,2
+FR050,FR050-A23,trabajo,,3
+FR050,FR050-A24,trabajo,,2
+FR050,FR050-A25,trabajo,,2
+FR050,FR050-A26,a través de otra persona,,3
+FR050,FR050-A27,a través de otra persona,,3
+FR050,FR050-A28,a través de otra persona,,3
+FR050,FR050-A29,trabajo,,2
+FR050,FR050-A30,trabajo,,2
+FR051,FR051-A01,familia,,5
+FR051,FR051-A02,familia,,5
+FR051,FR051-A03,familia,,5
+FR051,FR051-A04,familia,,5
+FR051,FR051-A05,trabajo,,4
+FR051,FR051-A06,aficiones,,5
+FR051,FR051-A07,aficiones,,5
+FR051,FR051-A08,familia,,5
+FR051,FR051-A09,familia,,5
+FR051,FR051-A10,familia,,5
+FR051,FR051-A11,otra,,5
+FR051,FR051-A12,vecindad,,5
+FR051,FR051-A13,vecindad,,3
+FR051,FR051-A14,vecindad,,3
+FR051,FR051-A15,vecindad,,2
+FR051,FR051-A16,vecindad,,2
+FR051,FR051-A17,otra,,1
+FR051,FR051-A18,otra,,1
+FR051,FR051-A19,estudios superiores,,1
+FR051,FR051-A20,aficiones,,1
+FR051,FR051-A21,a través de otra persona,,3
+FR051,FR051-A22,vecindad,,2
+FR051,FR051-A23,trabajo,,2
+FR051,FR051-A24,trabajo,,1
+FR051,FR051-A25,familia,,3
+FR051,FR051-A26,a través de otra persona,,1
+FR051,FR051-A27,familia,,2
+FR051,FR051-A28,a través de otra persona,,2
+FR051,FR051-A29,a través de otra persona,,1
+FR051,FR051-A30,aficiones,,2
+FR052,FR052-A01,aficiones,,3
+FR052,FR052-A02,aficiones,,4
+FR052,FR052-A03,familia,,5
+FR052,FR052-A04,familia,,5
+FR052,FR052-A05,vecindad,,2
+FR052,FR052-A06,a través de otra persona,,3
+FR052,FR052-A07,familia,,5
+FR052,FR052-A08,familia,,5
+FR052,FR052-A09,trabajo,,2
+FR052,FR052-A10,aficiones,,5
+FR052,FR052-A11,familia,,3
+FR052,FR052-A12,aficiones,,3
+FR052,FR052-A13,trabajo,,2
+FR052,FR052-A14,aficiones,,3
+FR052,FR052-A15,a través de otra persona,,3
+FR052,FR052-A16,a través de otra persona,,3
+FR052,FR052-A17,a través de otra persona,,4
+FR052,FR052-A18,a través de otra persona,,4
+FR052,FR052-A19,familia,,4
+FR052,FR052-A20,a través de otra persona,,3
+FR052,FR052-A21,a través de otra persona,,3
+FR052,FR052-A22,a través de otra persona,,4
+FR052,FR052-A23,escuela,,4
+FR052,FR052-A24,aficiones,,4
+FR052,FR052-A25,a través de otra persona,,4
+FR052,FR052-A26,aficiones,,4
+FR052,FR052-A27,vecindad,,5
+FR052,FR052-A28,a través de otra persona,,4
+FR052,FR052-A29,aficiones,,3
+FR052,FR052-A30,escuela,,5
+FR053,FR053-A01,trabajo,,5
+FR053,FR053-A02,escuela,,5
+FR053,FR053-A03,escuela,,5
+FR053,FR053-A04,trabajo,,5
+FR053,FR053-A05,a través de otra persona,,4
+FR053,FR053-A06,otra,,5
+FR053,FR053-A07,familia,,5
+FR053,FR053-A08,familia,,5
+FR053,FR053-A09,familia,,5
+FR053,FR053-A10,a través de otra persona,,4
+FR053,FR053-A11,familia,,3
+FR053,FR053-A12,trabajo,,5
+FR053,FR053-A13,aficiones,,4
+FR053,FR053-A14,a través de otra persona,,5
+FR053,FR053-A15,familia,,5
+FR053,FR053-A16,familia,,5
+FR053,FR053-A17,a través de otra persona,,3
+FR053,FR053-A18,aficiones,,3
+FR053,FR053-A19,a través de otra persona,,4
+FR053,FR053-A20,familia,,2
+FR053,FR053-A21,trabajo,,3
+FR053,FR053-A22,familia,,5
+FR053,FR053-A23,a través de otra persona,,3
+FR053,FR053-A24,trabajo,,3
+FR053,FR053-A25,trabajo,,3
+FR053,FR053-A26,a través de otra persona,,4
+FR053,FR053-A27,otra,,3
+FR053,FR053-A28,familia,,3
+FR053,FR053-A29,familia,,5
+FR053,FR053-A30,a través de otra persona,,4
+FR054,FR054-A01,otra,,5
+FR054,FR054-A02,familia,,4
+FR054,FR054-A03,familia,,4
+FR054,FR054-A04,familia,,4
+FR054,FR054-A05,familia,,4
+FR054,FR054-A06,familia,,3
+FR054,FR054-A07,familia,,5
+FR054,FR054-A08,familia,,5
+FR054,FR054-A09,familia,,4
+FR054,FR054-A10,familia,,4
+FR054,FR054-A11,familia,,5
+FR054,FR054-A12,familia,,4
+FR054,FR054-A13,familia,,4
+FR054,FR054-A14,familia,,4
+FR054,FR054-A15,trabajo,,3
+FR054,FR054-A16,familia,,5
+FR054,FR054-A17,familia,,4
+FR054,FR054-A18,a través de otra persona,,3
+FR054,FR054-A19,a través de otra persona,,3
+FR054,FR054-A20,a través de otra persona,,3
+FR054,FR054-A21,a través de otra persona,,3
+FR054,FR054-A22,familia,,5
+FR054,FR054-A23,trabajo,,4
+FR054,FR054-A24,a través de otra persona,,3
+FR054,FR054-A25,trabajo,,3
+FR054,FR054-A26,familia,,4
+FR054,FR054-A27,familia,,4
+FR054,FR054-A28,familia,,4
+FR054,FR054-A29,familia,,4
+FR054,FR054-A30,familia,,5
+FR055,FR055-A01,aficiones,,3
+FR055,FR055-A02,aficiones,,3
+FR055,FR055-A03,familia,,4
+FR055,FR055-A04,familia,,3
+FR055,FR055-A05,otra,,5
+FR055,FR055-A06,a través de otra persona,,3
+FR055,FR055-A07,a través de otra persona,,3
+FR055,FR055-A08,vecindad,,4
+FR055,FR055-A09,vecindad,,4
+FR055,FR055-A10,familia,,5
+FR055,FR055-A11,familia,,5
+FR055,FR055-A12,a través de otra persona,,3
+FR055,FR055-A13,aficiones,,4
+FR055,FR055-A14,familia,,3
+FR055,FR055-A15,a través de otra persona,,3
+FR055,FR055-A16,a través de otra persona,,3
+FR055,FR055-A17,a través de otra persona,,4
+FR055,FR055-A18,a través de otra persona,,3
+FR055,FR055-A19,familia,,3
+FR055,FR055-A20,familia,,4
+FR055,FR055-A21,a través de otra persona,,4
+FR055,FR055-A22,familia,,4
+FR055,FR055-A23,familia,,4
+FR055,FR055-A24,familia,,4
+FR055,FR055-A25,familia,,3
+FR055,FR055-A26,a través de otra persona,,3
+FR055,FR055-A27,familia,,3
+FR055,FR055-A28,a través de otra persona,,3
+FR055,FR055-A29,a través de otra persona,,3
+FR055,FR055-A30,familia,,5
+FR056,FR056-A01,trabajo,,2
+FR056,FR056-A02,trabajo,,2
+FR056,FR056-A03,trabajo,,1
+FR056,FR056-A04,trabajo,,1
+FR056,FR056-A05,trabajo,,1
+FR056,FR056-A06,trabajo,,1
+FR056,FR056-A07,trabajo,,1
+FR056,FR056-A08,trabajo,,1
+FR056,FR056-A09,trabajo,,1
+FR056,FR056-A10,trabajo,,1
+FR056,FR056-A11,trabajo,,1
+FR056,FR056-A12,trabajo,,1
+FR056,FR056-A13,trabajo,,1
+FR056,FR056-A14,trabajo,,1
+FR056,FR056-A15,familia,,1
+FR056,FR056-A16,trabajo,,1
+FR056,FR056-A17,trabajo,,1
+FR056,FR056-A18,trabajo,,1
+FR056,FR056-A19,trabajo,,1
+FR056,FR056-A20,trabajo,,1
+FR056,FR056-A21,escuela,,1
+FR056,FR056-A22,familia,,2
+FR056,FR056-A23,familia,,2
+FR056,FR056-A24,familia,,1
+FR056,FR056-A25,familia,,1
+FR056,FR056-A26,familia,,1
+FR056,FR056-A27,familia,,1
+FR056,FR056-A28,familia,,1
+FR056,FR056-A29,trabajo,,1
+FR056,FR056-A30,vecindad,,1
+FR057,FR057-A01,aficiones,,5
+FR057,FR057-A02,escuela,,5
+FR057,FR057-A03,familia,,3
+FR057,FR057-A04,vecindad,,2
+FR057,FR057-A05,a través de otra persona,,3
+FR057,FR057-A06,aficiones,,2
+FR057,FR057-A07,aficiones,,4
+FR057,FR057-A08,escuela,,5
+FR057,FR057-A09,trabajo,,5
+FR057,FR057-A10,trabajo,,4
+FR057,FR057-A11,otra,,5
+FR057,FR057-A12,estudios superiores,,5
+FR057,FR057-A13,aficiones,,3
+FR057,FR057-A14,trabajo,,4
+FR057,FR057-A15,trabajo,,4
+FR057,FR057-A16,trabajo,,2
+FR057,FR057-A17,a través de otra persona,,3
+FR057,FR057-A18,estudios superiores,,4
+FR057,FR057-A19,aficiones,,3
+FR057,FR057-A20,otra,,5
+FR057,FR057-A21,aficiones,,3
+FR057,FR057-A22,escuela,,3
+FR057,FR057-A23,familia,,5
+FR057,FR057-A24,familia,,4
+FR057,FR057-A25,familia,,4
+FR057,FR057-A26,vecindad,,5
+FR057,FR057-A27,familia,,5
+FR057,FR057-A28,familia,,5
+FR057,FR057-A29,familia,,5
+FR057,FR057-A30,familia,,5
+FR058,FR058-A01,trabajo,,4
+FR058,FR058-A02,familia,,5
+FR058,FR058-A03,aficiones,,3
+FR058,FR058-A04,familia,,5
+FR058,FR058-A05,otra,,4
+FR058,FR058-A06,otra,,3
+FR058,FR058-A07,aficiones,,4
+FR058,FR058-A08,a través de otra persona,,4
+FR058,FR058-A09,familia,,5
+FR058,FR058-A10,familia,,5
+FR058,FR058-A11,familia,,5
+FR058,FR058-A12,familia,,5
+FR058,FR058-A13,otra,,2
+FR058,FR058-A14,otra,,5
+FR058,FR058-A15,familia,,5
+FR058,FR058-A16,trabajo,,5
+FR058,FR058-A17,a través de otra persona,,5
+FR058,FR058-A18,familia,,5
+FR058,FR058-A19,a través de otra persona,,4
+FR058,FR058-A20,vecindad,,5
+FR058,FR058-A21,aficiones,,4
+FR058,FR058-A22,otra,,2
+FR058,FR058-A23,familia,,5
+FR058,FR058-A24,a través de otra persona,,3
+FR058,FR058-A25,familia,,5
+FR058,FR058-A26,familia,,5
+FR058,FR058-A27,familia,,4
+FR058,FR058-A28,familia,,4
+FR058,FR058-A29,otra,,3
+FR058,FR058-A30,familia,,5
+FR059,FR059-A01,vecindad,,4
+FR059,FR059-A02,familia,,5
+FR059,FR059-A03,familia,,5
+FR059,FR059-A04,a través de otra persona,,2
+FR059,FR059-A05,aficiones,,2
+FR059,FR059-A06,trabajo,,3
+FR059,FR059-A07,trabajo,,3
+FR059,FR059-A08,trabajo,,3
+FR059,FR059-A09,vecindad,,2
+FR059,FR059-A10,trabajo,,1
+FR059,FR059-A11,trabajo,,1
+FR059,FR059-A12,vecindad,,2
+FR059,FR059-A13,trabajo,,1
+FR059,FR059-A14,trabajo,,1
+FR059,FR059-A15,trabajo,,1
+FR059,FR059-A16,trabajo,,1
+FR059,FR059-A17,trabajo,,1
+FR059,FR059-A18,trabajo,,1
+FR059,FR059-A19,trabajo,,4
+FR059,FR059-A20,aficiones,,4
+FR059,FR059-A21,aficiones,,4
+FR059,FR059-A22,trabajo,,1
+FR059,FR059-A23,trabajo,,2
+FR059,FR059-A24,trabajo,,2
+FR059,FR059-A25,trabajo,,1
+FR059,FR059-A26,trabajo,,1
+FR059,FR059-A27,trabajo,,1
+FR059,FR059-A28,trabajo,,2
+FR059,FR059-A29,vecindad,,4
+FR059,FR059-A30,vecindad,,4
+FR060,FR060-A01,familia,,5
+FR060,FR060-A02,familia,,5
+FR060,FR060-A03,familia,,5
+FR060,FR060-A04,familia,,5
+FR060,FR060-A05,familia,,1
+FR060,FR060-A06,familia,,1
+FR060,FR060-A07,familia,,3
+FR060,FR060-A08,familia,,2
+FR060,FR060-A09,a través de otra persona,,2
+FR060,FR060-A10,a través de otra persona,,2
+FR060,FR060-A11,a través de otra persona,,1
+FR060,FR060-A12,a través de otra persona,,1
+FR060,FR060-A13,familia,,5
+FR060,FR060-A14,familia,,5
+FR060,FR060-A15,familia,,4
+FR060,FR060-A16,familia,,3
+FR060,FR060-A17,a través de otra persona,,2
+FR060,FR060-A18,trabajo,,5
+FR060,FR060-A19,trabajo,,5
+FR060,FR060-A20,trabajo,,3
+FR060,FR060-A21,a través de otra persona,,3
+FR060,FR060-A22,trabajo,,2
+FR060,FR060-A23,a través de otra persona,,5
+FR060,FR060-A24,a través de otra persona,,5
+FR060,FR060-A25,familia,,5
+FR060,FR060-A26,familia,,4
+FR060,FR060-A27,familia,,2
+FR060,FR060-A28,aficiones,,1
+FR060,FR060-A29,a través de otra persona,,2
+FR060,FR060-A30,a través de otra persona,,2
+SW061,SW061-A01,otra,,5
+SW061,SW061-A02,otra,,4
+SW061,SW061-A03,familia,,5
+SW061,SW061-A04,escuela,,4
+SW061,SW061-A05,aficiones,,4
+SW061,SW061-A06,vecindad,,3
+SW061,SW061-A07,aficiones,,3
+SW061,SW061-A08,aficiones,,3
+SW061,SW061-A09,aficiones,,3
+SW061,SW061-A10,aficiones,,3
+SW061,SW061-A11,aficiones,,2
+SW061,SW061-A12,vecindad,,4
+SW061,SW061-A13,aficiones,,3
+SW061,SW061-A14,trabajo,,3
+SW061,SW061-A15,trabajo,,3
+SW061,SW061-A16,a través de otra persona,,4
+SW061,SW061-A17,a través de otra persona,,2
+SW061,SW061-A18,a través de otra persona,,2
+SW061,SW061-A19,aficiones,,3
+SW061,SW061-A20,trabajo,,2
+SW061,SW061-A21,trabajo,,3
+SW061,SW061-A22,trabajo,,3
+SW061,SW061-A23,escuela,,3
+SW061,SW061-A24,aficiones,,3
+SW061,SW061-A25,aficiones,,3
+SW061,SW061-A26,aficiones,,3
+SW061,SW061-A27,aficiones,,3
+SW061,SW061-A28,aficiones,,3
+SW061,SW061-A29,a través de otra persona,,3
+SW061,SW061-A30,a través de otra persona,,3
+SW062,SW062-A01,aficiones,,3
+SW062,SW062-A02,familia,,3
+SW062,SW062-A03,familia,,4
+SW062,SW062-A04,familia,,3
+SW062,SW062-A05,otra,,3
+SW062,SW062-A06,aficiones,,3
+SW062,SW062-A07,familia,,4
+SW062,SW062-A08,familia,,4
+SW062,SW062-A09,otra,,4
+SW062,SW062-A10,otra,,3
+SW062,SW062-A11,aficiones,,3
+SW062,SW062-A12,otra,,3
+SW062,SW062-A13,otra,,3
+SW062,SW062-A14,aficiones,,3
+SW062,SW062-A15,otra,,3
+SW062,SW062-A16,otra,,4
+SW062,SW062-A17,aficiones,,3
+SW062,SW062-A18,otra,,3
+SW062,SW062-A19,otra,,4
+SW062,SW062-A20,otra,,3
+SW062,SW062-A21,otra,,3
+SW062,SW062-A22,otra,,3
+SW062,SW062-A23,otra,,3
+SW062,SW062-A24,escuela,,3
+SW062,SW062-A25,aficiones,,3
+SW062,SW062-A26,otra,,3
+SW062,SW062-A27,otra,,3
+SW062,SW062-A28,otra,,3
+SW062,SW062-A29,otra,,3
+SW062,SW062-A30,otra,,3
+SW063,SW063-A01,a través de otra persona,,5
+SW063,SW063-A02,otra,,5
+SW063,SW063-A03,a través de otra persona,,4
+SW063,SW063-A04,a través de otra persona,,4
+SW063,SW063-A05,a través de otra persona,,2
+SW063,SW063-A06,a través de otra persona,,4
+SW063,SW063-A07,a través de otra persona,,4
+SW063,SW063-A08,a través de otra persona,,2
+SW063,SW063-A09,a través de otra persona,,4
+SW063,SW063-A10,trabajo,,2
+SW063,SW063-A11,trabajo,,2
+SW063,SW063-A12,a través de otra persona,,2
+SW063,SW063-A13,estudios superiores,,2
+SW063,SW063-A14,estudios superiores,,3
+SW063,SW063-A15,a través de otra persona,,2
+SW063,SW063-A16,a través de otra persona,,3
+SW063,SW063-A17,trabajo,,2
+SW063,SW063-A18,a través de otra persona,,2
+SW063,SW063-A19,a través de otra persona,,2
+SW063,SW063-A20,a través de otra persona,,2
+SW063,SW063-A21,a través de otra persona,,3
+SW063,SW063-A22,a través de otra persona,,2
+SW063,SW063-A23,trabajo,,2
+SW063,SW063-A24,trabajo,,1
+SW063,SW063-A25,a través de otra persona,,3
+SW063,SW063-A26,a través de otra persona,,3
+SW063,SW063-A27,a través de otra persona,,3
+SW063,SW063-A28,a través de otra persona,,2
+SW063,SW063-A29,vecindad,,1
+SW063,SW063-A30,vecindad,,2
+SW064,SW064-A01,familia,,5
+SW064,SW064-A02,familia,,5
+SW064,SW064-A03,familia,,4
+SW064,SW064-A04,a través de otra persona,,3
+SW064,SW064-A05,trabajo,,3
+SW064,SW064-A06,familia,,5
+SW064,SW064-A07,a través de otra persona,,3
+SW064,SW064-A08,a través de otra persona,,4
+SW064,SW064-A09,a través de otra persona,,4
+SW064,SW064-A10,trabajo,,4
+SW064,SW064-A11,a través de otra persona,,4
+SW064,SW064-A12,trabajo,,3
+SW064,SW064-A13,a través de otra persona,,3
+SW064,SW064-A14,trabajo,,4
+SW064,SW064-A15,trabajo,,4
+SW064,SW064-A16,trabajo,,4
+SW064,SW064-A17,a través de otra persona,,4
+SW064,SW064-A18,a través de otra persona,,3
+SW064,SW064-A19,trabajo,,4
+SW064,SW064-A20,a través de otra persona,,4
+SW064,SW064-A21,aficiones,,4
+SW064,SW064-A22,trabajo,,3
+SW064,SW064-A23,trabajo,,4
+SW064,SW064-A24,a través de otra persona,,4
+SW064,SW064-A25,a través de otra persona,,3
+SW064,SW064-A26,a través de otra persona,,3
+SW064,SW064-A27,familia,,4
+SW064,SW064-A28,trabajo,,3
+SW064,SW064-A29,escuela,,3
+SW064,SW064-A30,otra,,3
+SW065,SW065-A01,escuela,,3
+SW065,SW065-A02,escuela,,3
+SW065,SW065-A03,escuela,,3
+SW065,SW065-A04,a través de otra persona,,2
+SW065,SW065-A05,escuela,,3
+SW065,SW065-A06,escuela,,3
+SW065,SW065-A07,a través de otra persona,,2
+SW065,SW065-A08,otra,,2
+SW065,SW065-A09,otra,,2
+SW065,SW065-A10,otra,,2
+SW065,SW065-A11,otra,,2
+SW065,SW065-A12,escuela,,3
+SW065,SW065-A13,escuela,,3
+SW065,SW065-A14,otra,,2
+SW065,SW065-A15,otra,,2
+SW065,SW065-A16,otra,,3
+SW065,SW065-A17,escuela,,3
+SW065,SW065-A18,otra,,2
+SW065,SW065-A19,escuela,,3
+SW065,SW065-A20,escuela,,2
+SW065,SW065-A21,escuela,,3
+SW065,SW065-A22,a través de otra persona,,2
+SW065,SW065-A23,otra,,2
+SW065,SW065-A24,otra,,2
+SW065,SW065-A25,a través de otra persona,,2
+SW065,SW065-A26,otra,,2
+SW065,SW065-A27,escuela,,2
+SW065,SW065-A28,otra,,3
+SW065,SW065-A29,otra,,2
+SW065,SW065-A30,a través de otra persona,,2
+SW066,SW066-A01,familia,,5
+SW066,SW066-A02,otra,,5
+SW066,SW066-A03,familia,,3
+SW066,SW066-A04,a través de otra persona,,4
+SW066,SW066-A05,trabajo,,3
+SW066,SW066-A06,trabajo,,3
+SW066,SW066-A07,familia,,5
+SW066,SW066-A08,otra,,3
+SW066,SW066-A09,aficiones,,3
+SW066,SW066-A10,otra,,2
+SW066,SW066-A11,trabajo,,2
+SW066,SW066-A12,trabajo,,4
+SW066,SW066-A13,familia,,3
+SW066,SW066-A14,trabajo,,3
+SW066,SW066-A15,trabajo,,2
+SW066,SW066-A16,trabajo,,2
+SW066,SW066-A17,otra,,2
+SW066,SW066-A18,familia,,2
+SW066,SW066-A19,vecindad,,2
+SW066,SW066-A20,aficiones,,3
+SW066,SW066-A21,aficiones,,4
+SW066,SW066-A22,aficiones,,2
+SW066,SW066-A23,otra,,2
+SW066,SW066-A24,aficiones,,2
+SW066,SW066-A25,trabajo,,2
+SW066,SW066-A26,aficiones,,2
+SW066,SW066-A27,aficiones,,2
+SW066,SW066-A28,trabajo,,2
+SW066,SW066-A29,aficiones,,2
+SW066,SW066-A30,trabajo,,2
+SW067,SW067-A01,aficiones,,5
+SW067,SW067-A02,familia,,3
+SW067,SW067-A03,familia,,5
+SW067,SW067-A04,familia,,5
+SW067,SW067-A05,familia,,3
+SW067,SW067-A06,familia,,4
+SW067,SW067-A07,familia,,5
+SW067,SW067-A08,familia,,5
+SW067,SW067-A09,trabajo,,1
+SW067,SW067-A10,trabajo,,1
+SW067,SW067-A11,trabajo,,5
+SW067,SW067-A12,trabajo,,2
+SW067,SW067-A13,trabajo,,1
+SW067,SW067-A14,vecindad,,1
+SW067,SW067-A15,vecindad,,2
+SW067,SW067-A16,a través de otra persona,,4
+SW067,SW067-A17,trabajo,,2
+SW067,SW067-A18,estudios superiores,,1
+SW067,SW067-A19,escuela,,1
+SW067,SW067-A20,escuela,,1
+SW067,SW067-A21,a través de otra persona,,3
+SW067,SW067-A22,trabajo,,1
+SW067,SW067-A23,aficiones,,1
+SW067,SW067-A24,vecindad,,3
+SW067,SW067-A25,escuela,,2
+SW067,SW067-A26,aficiones,,1
+SW067,SW067-A27,a través de otra persona,,1
+SW067,SW067-A28,vecindad,,1
+SW067,SW067-A29,familia,,4
+SW067,SW067-A30,vecindad,,5
+SW068,SW068-A01,familia,,5
+SW068,SW068-A02,familia,,4
+SW068,SW068-A03,familia,,4
+SW068,SW068-A04,escuela,,3
+SW068,SW068-A05,familia,,3
+SW068,SW068-A06,trabajo,,2
+SW068,SW068-A07,familia,,2
+SW068,SW068-A08,trabajo,,2
+SW068,SW068-A09,familia,,2
+SW068,SW068-A10,familia,,5
+SW068,SW068-A11,familia,,5
+SW068,SW068-A12,a través de otra persona,,2
+SW068,SW068-A13,escuela,,1
+SW068,SW068-A14,escuela,,1
+SW068,SW068-A15,escuela,,1
+SW068,SW068-A16,escuela,,1
+SW068,SW068-A17,trabajo,,1
+SW068,SW068-A18,trabajo,,1
+SW068,SW068-A19,familia,,1
+SW068,SW068-A20,familia,,1
+SW068,SW068-A21,trabajo,,1
+SW068,SW068-A22,a través de otra persona,,2
+SW068,SW068-A23,otra,,2
+SW068,SW068-A24,aficiones,,2
+SW068,SW068-A25,trabajo,,2
+SW068,SW068-A26,trabajo,,2
+SW068,SW068-A27,trabajo,,1
+SW068,SW068-A28,trabajo,,2
+SW068,SW068-A29,trabajo,,1
+SW068,SW068-A30,escuela,,1
+SW069,SW069-A01,familia,,5
+SW069,SW069-A02,familia,,3
+SW069,SW069-A03,familia,,2
+SW069,SW069-A04,familia,,3
+SW069,SW069-A05,familia,,3
+SW069,SW069-A06,familia,,1
+SW069,SW069-A07,otra,,2
+SW069,SW069-A08,familia,,5
+SW069,SW069-A09,familia,,5
+SW069,SW069-A10,a través de otra persona,,4
+SW069,SW069-A11,a través de otra persona,,1
+SW069,SW069-A12,familia,,1
+SW069,SW069-A13,familia,,1
+SW069,SW069-A14,familia,,1
+SW069,SW069-A15,familia,,1
+SW069,SW069-A16,familia,,1
+SW069,SW069-A17,familia,,1
+SW069,SW069-A18,familia,,1
+SW069,SW069-A19,familia,,1
+SW069,SW069-A20,familia,,1
+SW069,SW069-A21,familia,,1
+SW069,SW069-A22,familia,,5
+SW069,SW069-A23,familia,,1
+SW069,SW069-A24,familia,,1
+SW069,SW069-A25,familia,,4
+SW069,SW069-A26,familia,,3
+SW069,SW069-A27,familia,,1
+SW069,SW069-A28,aficiones,,5
+SW069,SW069-A29,a través de otra persona,,5
+SW069,SW069-A30,a través de otra persona,,2
+SW070,SW070-A01,familia,,5
+SW070,SW070-A02,aficiones,,5
+SW070,SW070-A03,escuela,,3
+SW070,SW070-A04,otra,,3
+SW070,SW070-A05,otra,,3
+SW070,SW070-A06,otra,,3
+SW070,SW070-A07,otra,,3
+SW070,SW070-A08,vecindad,,4
+SW070,SW070-A09,trabajo,,3
+SW070,SW070-A10,a través de otra persona,,4
+SW070,SW070-A11,trabajo,,3
+SW070,SW070-A12,escuela,,2
+SW070,SW070-A13,trabajo,,4
+SW070,SW070-A14,a través de otra persona,,3
+SW070,SW070-A15,a través de otra persona,,3
+SW070,SW070-A16,familia,,4
+SW070,SW070-A17,otra,,3
+SW070,SW070-A18,otra,,3
+SW070,SW070-A19,trabajo,,3
+SW070,SW070-A20,trabajo,,2
+SW070,SW070-A21,aficiones,,5
+SW070,SW070-A22,escuela,,5
+SW070,SW070-A23,escuela,,4
+SW070,SW070-A24,vecindad,,2
+SW070,SW070-A25,vecindad,,4
+SW070,SW070-A26,familia,,3
+SW070,SW070-A27,familia,,3
+SW070,SW070-A28,a través de otra persona,,3
+SW070,SW070-A29,familia,,3
+SW070,SW070-A30,familia,,3
+SW071,SW071-A01,otra,,5
+SW071,SW071-A02,escuela,,5
+SW071,SW071-A03,escuela,,2
+SW071,SW071-A04,familia,,5
+SW071,SW071-A05,familia,,4
+SW071,SW071-A06,otra,,5
+SW071,SW071-A07,otra,,3
+SW071,SW071-A08,otra,,5
+SW071,SW071-A09,otra,,3
+SW071,SW071-A10,otra,,3
+SW071,SW071-A11,a través de otra persona,,1
+SW071,SW071-A12,otra,,1
+SW071,SW071-A13,a través de otra persona,,1
+SW071,SW071-A14,aficiones,,1
+SW071,SW071-A15,aficiones,,1
+SW071,SW071-A16,trabajo,,5
+SW071,SW071-A17,vecindad,,1
+SW071,SW071-A18,a través de otra persona,,1
+SW071,SW071-A19,vecindad,,5
+SW071,SW071-A20,escuela,,5
+SW071,SW071-A21,vecindad,,2
+SW071,SW071-A22,a través de otra persona,,1
+SW071,SW071-A23,escuela,,1
+SW071,SW071-A24,a través de otra persona,,1
+SW071,SW071-A25,familia,,4
+SW071,SW071-A26,familia,,4
+SW071,SW071-A27,aficiones,,2
+SW071,SW071-A28,escuela,,1
+SW071,SW071-A29,estudios superiores,,1
+SW071,SW071-A30,a través de otra persona,,1
+SW072,SW072-A01,aficiones,,4
+SW072,SW072-A02,trabajo,,5
+SW072,SW072-A03,trabajo,,4
+SW072,SW072-A04,familia,,5
+SW072,SW072-A05,familia,,5
+SW072,SW072-A06,trabajo,,3
+SW072,SW072-A07,familia,,5
+SW072,SW072-A08,familia,,3
+SW072,SW072-A09,familia,,4
+SW072,SW072-A10,familia,,5
+SW072,SW072-A11,familia,,4
+SW072,SW072-A12,familia,,2
+SW072,SW072-A13,familia,,2
+SW072,SW072-A14,trabajo,,3
+SW072,SW072-A15,trabajo,,2
+SW072,SW072-A16,trabajo,,2
+SW072,SW072-A17,trabajo,,1
+SW072,SW072-A18,trabajo,,2
+SW072,SW072-A19,trabajo,,1
+SW072,SW072-A20,trabajo,,1
+SW072,SW072-A21,trabajo,,1
+SW072,SW072-A22,trabajo,,2
+SW072,SW072-A23,familia,,2
+SW072,SW072-A24,trabajo,,2
+SW072,SW072-A25,trabajo,,3
+SW072,SW072-A26,trabajo,,1
+SW072,SW072-A27,trabajo,,1
+SW072,SW072-A28,trabajo,,1
+SW072,SW072-A29,trabajo,,2
+SW072,SW072-A30,trabajo,,2
+SW073,SW073-A01,otra,,3
+SW073,SW073-A02,otra,,4
+SW073,SW073-A03,a través de otra persona,,2
+SW073,SW073-A04,a través de otra persona,,3
+SW073,SW073-A05,escuela,,3
+SW073,SW073-A06,escuela,,4
+SW073,SW073-A07,escuela,,3
+SW073,SW073-A08,a través de otra persona,,4
+SW073,SW073-A09,a través de otra persona,,2
+SW073,SW073-A10,escuela,,4
+SW073,SW073-A11,escuela,,5
+SW073,SW073-A12,aficiones,,2
+SW073,SW073-A13,aficiones,,5
+SW073,SW073-A14,a través de otra persona,,4
+SW073,SW073-A15,escuela,,3
+SW073,SW073-A16,a través de otra persona,,4
+SW073,SW073-A17,escuela,,3
+SW073,SW073-A18,escuela,,4
+SW073,SW073-A19,escuela,,5
+SW073,SW073-A20,a través de otra persona,,4
+SW073,SW073-A21,aficiones,,3
+SW073,SW073-A22,aficiones,,4
+SW073,SW073-A23,escuela,,4
+SW073,SW073-A24,escuela,,3
+SW073,SW073-A25,escuela,,2
+SW073,SW073-A26,a través de otra persona,,4
+SW073,SW073-A27,aficiones,,4
+SW073,SW073-A28,aficiones,,5
+SW073,SW073-A29,escuela,,5
+SW073,SW073-A30,a través de otra persona,,4
+SW074,SW074-A01,familia,,3
+SW074,SW074-A02,vecindad,,4
+SW074,SW074-A03,a través de otra persona,,2
+SW074,SW074-A04,vecindad,,3
+SW074,SW074-A05,a través de otra persona,,2
+SW074,SW074-A06,otra,,2
+SW074,SW074-A07,a través de otra persona,,5
+SW074,SW074-A08,vecindad,,4
+SW074,SW074-A09,trabajo,,3
+SW074,SW074-A10,trabajo,,3
+SW074,SW074-A11,trabajo,,3
+SW074,SW074-A12,a través de otra persona,,3
+SW074,SW074-A13,vecindad,,1
+SW074,SW074-A14,vecindad,,2
+SW074,SW074-A15,aficiones,,4
+SW074,SW074-A16,trabajo,,3
+SW074,SW074-A17,trabajo,,3
+SW074,SW074-A18,a través de otra persona,,4
+SW074,SW074-A19,a través de otra persona,,3
+SW074,SW074-A20,escuela,,5
+SW074,SW074-A21,familia,,2
+SW074,SW074-A22,a través de otra persona,,2
+SW074,SW074-A23,estudios superiores,,3
+SW074,SW074-A24,trabajo,,3
+SW074,SW074-A25,a través de otra persona,,2
+SW074,SW074-A26,vecindad,,4
+SW074,SW074-A27,aficiones,,2
+SW074,SW074-A28,a través de otra persona,,5
+SW074,SW074-A29,escuela,,3
+SW074,SW074-A30,escuela,,2
+SW075,SW075-A01,a través de otra persona,,5
+SW075,SW075-A02,familia,,5
+SW075,SW075-A03,familia,,5
+SW075,SW075-A04,familia,,2
+SW075,SW075-A05,familia,,1
+SW075,SW075-A06,a través de otra persona,,5
+SW075,SW075-A07,familia,,2
+SW075,SW075-A08,familia,,2
+SW075,SW075-A09,familia,,2
+SW075,SW075-A10,aficiones,,3
+SW075,SW075-A11,a través de otra persona,,3
+SW075,SW075-A12,a través de otra persona,,3
+SW075,SW075-A13,trabajo,,3
+SW075,SW075-A14,trabajo,,3
+SW075,SW075-A15,trabajo,,2
+SW075,SW075-A16,trabajo,,2
+SW075,SW075-A17,a través de otra persona,,2
+SW075,SW075-A18,a través de otra persona,,3
+SW075,SW075-A19,a través de otra persona,,4
+SW075,SW075-A20,escuela,,5
+SW075,SW075-A21,a través de otra persona,,2
+SW075,SW075-A22,a través de otra persona,,3
+SW075,SW075-A23,aficiones,,2
+SW075,SW075-A24,otra,,2
+SW075,SW075-A25,a través de otra persona,,3
+SW075,SW075-A26,a través de otra persona,,2
+SW075,SW075-A27,a través de otra persona,,3
+SW075,SW075-A28,a través de otra persona,,1
+SW075,SW075-A29,estudios superiores,,2
+SW075,SW075-A30,otra,,2
+RO076,RO076-A01,vecindad,hombre,4
+RO076,RO076-A02,familia,mujer,5
+RO076,RO076-A03,vecindad,hombre,3
+RO076,RO076-A04,a través de otra persona,hombre,4
+RO076,RO076-A05,a través de otra persona,hombre,5
+RO076,RO076-A06,a través de otra persona,mujer,4
+RO076,RO076-A07,familia,mujer,5
+RO076,RO076-A08,familia,hombre,5
+RO076,RO076-A09,familia,mujer,5
+RO076,RO076-A10,a través de otra persona,mujer,4
+RO076,RO076-A11,familia,hombre,5
+RO076,RO076-A12,familia,hombre,5
+RO076,RO076-A13,vecindad,hombre,5
+RO076,RO076-A14,a través de otra persona,mujer,4
+RO076,RO076-A15,a través de otra persona,hombre,3
+RO076,RO076-A16,a través de otra persona,hombre,5
+RO076,RO076-A17,aficiones,hombre,4
+RO076,RO076-A18,trabajo,hombre,3
+RO076,RO076-A19,trabajo,mujer,3
+RO076,RO076-A20,trabajo,mujer,3
+RO076,RO076-A21,trabajo,hombre,2
+RO076,RO076-A22,trabajo,mujer,2
+RO076,RO076-A23,trabajo,hombre,4
+RO076,RO076-A24,trabajo,mujer,4
+RO076,RO076-A25,trabajo,mujer,5
+RO076,RO076-A26,trabajo,hombre,3
+RO076,RO076-A27,vecindad,hombre,3
+RO076,RO076-A28,a través de otra persona,mujer,5
+RO076,RO076-A29,aficiones,hombre,4
+RO076,RO076-A30,aficiones,hombre,4
+RO077,RO077-A01,familia,mujer,5
+RO077,RO077-A02,familia,hombre,4
+RO077,RO077-A03,a través de otra persona,mujer,5
+RO077,RO077-A04,familia,mujer,5
+RO077,RO077-A05,familia,hombre,5
+RO077,RO077-A06,familia,hombre,4
+RO077,RO077-A07,familia,mujer,3
+RO077,RO077-A08,familia,mujer,3
+RO077,RO077-A09,familia,mujer,4
+RO077,RO077-A10,familia,hombre,3
+RO077,RO077-A11,familia,hombre,3
+RO077,RO077-A12,trabajo,mujer,3
+RO077,RO077-A13,trabajo,hombre,4
+RO077,RO077-A14,trabajo,mujer,3
+RO077,RO077-A15,trabajo,hombre,3
+RO077,RO077-A16,trabajo,hombre,3
+RO077,RO077-A17,trabajo,mujer,3
+RO077,RO077-A18,trabajo,mujer,3
+RO077,RO077-A19,trabajo,mujer,3
+RO077,RO077-A20,trabajo,hombre,3
+RO077,RO077-A21,trabajo,hombre,3
+RO077,RO077-A22,trabajo,mujer,3
+RO077,RO077-A23,trabajo,mujer,3
+RO077,RO077-A24,trabajo,mujer,3
+RO077,RO077-A25,trabajo,hombre,3
+RO077,RO077-A26,escuela,hombre,3
+RO077,RO077-A27,escuela,hombre,3
+RO077,RO077-A28,vecindad,hombre,3
+RO077,RO077-A29,vecindad,hombre,3
+RO077,RO077-A30,escuela,hombre,3
+RO078,RO078-A01,escuela,mujer,4
+RO078,RO078-A02,a través de otra persona,mujer,1
+RO078,RO078-A03,familia,hombre,1
+RO078,RO078-A04,trabajo,mujer,3
+RO078,RO078-A05,trabajo,mujer,3
+RO078,RO078-A06,trabajo,mujer,4
+RO078,RO078-A07,familia,mujer,1
+RO078,RO078-A08,escuela,mujer,3
+RO078,RO078-A09,escuela,mujer,4
+RO078,RO078-A10,familia,hombre,5
+RO078,RO078-A11,familia,hombre,2
+RO078,RO078-A12,a través de otra persona,mujer,3
+RO078,RO078-A13,a través de otra persona,hombre,4
+RO078,RO078-A14,familia,mujer,2
+RO078,RO078-A15,familia,hombre,1
+RO078,RO078-A16,familia,mujer,2
+RO078,RO078-A17,familia,mujer,1
+RO078,RO078-A18,familia,mujer,1
+RO078,RO078-A19,familia,mujer,4
+RO078,RO078-A20,familia,hombre,1
+RO078,RO078-A21,familia,hombre,1
+RO078,RO078-A22,estudios superiores,mujer,5
+RO078,RO078-A23,otra,mujer,4
+RO078,RO078-A24,familia,hombre,1
+RO078,RO078-A25,vecindad,mujer,4
+RO078,RO078-A26,familia,mujer,1
+RO078,RO078-A27,familia,hombre,1
+RO078,RO078-A28,a través de otra persona,mujer,1
+RO078,RO078-A29,trabajo,mujer,4
+RO078,RO078-A30,familia,hombre,2
+RO079,RO079-A01,escuela,mujer,3
+RO079,RO079-A02,a través de otra persona,hombre,5
+RO079,RO079-A03,trabajo,mujer,3
+RO079,RO079-A04,familia,hombre,5
+RO079,RO079-A05,familia,mujer,5
+RO079,RO079-A06,trabajo,mujer,3
+RO079,RO079-A07,vecindad,mujer,4
+RO079,RO079-A08,familia,hombre,3
+RO079,RO079-A09,a través de otra persona,mujer,2
+RO079,RO079-A10,trabajo,mujer,3
+RO079,RO079-A11,a través de otra persona,mujer,1
+RO079,RO079-A12,a través de otra persona,hombre,1
+RO079,RO079-A13,trabajo,mujer,1
+RO079,RO079-A14,a través de otra persona,mujer,1
+RO079,RO079-A15,escuela,mujer,1
+RO079,RO079-A16,trabajo,hombre,3
+RO079,RO079-A17,trabajo,mujer,3
+RO079,RO079-A18,trabajo,mujer,3
+RO079,RO079-A19,trabajo,mujer,1
+RO079,RO079-A20,vecindad,mujer,1
+RO079,RO079-A21,trabajo,mujer,2
+RO079,RO079-A22,trabajo,mujer,1
+RO079,RO079-A23,a través de otra persona,hombre,1
+RO079,RO079-A24,familia,mujer,4
+RO079,RO079-A25,familia,mujer,3
+RO079,RO079-A26,a través de otra persona,mujer,1
+RO079,RO079-A27,a través de otra persona,mujer,1
+RO079,RO079-A28,trabajo,mujer,3
+RO079,RO079-A29,a través de otra persona,mujer,2
+RO079,RO079-A30,trabajo,mujer,2
+RO080,RO080-A01,a través de otra persona,mujer,2
+RO080,RO080-A02,a través de otra persona,mujer,3
+RO080,RO080-A03,familia,mujer,5
+RO080,RO080-A04,familia,mujer,5
+RO080,RO080-A05,trabajo,hombre,2
+RO080,RO080-A06,escuela,mujer,3
+RO080,RO080-A07,trabajo,mujer,2
+RO080,RO080-A08,vecindad,mujer,4
+RO080,RO080-A09,familia,hombre,5
+RO080,RO080-A10,vecindad,mujer,2
+RO080,RO080-A11,vecindad,mujer,3
+RO080,RO080-A12,trabajo,mujer,4
+RO080,RO080-A13,a través de otra persona,hombre,4
+RO080,RO080-A14,familia,hombre,4
+RO080,RO080-A15,familia,mujer,5
+RO080,RO080-A16,familia,hombre,4
+RO080,RO080-A17,a través de otra persona,mujer,4
+RO080,RO080-A18,a través de otra persona,mujer,3
+RO080,RO080-A19,a través de otra persona,mujer,4
+RO080,RO080-A20,vecindad,hombre,2
+RO080,RO080-A21,vecindad,hombre,2
+RO080,RO080-A22,a través de otra persona,hombre,4
+RO080,RO080-A23,a través de otra persona,mujer,4
+RO080,RO080-A24,vecindad,hombre,3
+RO080,RO080-A25,a través de otra persona,hombre,3
+RO080,RO080-A26,a través de otra persona,mujer,3
+RO080,RO080-A27,trabajo,hombre,3
+RO080,RO080-A28,trabajo,mujer,3
+RO080,RO080-A29,a través de otra persona,hombre,2
+RO080,RO080-A30,trabajo,hombre,2
+RO081,RO081-A01,a través de otra persona,hombre,3
+RO081,RO081-A02,familia,mujer,5
+RO081,RO081-A03,a través de otra persona,hombre,4
+RO081,RO081-A04,a través de otra persona,mujer,4
+RO081,RO081-A05,vecindad,hombre,3
+RO081,RO081-A06,familia,hombre,5
+RO081,RO081-A07,vecindad,hombre,3
+RO081,RO081-A08,a través de otra persona,hombre,4
+RO081,RO081-A09,familia,mujer,5
+RO081,RO081-A10,vecindad,mujer,5
+RO081,RO081-A11,vecindad,mujer,3
+RO081,RO081-A12,vecindad,hombre,4
+RO081,RO081-A13,vecindad,mujer,4
+RO081,RO081-A14,a través de otra persona,mujer,4
+RO081,RO081-A15,a través de otra persona,mujer,4
+RO081,RO081-A16,vecindad,hombre,3
+RO081,RO081-A17,familia,mujer,5
+RO081,RO081-A18,vecindad,mujer,3
+RO081,RO081-A19,vecindad,hombre,3
+RO081,RO081-A20,a través de otra persona,hombre,3
+RO081,RO081-A21,a través de otra persona,hombre,3
+RO081,RO081-A22,a través de otra persona,hombre,3
+RO081,RO081-A23,aficiones,mujer,3
+RO081,RO081-A24,a través de otra persona,mujer,3
+RO081,RO081-A25,a través de otra persona,mujer,3
+RO081,RO081-A26,a través de otra persona,mujer,3
+RO081,RO081-A27,a través de otra persona,mujer,4
+RO081,RO081-A28,a través de otra persona,mujer,3
+RO081,RO081-A29,vecindad,hombre,4
+RO081,RO081-A30,familia,mujer,4
+RO082,RO082-A01,vecindad,hombre,1
+RO082,RO082-A02,escuela,hombre,4
+RO082,RO082-A03,familia,hombre,2
+RO082,RO082-A04,aficiones,hombre,5
+RO082,RO082-A05,familia,hombre,2
+RO082,RO082-A06,vecindad,hombre,3
+RO082,RO082-A07,a través de otra persona,hombre,3
+RO082,RO082-A08,escuela,hombre,2
+RO082,RO082-A09,vecindad,hombre,2
+RO082,RO082-A10,vecindad,hombre,2
+RO082,RO082-A11,escuela,hombre,4
+RO082,RO082-A12,aficiones,hombre,3
+RO082,RO082-A13,escuela,hombre,2
+RO082,RO082-A14,vecindad,hombre,3
+RO082,RO082-A15,vecindad,hombre,4
+RO082,RO082-A16,vecindad,hombre,4
+RO082,RO082-A17,vecindad,hombre,4
+RO082,RO082-A18,escuela,hombre,2
+RO082,RO082-A19,vecindad,hombre,2
+RO082,RO082-A20,vecindad,hombre,2
+RO082,RO082-A21,escuela,hombre,3
+RO082,RO082-A22,familia,hombre,3
+RO082,RO082-A23,otra,hombre,3
+RO082,RO082-A24,aficiones,hombre,2
+RO082,RO082-A25,vecindad,hombre,2
+RO082,RO082-A26,vecindad,hombre,2
+RO082,RO082-A27,escuela,hombre,2
+RO082,RO082-A28,vecindad,hombre,2
+RO082,RO082-A29,escuela,hombre,3
+RO082,RO082-A30,aficiones,hombre,3
+RO083,RO083-A01,aficiones,mujer,4
+RO083,RO083-A02,trabajo,mujer,2
+RO083,RO083-A03,familia,mujer,4
+RO083,RO083-A04,aficiones,hombre,2
+RO083,RO083-A05,familia,hombre,3
+RO083,RO083-A06,familia,mujer,4
+RO083,RO083-A07,trabajo,mujer,3
+RO083,RO083-A08,trabajo,mujer,3
+RO083,RO083-A09,trabajo,mujer,3
+RO083,RO083-A10,aficiones,mujer,2
+RO083,RO083-A11,aficiones,mujer,2
+RO083,RO083-A12,trabajo,hombre,2
+RO083,RO083-A13,trabajo,mujer,2
+RO083,RO083-A14,trabajo,mujer,2
+RO083,RO083-A15,trabajo,mujer,2
+RO083,RO083-A16,trabajo,mujer,2
+RO083,RO083-A17,aficiones,mujer,2
+RO083,RO083-A18,aficiones,hombre,2
+RO083,RO083-A19,aficiones,mujer,2
+RO083,RO083-A20,aficiones,mujer,2
+RO083,RO083-A21,aficiones,mujer,2
+RO083,RO083-A22,aficiones,hombre,2
+RO083,RO083-A23,aficiones,hombre,2
+RO083,RO083-A24,aficiones,mujer,3
+RO083,RO083-A25,escuela,mujer,2
+RO083,RO083-A26,escuela,mujer,2
+RO083,RO083-A27,escuela,hombre,2
+RO083,RO083-A28,escuela,hombre,2
+RO083,RO083-A29,aficiones,mujer,3
+RO083,RO083-A30,aficiones,mujer,2
+RO084,RO084-A01,vecindad,mujer,3
+RO084,RO084-A02,familia,mujer,5
+RO084,RO084-A03,familia,mujer,5
+RO084,RO084-A04,familia,hombre,5
+RO084,RO084-A05,familia,hombre,4
+RO084,RO084-A06,vecindad,mujer,4
+RO084,RO084-A07,vecindad,mujer,3
+RO084,RO084-A08,a través de otra persona,mujer,3
+RO084,RO084-A09,trabajo,mujer,4
+RO084,RO084-A10,trabajo,mujer,3
+RO084,RO084-A11,a través de otra persona,mujer,3
+RO084,RO084-A12,a través de otra persona,mujer,2
+RO084,RO084-A13,trabajo,mujer,3
+RO084,RO084-A14,familia,mujer,3
+RO084,RO084-A15,trabajo,mujer,3
+RO084,RO084-A16,trabajo,mujer,3
+RO084,RO084-A17,trabajo,mujer,3
+RO084,RO084-A18,trabajo,mujer,3
+RO084,RO084-A19,trabajo,mujer,3
+RO084,RO084-A20,trabajo,mujer,2
+RO084,RO084-A21,familia,hombre,2
+RO084,RO084-A22,familia,hombre,5
+RO084,RO084-A23,familia,mujer,4
+RO084,RO084-A24,familia,mujer,3
+RO084,RO084-A25,familia,hombre,2
+RO084,RO084-A26,familia,mujer,2
+RO084,RO084-A27,familia,hombre,3
+RO084,RO084-A28,trabajo,mujer,2
+RO084,RO084-A29,familia,mujer,2
+RO084,RO084-A30,vecindad,mujer,2
+RO085,RO085-A01,trabajo,hombre,5
+RO085,RO085-A02,familia,mujer,5
+RO085,RO085-A03,familia,hombre,4
+RO085,RO085-A04,familia,mujer,5
+RO085,RO085-A05,familia,hombre,5
+RO085,RO085-A06,aficiones,mujer,4
+RO085,RO085-A07,a través de otra persona,mujer,4
+RO085,RO085-A08,a través de otra persona,mujer,4
+RO085,RO085-A09,vecindad,mujer,4
+RO085,RO085-A10,estudios superiores,mujer,4
+RO085,RO085-A11,escuela,mujer,5
+RO085,RO085-A12,a través de otra persona,hombre,3
+RO085,RO085-A13,a través de otra persona,hombre,3
+RO085,RO085-A14,escuela,hombre,4
+RO085,RO085-A15,a través de otra persona,hombre,4
+RO085,RO085-A16,a través de otra persona,mujer,4
+RO085,RO085-A17,vecindad,hombre,3
+RO085,RO085-A18,familia,hombre,3
+RO085,RO085-A19,familia,hombre,5
+RO085,RO085-A20,trabajo,hombre,3
+RO085,RO085-A21,estudios superiores,mujer,4
+RO085,RO085-A22,a través de otra persona,hombre,2
+RO085,RO085-A23,estudios superiores,mujer,3
+RO085,RO085-A24,estudios superiores,mujer,4
+RO085,RO085-A25,estudios superiores,mujer,3
+RO085,RO085-A26,estudios superiores,mujer,4
+RO085,RO085-A27,estudios superiores,mujer,4
+RO085,RO085-A28,estudios superiores,mujer,4
+RO085,RO085-A29,estudios superiores,mujer,4
+RO085,RO085-A30,estudios superiores,hombre,2
+RO086,RO086-A01,aficiones,hombre,3
+RO086,RO086-A02,trabajo,mujer,5
+RO086,RO086-A03,trabajo,hombre,3
+RO086,RO086-A04,a través de otra persona,hombre,3
+RO086,RO086-A05,familia,hombre,3
+RO086,RO086-A06,familia,hombre,3
+RO086,RO086-A07,familia,mujer,3
+RO086,RO086-A08,trabajo,mujer,2
+RO086,RO086-A09,trabajo,mujer,2
+RO086,RO086-A10,familia,hombre,4
+RO086,RO086-A11,a través de otra persona,mujer,2
+RO086,RO086-A12,familia,hombre,4
+RO086,RO086-A13,familia,hombre,4
+RO086,RO086-A14,familia,hombre,4
+RO086,RO086-A15,trabajo,mujer,3
+RO086,RO086-A16,trabajo,mujer,3
+RO086,RO086-A17,otra,hombre,4
+RO086,RO086-A18,otra,hombre,3
+RO086,RO086-A19,trabajo,hombre,3
+RO086,RO086-A20,trabajo,hombre,3
+RO086,RO086-A21,estudios superiores,hombre,3
+RO086,RO086-A22,aficiones,mujer,3
+RO086,RO086-A23,otra,hombre,3
+RO086,RO086-A24,vecindad,hombre,2
+RO086,RO086-A25,trabajo,mujer,2
+RO086,RO086-A26,a través de otra persona,hombre,2
+RO086,RO086-A27,otra,mujer,5
+RO086,RO086-A28,a través de otra persona,hombre,2
+RO086,RO086-A29,trabajo,mujer,2
+RO086,RO086-A30,vecindad,mujer,2
+RO087,RO087-A01,aficiones,hombre,5
+RO087,RO087-A02,trabajo,mujer,5
+RO087,RO087-A03,familia,mujer,3
+RO087,RO087-A04,familia,mujer,4
+RO087,RO087-A05,escuela,mujer,3
+RO087,RO087-A06,trabajo,mujer,3
+RO087,RO087-A07,familia,hombre,2
+RO087,RO087-A08,familia,mujer,5
+RO087,RO087-A09,familia,hombre,5
+RO087,RO087-A10,familia,mujer,4
+RO087,RO087-A11,familia,mujer,5
+RO087,RO087-A12,estudios superiores,mujer,5
+RO087,RO087-A13,trabajo,hombre,4
+RO087,RO087-A14,trabajo,hombre,3
+RO087,RO087-A15,trabajo,hombre,3
+RO087,RO087-A16,trabajo,hombre,4
+RO087,RO087-A17,escuela,mujer,4
+RO087,RO087-A18,trabajo,mujer,3
+RO087,RO087-A19,escuela,hombre,2
+RO087,RO087-A20,escuela,hombre,3
+RO087,RO087-A21,familia,mujer,4
+RO087,RO087-A22,a través de otra persona,mujer,3
+RO087,RO087-A23,a través de otra persona,mujer,4
+RO087,RO087-A24,trabajo,mujer,4
+RO087,RO087-A25,estudios superiores,mujer,4
+RO087,RO087-A26,trabajo,hombre,3
+RO087,RO087-A27,escuela,mujer,4
+RO087,RO087-A28,trabajo,mujer,3
+RO087,RO087-A29,estudios superiores,mujer,3
+RO087,RO087-A30,estudios superiores,mujer,2
+RO088,RO088-A01,escuela,mujer,3
+RO088,RO088-A02,trabajo,mujer,4
+RO088,RO088-A03,trabajo,mujer,4
+RO088,RO088-A04,familia,mujer,5
+RO088,RO088-A05,trabajo,mujer,4
+RO088,RO088-A06,trabajo,mujer,2
+RO088,RO088-A07,trabajo,mujer,3
+RO088,RO088-A08,escuela,hombre,2
+RO088,RO088-A09,trabajo,hombre,1
+RO088,RO088-A10,trabajo,hombre,3
+RO088,RO088-A11,trabajo,mujer,3
+RO088,RO088-A12,trabajo,mujer,3
+RO088,RO088-A13,trabajo,hombre,2
+RO088,RO088-A14,trabajo,mujer,3
+RO088,RO088-A15,familia,mujer,4
+RO088,RO088-A16,familia,mujer,1
+RO088,RO088-A17,trabajo,mujer,2
+RO088,RO088-A18,trabajo,hombre,1
+RO088,RO088-A19,trabajo,mujer,1
+RO088,RO088-A20,trabajo,mujer,2
+RO088,RO088-A21,vecindad,hombre,2
+RO088,RO088-A22,trabajo,hombre,2
+RO088,RO088-A23,trabajo,hombre,1
+RO088,RO088-A24,escuela,hombre,2
+RO088,RO088-A25,trabajo,hombre,3
+RO088,RO088-A26,a través de otra persona,mujer,2
+RO088,RO088-A27,a través de otra persona,mujer,4
+RO088,RO088-A28,familia,mujer,3
+RO088,RO088-A29,trabajo,mujer,4
+RO088,RO088-A30,otra,hombre,1
+RO089,RO089-A01,familia,hombre,4
+RO089,RO089-A02,familia,hombre,4
+RO089,RO089-A03,familia,hombre,4
+RO089,RO089-A04,vecindad,hombre,4
+RO089,RO089-A05,familia,hombre,4
+RO089,RO089-A06,vecindad,hombre,4
+RO089,RO089-A07,vecindad,hombre,4
+RO089,RO089-A08,trabajo,hombre,3
+RO089,RO089-A09,vecindad,hombre,4
+RO089,RO089-A10,familia,hombre,3
+RO089,RO089-A11,vecindad,hombre,4
+RO089,RO089-A12,trabajo,hombre,4
+RO089,RO089-A13,trabajo,hombre,3
+RO089,RO089-A14,familia,hombre,4
+RO089,RO089-A15,familia,hombre,4
+RO089,RO089-A16,trabajo,hombre,3
+RO089,RO089-A17,familia,hombre,4
+RO089,RO089-A18,familia,mujer,4
+RO089,RO089-A19,trabajo,hombre,4
+RO089,RO089-A20,familia,mujer,4
+RO089,RO089-A21,trabajo,mujer,3
+RO089,RO089-A22,vecindad,hombre,3
+RO089,RO089-A23,familia,mujer,4
+RO089,RO089-A24,familia,mujer,4
+RO089,RO089-A25,vecindad,hombre,4
+RO089,RO089-A26,vecindad,mujer,3
+RO089,RO089-A27,vecindad,hombre,4
+RO089,RO089-A28,vecindad,hombre,3
+RO089,RO089-A29,familia,mujer,4
+RO089,RO089-A30,familia,mujer,4
+RO090,RO090-A01,escuela,hombre,5
+RO090,RO090-A02,escuela,hombre,4
+RO090,RO090-A03,escuela,hombre,3
+RO090,RO090-A04,vecindad,hombre,3
+RO090,RO090-A05,estudios superiores,hombre,3
+RO090,RO090-A06,aficiones,hombre,2
+RO090,RO090-A07,trabajo,hombre,3
+RO090,RO090-A08,trabajo,mujer,3
+RO090,RO090-A09,trabajo,mujer,3
+RO090,RO090-A10,trabajo,hombre,2
+RO090,RO090-A11,trabajo,mujer,3
+RO090,RO090-A12,estudios superiores,mujer,3
+RO090,RO090-A13,a través de otra persona,hombre,3
+RO090,RO090-A14,trabajo,mujer,3
+RO090,RO090-A15,trabajo,hombre,3
+RO090,RO090-A16,vecindad,mujer,3
+RO090,RO090-A17,a través de otra persona,mujer,3
+RO090,RO090-A18,aficiones,hombre,3
+RO090,RO090-A19,escuela,hombre,4
+RO090,RO090-A20,a través de otra persona,hombre,2
+RO090,RO090-A21,escuela,hombre,2
+RO090,RO090-A22,escuela,hombre,2
+RO090,RO090-A23,aficiones,hombre,3
+RO090,RO090-A24,trabajo,mujer,2
+RO090,RO090-A25,trabajo,mujer,3
+RO090,RO090-A26,a través de otra persona,mujer,1
+RO090,RO090-A27,trabajo,hombre,1
+RO090,RO090-A28,escuela,mujer,2
+RO090,RO090-A29,aficiones,hombre,3
+RO090,RO090-A30,a través de otra persona,hombre,2

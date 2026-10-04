@@ -1,0 +1,82 @@
+---
+layout: recurso
+title: Redes egocéntricas y una variable
+titulo: h.ego.titulo
+permalink: /resources/egocentrica/
+volver: true
+scripts: [redes.js, ego.js]
+---
+<div id="herramienta" data-base="{{ '/assets/data/recursos/' | relative_url }}">
+  <section class="rec-paso">
+    <h2><span>1</span><b data-t="h.paso.datos"></b></h2>
+    <div class="rec-cols">
+      <div class="rec-bloque">
+        <h3 data-t="h.ejemplos"></h3>
+        <button type="button" class="btn" data-ejemplo="mapcd" data-t="ej.mapcd"></button>
+        <p class="rec-ej" data-th="ej.mapcd.d"></p>
+        <button type="button" class="btn" data-ejemplo="sim" data-t="ej.ego"></button>
+        <p class="rec-ej" data-t="ej.ego.d"></p>
+      </div>
+      <div class="rec-bloque">
+        <h3 data-t="h.tusdatos"></h3>
+        <label class="rec-archivo"><span data-t="f.egos"></span><input type="file" id="f-egos" accept=".csv,.txt,.tsv,text/csv"></label>
+        <label class="rec-archivo"><span data-t="f.alteri"></span><input type="file" id="f-alteri" accept=".csv,.txt,.tsv,text/csv"></label>
+        <label class="rec-archivo"><span data-t="f.valteri"></span><input type="file" id="f-valteri" accept=".csv,.txt,.tsv,text/csv"></label>
+        <button type="button" class="btn sec" id="cargar" data-t="h.cargar"></button>
+        <p class="rec-priv" data-t="h.privacidad"></p>
+        <details><summary data-t="h.formato"></summary><p data-th="f.ego.ayuda"></p></details>
+      </div>
+    </div>
+    <p id="aviso" class="rec-aviso" role="status"></p>
+  </section>
+
+  <div id="trabajo" hidden>
+    <section class="rec-paso">
+      <h2><span>2</span><b data-t="h.paso.var"></b></h2>
+      <div class="rec-controles">
+        <label><span data-t="e.vd"></span><select id="sel-vd"></select></label>
+        <label><span data-t="e.attr"></span><select id="sel-attr"></select></label>
+        <label><span data-t="e.cat"></span><select id="sel-cat"></select></label>
+      </div>
+      <p id="var-desc" class="rec-var" hidden></p>
+    </section>
+
+    <section class="rec-paso">
+      <h2><span>3</span><b data-t="h.paso.red"></b></h2>
+      <p id="gal-nota" class="rec-nota"></p>
+      <div id="galeria" class="rec-galeria"></div>
+      <div id="leyenda" class="rec-leyenda claro"></div>
+    </section>
+
+    <section class="rec-paso">
+      <h2><span>4</span><b data-t="h.paso.res"></b></h2>
+      <div id="resumen" class="rec-resumen"></div>
+      <div class="rec-cols ancho">
+        <div>
+          <div class="rec-tabla-caja"><table id="tabla" class="rec-tabla"><thead></thead><tbody></tbody></table></div>
+          <p id="notas-tabla" class="rec-nota"></p>
+        </div>
+        <div>
+          <label class="rec-sel-graf"><span data-t="g.elegir"></span><select id="sel-graf"></select></label>
+          <h3 id="graf-titulo"></h3>
+          <svg id="grafico" class="rec-grafico" viewBox="0 0 520 300" role="img"></svg>
+          <button type="button" class="btn sec" id="descargar" data-t="h.descargar"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="rec-paso">
+      <h2><span>5</span><b data-t="h.paso.gemini"></b></h2>
+      <p class="rec-nota" data-t="h.prompt.nota"></p>
+      <textarea id="prompt" class="rec-prompt" rows="16" spellcheck="false"></textarea>
+      <button type="button" class="btn" id="copiar" data-t="h.copiar"></button>
+    </section>
+
+    <section class="rec-paso">
+      <details class="rec-metodo"><summary data-t="h.paso.metodo"></summary>
+        <p data-t="metodo.ego"></p>
+        <ul id="metodo-lista"></ul>
+      </details>
+    </section>
+  </div>
+</div>

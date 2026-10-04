@@ -1,0 +1,57 @@
+origen,destino
+Boniface,Gregory
+John Bosco,Basil
+Bonaventure,Peter
+Peter,Bonaventure
+Ambrose,Victor
+Louis,Victor
+Victor,Ambrose
+Romauld,Ambrose
+Hugh,Winfrid
+Romauld,Amand
+Albert,Boniface
+Simplicius,Elias
+Elias,Simplicius
+Gregory,John Bosco
+Basil,John Bosco
+Winfrid,John Bosco
+Hugh,John Bosco
+Mark,Gregory
+Winfrid,Gregory
+Albert,Gregory
+Elias,Gregory
+Simplicius,Gregory
+Elias,Basil
+Simplicius,Basil
+Berthold,Peter
+Victor,Peter
+Romauld,Peter
+Berthold,Bonaventure
+Ambrose,Bonaventure
+Romauld,Bonaventure
+Louis,Bonaventure
+Amand,Bonaventure
+Peter,Berthold
+Victor,Berthold
+Gregory,Mark
+Winfrid,Mark
+Amand,Mark
+Boniface,Mark
+Albert,Mark
+Bonaventure,Ambrose
+Berthold,Ambrose
+Peter,Louis
+Bonaventure,Louis
+John Bosco,Winfrid
+Gregory,Winfrid
+Mark,Winfrid
+Ambrose,Winfrid
+Boniface,Winfrid
+Basil,Amand
+John Bosco,Hugh
+Louis,Hugh
+Hugh,Boniface
+Mark,Albert
+Basil,Elias
+Basil,Simplicius
+Amand,Simplicius

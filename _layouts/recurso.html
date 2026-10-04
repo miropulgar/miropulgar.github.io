@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="pagina recurso">
+  <header class="cabecera negro rec-cabecera">
+    <div class="rec-arriba">
+      {% if page.volver %}<a class="rec-volver" href="{{ '/resources/' | relative_url }}" data-t="h.volver">← Recursos</a>{% else %}<span></span>{% endif %}
+      <div class="idiomas" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es">ES</button><button type="button" data-lang="ca">CA</button><button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+    <h1 data-t="{{ page.titulo }}" data-titulo="{{ page.titulo }}">{{ page.title }}</h1>
+  </header>
+  <div class="rec-cuerpo">
+    {{ content }}
+  </div>
+  <noscript><p class="rec-cuerpo">Esta página necesita JavaScript.</p></noscript>
+</article>
+{%- assign v = site.time | date: '%s' -%}
+<script src="{{ '/assets/js/recursos/i18n.js' | relative_url }}?v={{ v }}"></script>
+{%- for s in page.scripts %}
+<script src="{{ s | prepend: '/assets/js/recursos/' | relative_url }}?v={{ v }}"></script>
+{%- endfor %}
