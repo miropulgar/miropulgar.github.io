@@ -2,6 +2,13 @@
 layout: default
 ---
 <article class="pagina recurso">
+  {%- comment -%} Puerta de acceso con clave. Solo se guarda la huella SHA-256 de la clave, no la clave.
+  Ojo: es una puerta para la clase, no una protección real; el repositorio y los datos siguen siendo públicos. {%- endcomment %}
+  <script>
+    window.RECURSOS_HUELLA = 'd1a08ae1268b2fc1248ace198c3518a73d86ea765ff93d964a6182b4c32d80c3';
+    try { if (localStorage.getItem('miroslab-recursos') !== window.RECURSOS_HUELLA) document.documentElement.classList.add('rec-bloqueado'); }
+    catch (e) { document.documentElement.classList.add('rec-bloqueado'); }
+  </script>
   <header class="cabecera negro rec-cabecera">
     <div class="rec-arriba">
       {% if page.volver %}<a class="rec-volver" href="{{ '/resources/' | relative_url }}" data-t="h.volver">← Recursos</a>{% else %}<span></span>{% endif %}
@@ -11,6 +18,12 @@ layout: default
     </div>
     <h1 data-t="{{ page.titulo }}" data-titulo="{{ page.titulo }}">{{ page.title }}</h1>
   </header>
+  <form class="rec-acceso" id="rec-acceso" autocomplete="off">
+    <p data-t="acc.texto"></p>
+    <label><span data-t="acc.clave"></span><input type="password" id="rec-clave" inputmode="numeric" autocomplete="off" required></label>
+    <button type="submit" class="btn" data-t="acc.entrar"></button>
+    <p class="rec-aviso" id="rec-error" role="alert"></p>
+  </form>
   <div class="rec-cuerpo">
     {{ content }}
   </div>
@@ -18,6 +31,31 @@ layout: default
 </article>
 {%- assign v = site.time | date: '%s' -%}
 <script src="{{ '/assets/js/recursos/i18n.js' | relative_url }}?v={{ v }}"></script>
+<script>
+  (function () {
+    var f = document.getElementById('rec-acceso');
+    if (!f) return;
+    function huella(t) {
+      return crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)).then(function (b) {
+        return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join('');
+      });
+    }
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var campo = document.getElementById('rec-clave');
+      huella(campo.value.trim()).then(function (h) {
+        if (h === window.RECURSOS_HUELLA) {
+          try { localStorage.setItem('miroslab-recursos', h); } catch (err) { /* sin almacenamiento: vale solo para esta visita */ }
+          document.documentElement.classList.remove('rec-bloqueado');
+          campo.value = '';
+        } else {
+          document.getElementById('rec-error').textContent = window.I18N ? window.I18N.t('acc.error') : 'Clave incorrecta.';
+          campo.select();
+        }
+      });
+    });
+  })();
+</script>
 {%- for s in page.scripts %}
 <script src="{{ s | prepend: '/assets/js/recursos/' | relative_url }}?v={{ v }}"></script>
 {%- endfor %}

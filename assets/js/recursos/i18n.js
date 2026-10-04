@@ -108,7 +108,11 @@
       'v.tamano_hogar': 'Número de personas en su hogar, contándose a sí misma.',
       'v.rigidez_normas': 'Rigidez de las normas que percibe (escala individual de rigidez-laxitud, de 1 a 7): valores altos, normas más claras y estrictas.',
       'v.apoyo': 'Datos simulados: apoyo que recibe el ego, de 0 a 10.',
-      'v.empleo_por_contactos': 'Datos simulados: si el ego encontró su último empleo gracias a sus contactos.'
+      'v.empleo_por_contactos': 'Datos simulados: si el ego encontró su último empleo gracias a sus contactos.',
+      'acc.texto': 'Esta sección es para las clases del máster. Escribe la clave para entrar.',
+      'acc.clave': 'Clave',
+      'acc.entrar': 'Entrar',
+      'acc.error': 'Clave incorrecta.'
     },
     ca: {
       'rec.titulo': 'Recursos',
@@ -215,7 +219,11 @@
       'v.tamano_hogar': 'Nombre de persones a la llar, comptant-s’hi ella mateixa.',
       'v.rigidez_normas': 'Rigidesa de les normes que percep (escala individual de rigidesa-laxitud, d’1 a 7): valors alts, normes més clares i estrictes.',
       'v.apoyo': 'Dades simulades: suport que rep l’ego, de 0 a 10.',
-      'v.empleo_por_contactos': 'Dades simulades: si l’ego va trobar la darrera feina gràcies als seus contactes.'
+      'v.empleo_por_contactos': 'Dades simulades: si l’ego va trobar la darrera feina gràcies als seus contactes.',
+      'acc.texto': 'Aquesta secció és per a les classes del màster. Escriu la clau per entrar.',
+      'acc.clave': 'Clau',
+      'acc.entrar': 'Entrar',
+      'acc.error': 'Clau incorrecta.'
     },
     en: {
       'rec.titulo': 'Resources',
@@ -322,7 +330,11 @@
       'v.tamano_hogar': 'Number of people in the household, including the respondent.',
       'v.rigidez_normas': 'Perceived tightness of social norms (individual tightness–looseness score, 1 to 7): higher values, clearer and stricter norms.',
       'v.apoyo': 'Simulated data: support received by ego, 0 to 10.',
-      'v.empleo_por_contactos': 'Simulated data: whether ego found their last job through contacts.'
+      'v.empleo_por_contactos': 'Simulated data: whether ego found their last job through contacts.',
+      'acc.texto': 'This section is for the master’s classes. Enter the code to continue.',
+      'acc.clave': 'Code',
+      'acc.entrar': 'Enter',
+      'acc.error': 'Wrong code.'
     }
   };
 

@@ -284,6 +284,13 @@ h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: u
 .idiomas button { border: 0; border-radius: 0; padding: 6px 10px; background: rgba(255, 255, 255, .14); color: #fff; font: 600 13px 'Instrument Sans', sans-serif; cursor: pointer; }
 .idiomas button[aria-pressed="true"] { background: #fff; color: var(--negro); }
 .rec-cuerpo { margin: 0 var(--margen); padding: 36px 0 24px; }
+.rec-acceso { display: none; }
+.rec-bloqueado .rec-cuerpo { display: none; }
+.rec-bloqueado .rec-acceso { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; margin: 32px var(--margen); padding: 28px; background: var(--gris); max-width: 520px; }
+.rec-acceso p { margin: 0; font-size: 17px; }
+.rec-acceso label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 500; }
+.rec-acceso input { font: 18px 'Instrument Sans', sans-serif; letter-spacing: .2em; padding: 10px 12px; border: 0; border-radius: 0; background: #fff; width: 200px; }
+.rec-acceso input:focus-visible { outline: 2px solid var(--azul); }
 .rec-lead { font-size: clamp(19px, 1.7vw, 23px); line-height: 1.5; max-width: 60ch; margin: 0 0 32px; }
 .rec-tarjetas { display: grid; grid-template-columns: 1fr 1fr; }
 .rec-tarjeta { display: flex; flex-direction: column; gap: 12px; padding: 28px; min-height: 280px; text-decoration: none; }
