@@ -13,5 +13,6 @@ Esto matiza mucho el argumento de Pálsson, pero no deja de ser un conjunto de e
 
 
 ---
+**Referencias**
 
 Pálsson, G. (1988). Hunters and gatherers of the sea. En T. Ingold, D. Riches y J. Woodburn (eds.), *Hunters and gatherers 1: History, evolution and social change* (pp. 189–204). Berg.
