@@ -124,8 +124,11 @@
   // Mar (FOLLOW): cada barco sigue al vecino de su red que mejor pescó ayer; en las celdas se forman camarillas.
   // Llegada (ANCHOR): los barcos llegan en fila; cada vendedor mira a los dos que llegaron antes y acerca su precio.
   // Venta (PEEK): en cada ronda, quien está por encima de la mediana de sus vecinos de fila baja su precio.
-  // Se dibuja como en la presentación de 2026-10-08: botes de perfil, merluzas en las celdas ricas y un título por fase.
-  var BOTE = 'M-1.25 -.2H.3V-1.45H.42V-.2H1.05L1.5 -.55L1 .45H-1Z M-.75 -.2V-.75H-.1V-.2Z';   // casco con proa alzada, mástil y caseta
+  // Se dibuja como en la presentación de 2026-10-08: botes artesanales de perfil, merluzas en las celdas ricas y un título por fase.
+  // Bote artesanal como los de Caleta Portales: casco abierto con la proa alzada, fuera de borda en el espejo y el pescador a popa, con la caña.
+  var BOTE = 'M-1.25 -.14C-.4 -.04 .6 -.06 1.42 -.56C1.22 -.06 1 .34 .5 .42L-1.13 .4Z' +
+             ' M-1.62 -.44Q-1.62 -.5 -1.54 -.5H-1.3Q-1.22 -.5 -1.22 -.42V-.16H-1.62Z M-1.48 -.16H-1.38L-1.36 .5H-1.28V.56H-1.56V.5H-1.46Z M-1.24 -.4H-.9V-.34H-1.24Z' +
+             ' M-.98 -.12L-.95 -.5Q-.82 -.6 -.69 -.5L-.66 -.1Z M-.69 -.72A.13 .13 0 1 0 -.95 -.72A.13 .13 0 1 0 -.69 -.72Z';
   var PEZ = 'M-1 0A1 .42 0 1 0 1 0A1 .42 0 1 0 -1 0Z M-1 0L-1.6 -.55V.55Z';                    // merluza: cuerpo y cola
   function mercado() {
     var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
@@ -192,7 +195,7 @@
     var LY = EJE + 64, LP = 21, gLey = el('g', { 'class': 'leyenda' }, g);
     el('path', { d: PEZ, transform: 'translate(' + (BX + 6) + ' ' + (LY - 5) + ') scale(3.4)', fill: '#fff' }, gLey);
     texto('merluza: el banco se mueve cada día', { 'class': 'nota', x: BX + 16, y: LY, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
-    el('path', { d: BOTE, transform: 'translate(' + (BX + 4) + ' ' + (LY + LP - 4) + ') scale(4.4)', fill: '#fff' }, gLey);
+    el('path', { d: BOTE, transform: 'translate(' + (BX + 5) + ' ' + (LY + LP - 4) + ') scale(4.2)', fill: '#fff' }, gLey);
     texto('bote: su tamaño es la pesca', { 'class': 'nota', x: BX + 16, y: LY + LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
     el('line', { x1: BX - 1, x2: BX + 10, y1: LY + 2 * LP - 4, y2: LY + 2 * LP - 4, stroke: '#fff', 'stroke-width': 1, 'stroke-opacity': .6 }, gLey);
     texto('red: de quién se informa cada bote', { 'class': 'nota', x: BX + 16, y: LY + 2 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
@@ -318,7 +321,7 @@
         }
         else { var v = suave((t - T_MAR - b.fila * PASO) / VUELO); x = b.pos[0] + (b.ranura[0] - b.pos[0]) * v; y = b.pos[1] + (b.ranura[1] - b.pos[1]) * v; r = b.rPesca + (2.6 - b.rPesca) * v; mar = 1 - v; dx = 1; }
         if (Math.abs(dx) > .5) b.rumbo = dx > 0 ? 1 : -1;  // el bote mira hacia donde va; quieto, conserva el rumbo
-        var k2 = r * 1.15 * (1 + .5 * mar);
+        var k2 = r * (1 + .6 * mar);
         botes[k].setAttribute('transform', 'translate(' + x.toFixed(1) + ' ' + y.toFixed(1) + ') scale(' + ((b.rumbo || 1) * k2).toFixed(2) + ' ' + k2.toFixed(2) + ')');
         botes[k].setAttribute('fill', b.enCamarilla && t >= M_PESCA ? PAL[0] : '#fff');
         xy[k][0] = x; xy[k][1] = y;
