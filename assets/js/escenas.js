@@ -124,6 +124,9 @@
   // Mar (FOLLOW): cada barco sigue al vecino de su red que mejor pescó ayer; en las celdas se forman camarillas.
   // Llegada (ANCHOR): los barcos llegan en fila; cada vendedor mira a los dos que llegaron antes y acerca su precio.
   // Venta (PEEK): en cada ronda, quien está por encima de la mediana de sus vecinos de fila baja su precio.
+  // Se dibuja como en la presentación de 2026-10-08: botes de perfil, merluzas en las celdas ricas y un título por fase.
+  var BOTE = 'M-1.25 -.2H.3V-1.45H.42V-.2H1.05L1.5 -.55L1 .45H-1Z M-.75 -.2V-.75H-.1V-.2Z';   // casco con proa alzada, mástil y caseta
+  var PEZ = 'M-1 0A1 .42 0 1 0 1 0A1 .42 0 1 0 -1 0Z M-1 0L-1.6 -.55V.55Z';                    // merluza: cuerpo y cola
   function mercado() {
     var g = el('g', { 'class': 'esc', style: 'display:none;opacity:0' });
     var N = 50, G = 12, CEL = 26, X0 = -20, Y0 = 44, BX = 340, BW = 290, BH = 4.2, BP = 6.15;
@@ -148,8 +151,10 @@
 
     var celdas = [];
     for (var y = 0; y < G; y++) for (var x = 0; x < G; x++) celdas.push(el('rect', { x: X0 + x * CEL + 1, y: Y0 + y * CEL + 1, width: CEL - 2, height: CEL - 2, fill: '#fff' }, g));
-    texto('mar', { 'class': 'ley', x: X0, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
-    texto('caleta: por orden de llegada', { 'class': 'ley', x: BX - 12, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
+    texto('mar: más claro, más merluza', { 'class': 'ley', x: X0, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
+    texto('precio, por orden de llegada', { 'class': 'ley', x: BX - 12, y: Y0 - 14, 'font-size': 15, fill: 'rgba(255,255,255,.8)' }, g);
+    var gPez = el('g', { fill: FONDO }, g), peces = [], cardumen = [];   // merluzas que nadan en las celdas ricas
+    for (i = 0; i < 160; i++) peces.push(el('path', { d: PEZ, style: 'display:none' }, gPez));
     function miles(n) { n = Math.round(n); return n >= 1000 ? Math.floor(n / 1000) + '.' + String(n % 1000).padStart(3, '0') : String(n); }
     // la red de información entre botes: todos los vínculos, finos; los que se usan para seguir, en rosa
     var pares = [], vistoPar = {};
@@ -167,8 +172,8 @@
     // ANCHOR: al llegar, una línea rosa une el final de su barra con el de los dos que llegaron antes
     var gMira = el('g', { fill: 'none', stroke: PAL[3], 'stroke-width': 1.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }, g), miradas = [];
     for (i = 0; i < N; i++) miradas.push(el('polyline', { 'stroke-opacity': 0 }, gMira));
-    var gN = el('g', { stroke: FONDO, 'stroke-width': 1 }, g), botes = [];
-    for (i = 0; i < N; i++) botes.push(el('circle', { r: 4.2, fill: '#fff' }, gN));
+    var gN = el('g', { stroke: FONDO, 'stroke-width': 1.4, 'stroke-linejoin': 'round', 'paint-order': 'stroke' }, g), botes = [], xy = [];
+    for (i = 0; i < N; i++) { botes.push(el('path', { d: BOTE, fill: '#fff', 'vector-effect': 'non-scaling-stroke' }, gN)); xy.push([0, 0]); }
     // eje de precios bajo las barras
     var EJE = Y0 + N * BP + 6;
     el('line', { x1: BX, x2: BX + BW, y1: EJE, y2: EJE, stroke: 'rgba(255,255,255,.55)', 'stroke-width': 1 }, g);
@@ -185,10 +190,9 @@
     var promA = el('tspan', { fill: '#fff' }, promT), promB = el('tspan', { fill: PAL[0] }, promT), promC = el('tspan', { fill: '#fff' }, promT), promD = el('tspan', { fill: PAL[1] }, promT), promE = el('tspan', { fill: '#fff' }, promT);
     // leyenda (en pantallas estrechas se oculta)
     var LY = EJE + 64, LP = 21, gLey = el('g', { 'class': 'leyenda' }, g);
-    el('rect', { x: BX - 1, y: LY - 10, width: 5, height: 10, fill: '#fff', 'fill-opacity': .12 }, gLey);
-    el('rect', { x: BX + 5, y: LY - 10, width: 5, height: 10, fill: '#fff', 'fill-opacity': .45 }, gLey);
-    texto('banco de merluza: se mueve cada día', { 'class': 'nota', x: BX + 16, y: LY, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
-    el('circle', { cx: BX + 4, cy: LY + LP - 4, r: 4.2, fill: '#fff' }, gLey);
+    el('path', { d: PEZ, transform: 'translate(' + (BX + 6) + ' ' + (LY - 5) + ') scale(3.4)', fill: '#fff' }, gLey);
+    texto('merluza: el banco se mueve cada día', { 'class': 'nota', x: BX + 16, y: LY, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
+    el('path', { d: BOTE, transform: 'translate(' + (BX + 4) + ' ' + (LY + LP - 4) + ') scale(4.4)', fill: '#fff' }, gLey);
     texto('bote: su tamaño es la pesca', { 'class': 'nota', x: BX + 16, y: LY + LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
     el('line', { x1: BX - 1, x2: BX + 10, y1: LY + 2 * LP - 4, y2: LY + 2 * LP - 4, stroke: '#fff', 'stroke-width': 1, 'stroke-opacity': .6 }, gLey);
     texto('red: de quién se informa cada bote', { 'class': 'nota', x: BX + 16, y: LY + 2 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
@@ -199,13 +203,18 @@
     el('rect', { x: BX - 1, y: LY + 5 * LP - 7, width: 7, height: 4.2, fill: '#fff' }, gLey);
     el('rect', { x: BX + 6, y: LY + 5 * LP - 7, width: 5, height: 4.2, fill: PAL[1] }, gLey);
     texto('precio: en naranja, lo que bajó en la venta', { 'class': 'nota', x: BX + 16, y: LY + 5 * LP, 'font-size': 14, fill: 'rgba(255,255,255,.85)' }, gLey);
-    var fases = ['1. Mar: pescan y siguen a quien pescó bien', '2. Caleta: precio mirando a los anteriores', '3. Venta: quien está sobre sus vecinos baja'].map(function (t, k) {
-      return texto(t, { 'class': 'ley', x: X0, y: 402 + k * 27, 'font-size': 15, fill: '#fff' }, g);
-    });
-    var rotDia = texto('', { 'class': 'ley', x: X0, y: 402 + 3 * 27 + 4, 'font-size': 14, fill: 'rgba(255,255,255,.7)' }, g);
+    var FASES = [['1  Mar', 'cada bote sigue al vecino', 'que mejor pescó ayer'],
+                 ['2  Caleta', 'cada vendedor mira a los dos', 'que llegaron antes'],
+                 ['3  Venta', 'quien está sobre sus vecinos', 'baja su precio']];
+    var faseT = texto('', { 'class': 'ley', x: X0, y: 404, 'font-size': 17, 'font-weight': 600, fill: '#fff' }, g);
+    var faseA = texto('', { 'class': 'ley', x: X0, y: 432, 'font-size': 15, fill: 'rgba(255,255,255,.88)' }, g);
+    var faseB = texto('', { 'class': 'ley', x: X0, y: 460, 'font-size': 15, fill: 'rgba(255,255,255,.88)' }, g);
+    var avance = [0, 1, 2].map(function (k) { return el('rect', { x: X0 + 190 + k * 26, y: 396, width: 20, height: 4, fill: '#fff' }, g); });
+    var rotDia = texto('', { 'class': 'ley', x: X0, y: 492, 'font-size': 14, fill: 'rgba(255,255,255,.7)' }, g);
+    var faseVista = -1;
 
     var barco = []; for (i = 0; i < N; i++) barco.push({ celda: [Math.floor(azar() * G), Math.floor(azar() * G)], ayer: 50 + azar() * 350, cap: 200 + azar() * 400, ranura: ranura(i) });   // ayer al azar: desde el primer día hay a quién seguir
-    var dia = 0, hoy = null, ayer = null, reloj = 0;
+    var dia = 0, hoy = null, ayer = null, reloj = 0, nado = 0;   // nado: reloj continuo para las merluzas
 
     function nuevoDia() {
       dia++;
@@ -228,6 +237,13 @@
       var bmax = 0, B = [];
       for (var cy = 0; cy < G; cy++) for (var cx = 0; cx < G; cx++) { var v = biomasa(cx, cy); B.push(v); bmax = Math.max(bmax, v); }
       celdas.forEach(function (c, n) { c.setAttribute('fill-opacity', (.05 + .4 * B[n] / bmax).toFixed(3)); });
+      cardumen = [];                                     // hasta tres merluzas por celda, según la biomasa
+      for (var cy2 = 0; cy2 < G; cy2++) for (var cx2 = 0; cx2 < G; cx2++) {
+        var rel = B[cy2 * G + cx2] / bmax;
+        for (var jj = 0; jj < Math.floor(rel * 3.2) && cardumen.length < peces.length; jj++)
+          cardumen.push({ cx: cx2, cy: cy2, j: jj, rel: rel, ph: cx2 * 7.3 + cy2 * 3.1 + jj * 2.2, d: (cx2 + cy2 + jj) % 2 ? 1 : -1 });
+      }
+      peces.forEach(function (pz, n) { var c = cardumen[n]; pz.style.display = c ? '' : 'none'; if (c) pz.setAttribute('fill-opacity', (.55 + .4 * c.rel).toFixed(2)); });
       var orden = [], vistos = {};
       barco.forEach(function (b, k) {                    // captura con congestión, sitio dentro de la celda y hora de llegada
         var c = b.celda.join(), n = cuenta[c];
@@ -273,38 +289,52 @@
       if (hoy) ayer = hoy.rondas[RONDAS];
       hoy = { orden: orden, propio: propio, rondas: rondas, stock: stock, miraVenta: miraVenta,
               sigue: sigue.map(function (par) { return { a: par[0], b: par[1], ln: el('line', {}, gSig) }; }) };
-      barco.forEach(function (b, k) { botes[k].setAttribute('fill', b.enCamarilla ? PAL[0] : '#fff'); });
       rotDia.textContent = 'día ' + dia;
     }
-    nuevoDia();
+    nuevoDia(); nuevoDia();                              // el primer día ya tiene precios de ayer que mostrar
+    dia = 1; rotDia.textContent = 'día 1';
 
     function dibuja() {
       var t = Math.min(reloj, T_FIN - 1), tV = t - T_MAR - T_LLEGA;
-      fases.forEach(function (f, k) { f.setAttribute('fill-opacity', (k === 0 ? t < T_MAR : k === 1 ? t >= T_MAR && tV < 0 : tV >= 0) ? 1 : .4); });
+      var fase = t < T_MAR ? 0 : tV < 0 ? 1 : 2;
+      if (fase !== faseVista) {                          // título de la fase y su avance (tres marcas)
+        faseVista = fase;
+        faseT.textContent = FASES[fase][0]; faseA.textContent = FASES[fase][1]; faseB.textContent = FASES[fase][2];
+        avance.forEach(function (a, k) { a.setAttribute('fill', k === fase ? PAL[1] : 'rgba(255,255,255,.3)'); });
+      }
+      // merluzas: nadan despacio de un lado a otro de su celda
+      for (var n = 0; n < cardumen.length; n++) {
+        var c = cardumen[n], fx = X0 + c.cx * CEL + CEL * (.5 + .28 * Math.sin(nado / 900 * c.d + c.ph)), fy = Y0 + c.cy * CEL + CEL * (.28 + .24 * c.j);
+        peces[n].setAttribute('transform', 'translate(' + fx.toFixed(1) + ' ' + fy.toFixed(1) + ') scale(' + (4.4 * c.d) + ' 4.4)');
+      }
       // botes: salen de la fila al sitio de ayer (tamaño = pesca de ayer); se mueven por la red; pescan (tamaño = pesca de hoy)
       var ida = suave(t / M_RED), mueve = suave((t - M_MUEVE) / (M_PESCA - M_MUEVE - 200)), crece = suave((t - M_PESCA) / 700);
       barco.forEach(function (b, k) {
-        var x, y, r;
+        var x, y, r, mar, dx;
         if (t < T_MAR) {
-          if (t < M_MUEVE) { x = b.desde[0] + (b.posAyer[0] - b.desde[0]) * ida; y = b.desde[1] + (b.posAyer[1] - b.desde[1]) * ida; }
-          else { x = b.posAyer[0] + (b.pos[0] - b.posAyer[0]) * mueve; y = b.posAyer[1] + (b.pos[1] - b.posAyer[1]) * mueve; }
-          r = 2.6 + (b.rAyer - 2.6) * ida + (b.rPesca - b.rAyer) * crece;
+          if (t < M_MUEVE) { x = b.desde[0] + (b.posAyer[0] - b.desde[0]) * ida; y = b.desde[1] + (b.posAyer[1] - b.desde[1]) * ida; dx = b.posAyer[0] - b.desde[0]; }
+          else { x = b.posAyer[0] + (b.pos[0] - b.posAyer[0]) * mueve; y = b.posAyer[1] + (b.pos[1] - b.posAyer[1]) * mueve; dx = b.pos[0] - b.posAyer[0]; }
+          r = 2.6 + (b.rAyer - 2.6) * ida + (b.rPesca - b.rAyer) * crece; mar = ida;
         }
-        else { var v = suave((t - T_MAR - b.fila * PASO) / VUELO); x = b.pos[0] + (b.ranura[0] - b.pos[0]) * v; y = b.pos[1] + (b.ranura[1] - b.pos[1]) * v; r = b.rPesca + (2.6 - b.rPesca) * v; }
-        botes[k].setAttribute('cx', x.toFixed(1)); botes[k].setAttribute('cy', y.toFixed(1)); botes[k].setAttribute('r', r.toFixed(2));
+        else { var v = suave((t - T_MAR - b.fila * PASO) / VUELO); x = b.pos[0] + (b.ranura[0] - b.pos[0]) * v; y = b.pos[1] + (b.ranura[1] - b.pos[1]) * v; r = b.rPesca + (2.6 - b.rPesca) * v; mar = 1 - v; dx = 1; }
+        if (Math.abs(dx) > .5) b.rumbo = dx > 0 ? 1 : -1;  // el bote mira hacia donde va; quieto, conserva el rumbo
+        var k2 = r * 1.15 * (1 + .5 * mar);
+        botes[k].setAttribute('transform', 'translate(' + x.toFixed(1) + ' ' + y.toFixed(1) + ') scale(' + ((b.rumbo || 1) * k2).toFixed(2) + ' ' + k2.toFixed(2) + ')');
+        botes[k].setAttribute('fill', b.enCamarilla && t >= M_PESCA ? PAL[0] : '#fff');
+        xy[k][0] = x; xy[k][1] = y;
       });
       var vRed = t >= T_MAR ? 0 : Math.min(1, Math.max(0, (t - M_RED) / 500)) * (1 - suave((t - M_PESCA) / 900));
       gRed.setAttribute('opacity', vRed.toFixed(2));
       if (vRed > 0) pares.forEach(function (pr, n) {
-        var a = botes[pr[0]], b = botes[pr[1]], ln = lineasRed[n];
-        ln.setAttribute('x1', a.getAttribute('cx')); ln.setAttribute('y1', a.getAttribute('cy'));
-        ln.setAttribute('x2', b.getAttribute('cx')); ln.setAttribute('y2', b.getAttribute('cy'));
+        var a = xy[pr[0]], b = xy[pr[1]], ln = lineasRed[n];
+        ln.setAttribute('x1', a[0].toFixed(1)); ln.setAttribute('y1', a[1].toFixed(1));
+        ln.setAttribute('x2', b[0].toFixed(1)); ln.setAttribute('y2', b[1].toFixed(1));
       });
       var vSig = t >= T_MAR ? 0 : Math.min(1, Math.max(0, (t - M_RED - 400) / 500)) * (1 - suave((t - M_PESCA) / 700)) * .95;
       hoy.sigue.forEach(function (s) {
-        var a = botes[s.a], b = botes[s.b];
-        s.ln.setAttribute('x1', a.getAttribute('cx')); s.ln.setAttribute('y1', a.getAttribute('cy'));
-        s.ln.setAttribute('x2', b.getAttribute('cx')); s.ln.setAttribute('y2', b.getAttribute('cy'));
+        var a = xy[s.a], b = xy[s.b];
+        s.ln.setAttribute('x1', a[0].toFixed(1)); s.ln.setAttribute('y1', a[1].toFixed(1));
+        s.ln.setAttribute('x2', b[0].toFixed(1)); s.ln.setAttribute('y2', b[1].toFixed(1));
         s.ln.setAttribute('stroke-opacity', vSig.toFixed(2));
       });
       gCam.setAttribute('stroke-opacity', t < M_PESCA ? 0 : tV < 0 ? Math.min(1, (t - M_PESCA) / 500) : Math.max(0, 1 - tV / 800));
@@ -372,7 +402,7 @@
       g: g, dur: DIA,
       entra: function () { if (!quieto && reloj > 0) { reloj = 0; nuevoDia(); } },   // cada vez que aparece, empieza un día nuevo
       paso: function (dt) {
-        reloj = quieto ? DIA - 1 : reloj + dt;
+        reloj = quieto ? DIA - 1 : reloj + dt; nado += quieto ? 0 : dt;
         if (reloj >= DIA) { reloj -= DIA; nuevoDia(); }
         dibuja();
       }
