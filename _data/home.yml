@@ -42,7 +42,7 @@ investigacion:
 
 # Actualizar a mano cuando se añadan publicaciones
 cifras:
-  - numero: 13
+  - numero: 14
     texto: artículos
   - numero: 4
     texto: informes
