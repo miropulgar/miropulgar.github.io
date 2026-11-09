@@ -34,6 +34,10 @@ permalink: /publications/
 
 - **Pulgar** Corrotea, M., y Villarroel, C. (2019). Aproximaciones teóricas al fenómeno del análisis de clases en la pesca artesanal. *Revista Central De Sociología, 8*(8), 53-81. [https://www.centraldesociologia.cl/index.php/rcs/article/view/7](https://www.centraldesociologia.cl/index.php/rcs/article/view/7)
 
+### Book chapters
+
+- Villarroel Ríos, C., & **Pulgar** Corrotea, M. (2018). Participación ciudadana y mixofobia en el desarrollo urbano chileno: Un análisis desde las reflexiones de Zygmunt Bauman. In M. Vasconcellos Sobrinho, A. M. de Albuquerque Vasconcellos, H. C. Pinheiro de Andrade, & C. Pineda Nebot (Eds.), *Gestão social & território: Práticas participativas para o desenvolvimento territorial* (pp. 79–110). Universidade da Amazônia. ISBN 978-85-7691-157-9
+
 ### Reports
 
 - Ferrari, A., Akiyama, T., Bernstein, M., Khamzina, A., Kim, J., Mehlich, J., Molina, J. L., Nakajima, T., Nahuelpan Sánchez, K., Noulèkoun, F., **Pulgar**, M., Sakihama, S., & Ueda, H. (2026). Guidance report on incorporating the objectives of the "do no significant harm" principle in R&I. Zenodo. [https://doi.org/10.5281/zenodo.19501948](https://doi.org/10.5281/zenodo.19501948)
