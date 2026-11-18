@@ -38,6 +38,10 @@ permalink: /publications/
 
 - Villarroel Ríos, C., & **Pulgar** Corrotea, M. (2018). Participación ciudadana y mixofobia en el desarrollo urbano chileno: Un análisis desde las reflexiones de Zygmunt Bauman. In M. Vasconcellos Sobrinho, A. M. de Albuquerque Vasconcellos, H. C. Pinheiro de Andrade, & C. Pineda Nebot (Eds.), *Gestão social & território: Práticas participativas para o desenvolvimento territorial* (pp. 79–110). Universidade da Amazônia. ISBN 978-85-7691-157-9
 
+### Preprints
+
+- **Pulgar**, M., Dinkelberg, A., González-Casado, M. A., Sánchez, A., McCarty, C., & Molina, J. L. (2026). A relational approach to cultural diversity across 186 societies [Preprint]. SocArXiv. [https://doi.org/10.31235/osf.io/ntqsb_v1](https://doi.org/10.31235/osf.io/ntqsb_v1)
+
 ### Reports
 
 - Ferrari, A., Akiyama, T., Bernstein, M., Khamzina, A., Kim, J., Mehlich, J., Molina, J. L., Nakajima, T., Nahuelpan Sánchez, K., Noulèkoun, F., **Pulgar**, M., Sakihama, S., & Ueda, H. (2026). Guidance report on incorporating the objectives of the "do no significant harm" principle in R&I. Zenodo. [https://doi.org/10.5281/zenodo.19501948](https://doi.org/10.5281/zenodo.19501948)
