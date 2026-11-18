@@ -4,7 +4,9 @@ title: Publications
 permalink: /publications/
 ---
 
-### Journals
+### Papers
+
+- **Pulgar**, M., Dinkelberg, A., González-Casado, M. A., Sánchez, A., McCarty, C., & Molina, J. L. (2026). A relational approach to cultural diversity across 186 societies [Preprint]. SocArXiv. [https://doi.org/10.31235/osf.io/ntqsb_v1](https://doi.org/10.31235/osf.io/ntqsb_v1)
 
 - **Pulgar**, M., & Molina, J. L. (2026). Networks, ethnography, and artisanal fishing markets: Unveiling collective mechanisms. *L’Année sociologique, 76*(1), 79–105. [https://doi.org/10.3917/anso.261.0079](https://doi.org/10.3917/anso.261.0079)
 
@@ -37,10 +39,6 @@ permalink: /publications/
 ### Book chapters
 
 - Villarroel Ríos, C., & **Pulgar** Corrotea, M. (2018). Participación ciudadana y mixofobia en el desarrollo urbano chileno: Un análisis desde las reflexiones de Zygmunt Bauman. In M. Vasconcellos Sobrinho, A. M. de Albuquerque Vasconcellos, H. C. Pinheiro de Andrade, & C. Pineda Nebot (Eds.), *Gestão social & território: Práticas participativas para o desenvolvimento territorial* (pp. 79–110). Universidade da Amazônia. ISBN 978-85-7691-157-9
-
-### Preprints
-
-- **Pulgar**, M., Dinkelberg, A., González-Casado, M. A., Sánchez, A., McCarty, C., & Molina, J. L. (2026). A relational approach to cultural diversity across 186 societies [Preprint]. SocArXiv. [https://doi.org/10.31235/osf.io/ntqsb_v1](https://doi.org/10.31235/osf.io/ntqsb_v1)
 
 ### Reports
 
